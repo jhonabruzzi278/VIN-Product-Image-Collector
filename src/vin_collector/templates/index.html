@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VIN Product Image Collector</title>
+<style>
+  :root { color-scheme: light; }
+  body { font-family: system-ui, sans-serif; margin: 0; background: #f7f7f8; color: #1a1a1a; }
+  header { background: #111827; color: white; padding: 1.5rem 2rem; }
+  header h1 { margin: 0; font-size: 1.4rem; }
+  header p { margin: .25rem 0 0; color: #9ca3af; font-size: .9rem; }
+  main { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+  .card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.08); margin-bottom: 1.5rem; }
+  .stats { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .stat { flex: 1; min-width: 120px; background: #fafafa; border-radius: 8px; padding: 1rem; text-align: center; }
+  .stat .value { font-size: 1.8rem; font-weight: 700; }
+  .stat .label { color: #666; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+  form { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; margin-top: 1rem; }
+  input[type=file] { flex: 1; min-width: 200px; }
+  button { background: #111827; color: white; border: none; border-radius: 6px; padding: .6rem 1.2rem; font-size: .95rem; cursor: pointer; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status-pill { display: inline-flex; align-items: center; gap: .4rem; padding: .3rem .7rem; border-radius: 999px; font-size: .85rem; font-weight: 600; }
+  .status-pill.running { background: #fef9c3; color: #854d0e; }
+  .status-pill.idle { background: #dcfce7; color: #166534; }
+  .status-pill.error { background: #fee2e2; color: #991b1b; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+  .links a { display: inline-block; margin-right: 1rem; color: #2563eb; text-decoration: none; font-weight: 600; }
+  .links a:hover { text-decoration: underline; }
+  .error-box { background: #fee2e2; color: #991b1b; padding: .75rem 1rem; border-radius: 8px; margin-top: 1rem; font-size: .9rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>VIN Product Image Collector</h1>
+  <p>Sube un listado de productos y obtén un catálogo con imágenes verificadas</p>
+</header>
+<main>
+  <div class="card">
+    <span id="pill" class="status-pill {{ 'running' if job.running else 'idle' }}">
+      <span class="dot"></span>
+      <span id="pill-text">{{ 'Procesando ' + (job.filename or '') if job.running else 'Listo' }}</span>
+    </span>
+
+    <div class="stats" style="margin-top:1rem;">
+      <div class="stat"><div id="s-total" class="value">{{ counts.total }}</div><div class="label">Productos</div></div>
+      <div class="stat"><div id="s-encontrados" class="value">{{ counts.encontrados }}</div><div class="label">Encontrados</div></div>
+      <div class="stat"><div id="s-pendientes" class="value">{{ counts.pendientes }}</div><div class="label">Pendientes</div></div>
+      <div class="stat"><div id="s-cobertura" class="value">{{ cobertura }}%</div><div class="label">Cobertura</div></div>
+    </div>
+
+    {% if job.error %}
+    <div class="error-box">Último error: {{ job.error }}</div>
+    {% endif %}
+
+    <form action="/upload" method="post" enctype="multipart/form-data" id="upload-form">
+      <input type="file" name="file" accept=".xlsx,.xls,.csv,.txt" required {{ 'disabled' if job.running else '' }}>
+      <button type="submit" {{ 'disabled' if job.running else '' }}>Procesar listado</button>
+    </form>
+  </div>
+
+  <div class="card links">
+    <strong>Resultados:</strong><br><br>
+    {% if report_exists %}
+    <a href="/output/reporte.html" target="_blank">Ver reporte (reporte.html)</a>
+    <a href="/output/catalogo.csv" download>Descargar catálogo (catalogo.csv)</a>
+    {% else %}
+    <span style="color:#666;">Aún no hay un reporte generado — sube un listado para empezar.</span>
+    {% endif %}
+  </div>
+</main>
+
+<script>
+  function poll() {
+    fetch("/status.json").then(r => r.json()).then(data => {
+      document.getElementById("s-total").textContent = data.total;
+      document.getElementById("s-encontrados").textContent = data.encontrados;
+      document.getElementById("s-pendientes").textContent = data.pendientes;
+      document.getElementById("s-cobertura").textContent = data.cobertura + "%";
+
+      const pill = document.getElementById("pill");
+      const pillText = document.getElementById("pill-text");
+      const wasRunning = pill.classList.contains("running");
+
+      pill.classList.remove("running", "idle", "error");
+      if (data.error) {
+        pill.classList.add("error");
+        pillText.textContent = "Error";
+      } else if (data.running) {
+        pill.classList.add("running");
+        pillText.textContent = "Procesando " + (data.filename || "");
+      } else {
+        pill.classList.add("idle");
+        pillText.textContent = "Listo";
+      }
+
+      const fileInput = document.querySelector('input[name="file"]');
+      const submitBtn = document.querySelector('#upload-form button');
+      fileInput.disabled = data.running;
+      submitBtn.disabled = data.running;
+
+      if (wasRunning && !data.running) {
+        window.location.reload();
+      }
+    }).catch(() => {});
+  }
+  setInterval(poll, 2000);
+</script>
+</body>
+</html>

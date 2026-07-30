@@ -29,6 +29,7 @@ Cada módulo del diseño original vive en su propio archivo bajo `src/vin_collec
 | 12. Reporte | `report.py` |
 | Orquestador | `pipeline.py` |
 | CLI | `cli.py` |
+| Interfaz web | `web.py` + `templates/index.html` |
 
 ## Instalación
 
@@ -43,6 +44,43 @@ Copia `.env.example` a `.env` si quieres activar proveedores opcionales:
   Sin esta clave se usa un verificador heurístico local (gratis, sin dependencias externas).
 - `GOOGLE_CSE_API_KEY` / `GOOGLE_CSE_CX` → reservado para añadir Google Custom Search
   como proveedor de búsqueda adicional (por defecto se usa DuckDuckGo, sin API key).
+
+## Interfaz web
+
+Además del CLI hay una interfaz web sencilla (FastAPI) que envuelve el mismo pipeline:
+subir un listado, ver el progreso en vivo (barra de estado que hace polling cada 2s),
+y descargar/ver el reporte final desde el navegador.
+
+```bash
+uvicorn vin_collector.web:app --reload
+```
+
+Abre `http://localhost:8000`. La página de arriba (upload) y el reporte
+(`/output/reporte.html`) se sirven desde el mismo servidor.
+
+## Docker
+
+Todo el proyecto está dockerizado. La imagen corre la interfaz web; `input/`,
+`output/`, `cache/`, `database/`, `logs/` y `config/` se montan como volúmenes para
+que los datos persistan fuera del contenedor (y sean compatibles con lo que genera
+el CLI corriendo localmente, si alternas entre ambos).
+
+```bash
+docker compose up --build
+```
+
+Abre `http://localhost:8000`. Para correr el CLI dentro del contenedor en vez de
+(o además de) la web:
+
+```bash
+docker compose exec web python -m vin_collector.cli run input/productos.xlsx
+docker compose exec web python -m vin_collector.cli report
+```
+
+Sin API keys por defecto: la imagen no requiere ningún secreto para arrancar
+(DuckDuckGo + verificador heurístico). Si quieres activar Anthropic/Google CSE,
+crea un `.env` en la raíz del proyecto — `docker-compose.yml` lo carga automáticamente
+si existe (`env_file` con `required: false`).
 
 ## Uso
 

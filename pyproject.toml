@@ -18,6 +18,9 @@ dependencies = [
     "jinja2>=3.1",
     "python-dotenv>=1.0",
     "ddgs>=6.0",
+    "fastapi>=0.111",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
 ]
 
 [project.optional-dependencies]
@@ -30,3 +33,6 @@ vin-collector = "vin_collector.cli:app"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+vin_collector = ["templates/*.html"]

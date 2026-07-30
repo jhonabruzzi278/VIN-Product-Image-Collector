@@ -83,16 +83,23 @@ HTML_TEMPLATE = Template(
 
 
 def _row_for_template(row) -> dict:
+    """Normaliza local_path a una ruta relativa "images/<archivo>" servible por HTTP/HTML.
+
+    Se recalcula a partir del nombre de archivo (no de relative_to) porque la misma
+    base SQLite puede compartirse entre el host y un contenedor Docker (vía volumen),
+    y cada entorno escribe rutas absolutas con una raíz de filesystem distinta
+    (ej. "C:\\...\\output\\images\\x.png" en Windows vs "/app/output/images/x.png" en
+    el contenedor). Todas las imágenes viven siempre en output/images/, así que el
+    nombre de archivo es suficiente y es portable entre entornos.
+    """
     data = dict(row)
     local_path = data.get("local_path")
     if local_path:
-        try:
-            from pathlib import Path
-
-            rel = Path(local_path).relative_to(settings.output_dir)
-            data["local_path"] = rel.as_posix()
-        except ValueError:
-            data["local_path"] = None
+        # PosixPath no separa por "\": normaliza antes de extraer el nombre de archivo
+        # para que rutas Windows escritas por el host (via el mismo SQLite compartido
+        # por volumen) también se resuelvan correctamente dentro del contenedor Linux.
+        filename = local_path.replace("\\", "/").rsplit("/", 1)[-1]
+        data["local_path"] = f"images/{filename}"
     return data
 
 

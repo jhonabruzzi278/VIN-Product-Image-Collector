@@ -12,6 +12,9 @@ pillow>=10.3
 jinja2>=3.1
 python-dotenv>=1.0
 ddgs>=6.0
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
 
 # Opcionales (instalar según necesidad)
 # anthropic>=0.34        # verificación de imágenes con IA de visión
