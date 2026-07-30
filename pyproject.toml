@@ -1,0 +1,32 @@
+[project]
+name = "vin-product-image-collector"
+version = "0.1.0"
+description = "Motor de enriquecimiento de catálogos: busca, verifica, descarga y optimiza imágenes de productos a partir de un listado."
+requires-python = ">=3.11"
+dependencies = [
+    "typer>=0.12",
+    "loguru>=0.7",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "pandas>=2.2",
+    "openpyxl>=3.1",
+    "rapidfuzz>=3.9",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.2",
+    "pillow>=10.3",
+    "jinja2>=3.1",
+    "python-dotenv>=1.0",
+    "ddgs>=6.0",
+]
+
+[project.optional-dependencies]
+vision = ["anthropic>=0.34"]
+cv = ["opencv-python-headless>=4.10", "numpy>=1.26"]
+browser = ["playwright>=1.45"]
+
+[project.scripts]
+vin-collector = "vin_collector.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]

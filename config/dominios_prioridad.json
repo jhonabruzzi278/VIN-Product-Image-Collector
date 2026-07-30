@@ -1,0 +1,16 @@
+{
+  "fabricantes": [
+    "syngenta.cl", "syngenta.com", "corteva.cl", "corteva.com", "bayer.cl",
+    "cropscience.bayer.com", "anasac.cl", "upl-ltd.com", "basf.cl", "fmc.com"
+  ],
+  "distribuidores_autorizados": [
+    "copeval.cl", "agroterra.com", "coagra.cl", "anagra.cl", "agrocentro.cl",
+    "distribuidora.cl", "agroinsumos.cl"
+  ],
+  "marketplace_agricola": [
+    "agrofy.com.ar", "agrofy.cl", "agromarket.cl", "milanuncios.com/agricultura"
+  ],
+  "tienda_online": [
+    "mercadolibre.cl", "falabella.com", "sodimac.cl", "amazon.com", "amazon.cl"
+  ]
+}
