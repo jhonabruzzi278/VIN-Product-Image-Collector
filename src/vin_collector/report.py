@@ -32,9 +32,21 @@ HTML_TEMPLATE = Template(
   .stat .value { font-size: 1.8rem; font-weight: 700; }
   .stat .label { color: #666; font-size: .85rem; }
   table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; }
-  th, td { text-align: left; padding: .5rem .75rem; border-bottom: 1px solid #eee; font-size: .9rem; }
+  th, td { text-align: left; padding: .5rem .75rem; border-bottom: 1px solid #eee; font-size: .9rem; vertical-align: middle; }
   th { background: #fafafa; position: sticky; top: 0; }
-  img.thumb { width: 48px; height: 48px; object-fit: contain; border: 1px solid #eee; border-radius: 4px; background: white; }
+  td.image-cell { text-align: center; }
+  a.thumb-link { display: inline-block; }
+  img.thumb {
+    width: 140px; height: 140px; object-fit: contain; border: 1px solid #eee;
+    border-radius: 8px; background: white; display: block; transition: transform .15s ease, box-shadow .15s ease;
+  }
+  a.thumb-link:hover img.thumb { transform: scale(1.08); box-shadow: 0 4px 14px rgba(0,0,0,.15); }
+  a.dl-btn {
+    display: inline-flex; align-items: center; gap: .3rem; margin-top: .5rem; padding: .3rem .7rem;
+    background: #111827; color: white; border-radius: 6px; font-size: .78rem; font-weight: 600;
+    text-decoration: none;
+  }
+  a.dl-btn:hover { background: #2563eb; }
   .badge { padding: .15rem .5rem; border-radius: 999px; font-size: .75rem; font-weight: 600; }
   .badge.encontrado { background: #dcfce7; color: #166534; }
   .badge.no_encontrado { background: #fee2e2; color: #991b1b; }
@@ -63,7 +75,15 @@ HTML_TEMPLATE = Template(
     <tbody>
       {% for p in products %}
       <tr>
-        <td>{% if p.local_path %}<img class="thumb" src="{{ p.local_path }}">{% endif %}</td>
+        <td class="image-cell">
+          {% if p.local_path %}
+          <a class="thumb-link" href="{{ p.local_path }}" target="_blank" rel="noopener">
+            <img class="thumb" src="{{ p.local_path }}" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="{{ p.local_path }}" download>⬇ Descargar</a>
+          {% endif %}
+        </td>
         <td>{{ p.sku or "" }}</td>
         <td>{{ p.nombre_normalizado }}</td>
         <td>{{ p.marca or "" }}</td>

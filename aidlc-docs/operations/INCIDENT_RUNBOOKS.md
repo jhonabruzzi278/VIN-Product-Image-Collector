@@ -1,11 +1,19 @@
 # Incident Runbooks
 
-**Pendiente — proyecto aún no llega a Operations, no hay incidentes de producción que documentar.**
+Hay un primer incidente real documentado en `POST_MORTEMS/` (subida de CSV que no
+actualizaba el catálogo). Lo demás sigue siendo, mayormente, notas de troubleshooting de
+desarrollo — el proyecto aún no está en un ciclo de Operations con incidentes de
+producción propiamente dichos.
 
-Lo más cercano a un "runbook" hoy son notas de troubleshooting derivadas de bugs reales
-encontrados durante el build (ver `code-generation/CODE_REVIEW_NOTES.md`), útiles para
-depuración local:
-
+- **Si subir un listado no cambia los contadores del dashboard**: primero verificar que
+  no haya un proceso ajeno ocupando el puerto 8000 en el host
+  (`Get-NetTCPConnection -LocalPort 8000` en PowerShell) — pasó una vez y hacía que las
+  peticiones llegaran a un proceso random en vez de al contenedor. Si el puerto está
+  limpio y sigue sin cambiar nada, revisar los logs del contenedor
+  (`docker compose logs -f`) buscando `"Importados 0 productos"` — indica que el archivo
+  se leyó pero ninguna fila matcheó columnas reconocidas (ver
+  `POST_MORTEMS/2026-07-30-csv-bom-y-delimitador-mal-detectado.md`: causas típicas son
+  BOM en el encabezado o un delimitador mal detectado en CSVs de una sola columna).
 - **Si `import_products` falla con `AttributeError` sobre celdas vacías**: ya corregido en
   `importer.py` con `_clean()`, pero si reaparece en un formato de archivo nuevo, revisar
   cómo pandas está tipando esa columna (`dtype=str` no siempre previene valores `NaN`).

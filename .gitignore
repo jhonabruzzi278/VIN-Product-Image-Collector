@@ -3,6 +3,12 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# Listados de productos reales del usuario: pueden contener catálogo/negocio
+# propietario y este repo es público. Solo se versiona el ejemplo genérico.
+input/*
+!input/.gitkeep
+!input/ejemplo_productos.csv
 output/images/*
 !output/images/.gitkeep
 output/thumbnails/*
