@@ -91,7 +91,8 @@ def download_best_image(
                 continue
 
             ext = _guess_extension(candidate.url, resp.headers.get("content-type"))
-            filename = f"{slugify(product.nombre_normalizado or product.nombre_original)}{ext}"
+            identity = "_".join(filter(None, [product.sku, product.nombre_normalizado or product.nombre_original]))
+            filename = f"{slugify(identity)}{ext}"
             dest = settings.images_dir / filename
             dest.write_bytes(content)
 

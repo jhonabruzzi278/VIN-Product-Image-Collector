@@ -27,3 +27,8 @@ database/*.sqlite3
 .coverage
 .coverage.*
 htmlcov/
+
+# Bases de datos generadas en ejecución (regenerables)
+catalog.db
+*.db
+*.sqlite

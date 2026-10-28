@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Reporte — VIN Product Image Collector</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; background: #f7f7f8; color: #1a1a1a; }
+  h1 { margin-bottom: .25rem; }
+  .subtitle { color: #666; margin-top: 0; }
+  .stats { display: flex; gap: 1rem; margin: 1.5rem 0; }
+  .stat { background: white; border-radius: 8px; padding: 1rem 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+  .stat .value { font-size: 1.8rem; font-weight: 700; }
+  .stat .label { color: #666; font-size: .85rem; }
+  table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; padding: .5rem .75rem; border-bottom: 1px solid #eee; font-size: .9rem; vertical-align: middle; }
+  th { background: #fafafa; position: sticky; top: 0; }
+  td.image-cell { text-align: center; }
+  a.thumb-link { display: inline-block; }
+  img.thumb {
+    width: 140px; height: 140px; object-fit: contain; border: 1px solid #eee;
+    border-radius: 8px; background: white; display: block; transition: transform .15s ease, box-shadow .15s ease;
+  }
+  a.thumb-link:hover img.thumb { transform: scale(1.08); box-shadow: 0 4px 14px rgba(0,0,0,.15); }
+  a.dl-btn {
+    display: inline-flex; align-items: center; gap: .3rem; margin-top: .5rem; padding: .3rem .7rem;
+    background: #111827; color: white; border-radius: 6px; font-size: .78rem; font-weight: 600;
+    text-decoration: none;
+  }
+  a.dl-btn:hover { background: #2563eb; }
+  .badge { padding: .15rem .5rem; border-radius: 999px; font-size: .75rem; font-weight: 600; }
+  .badge.encontrado { background: #dcfce7; color: #166534; }
+  .badge.no_encontrado { background: #fee2e2; color: #991b1b; }
+  .badge.requiere_revision { background: #fef9c3; color: #854d0e; }
+  .badge.pendiente { background: #e5e7eb; color: #374151; }
+</style>
+</head>
+<body>
+  <h1>VIN Product Image Collector</h1>
+  <p class="subtitle">Reporte generado el 2026-08-12 17:11</p>
+
+  <div class="stats">
+    <div class="stat"><div class="value">10</div><div class="label">Productos</div></div>
+    <div class="stat"><div class="value">8</div><div class="label">Encontrados</div></div>
+    <div class="stat"><div class="value">2</div><div class="label">Pendientes</div></div>
+    <div class="stat"><div class="value">80.0%</div><div class="label">Cobertura</div></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Imagen</th><th>SKU</th><th>Nombre</th><th>Marca</th><th>Categoría</th>
+        <th>Estado</th><th>Score</th><th>IA</th><th>Fuente</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV6223T41G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_GREEN_TEA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV6223T41G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_GREEN_TEA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV6223T41G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_GREEN_TEA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV6223T41G</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES GREEN TEA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>87.8</td>
+        <td>Sí (0.98)</td>
+        <td><a href="https://imageengine.victorinox.com/transform/33a083ca-109e-49fb-a4d1-6d7f47239569/SAK_0-6223-T41_S1-jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV8583_VICTORINOX_EQUESTRIAN_111_MM_12_FUNCIONES.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV8583_VICTORINOX_EQUESTRIAN_111_MM_12_FUNCIONES.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV8583_VICTORINOX_EQUESTRIAN_111_MM_12_FUNCIONES.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV8583</td>
+        <td>VICTORINOX EQUESTRIAN 111 MM 12 FUNCIONES</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.5</td>
+        <td>Sí (0.8)</td>
+        <td><a href="http://suizaxtreme.com/cdn/shop/files/D_629808-MLM44509362642_012021-B_d9a52ca5-c92c-4d83-9b1d-48179aa0795f.jpg?v=1730492397" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV9415DS23_VICTORINOX_EVOKE_BS_ALOX_136_MM_4_FUNCIONES.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV9415DS23_VICTORINOX_EVOKE_BS_ALOX_136_MM_4_FUNCIONES.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV9415DS23_VICTORINOX_EVOKE_BS_ALOX_136_MM_4_FUNCIONES.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV9415DS23</td>
+        <td>VICTORINOX EVOKE BS ALOX 136 MM 4 FUNCIONES</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>70.0</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://m.media-amazon.com/images/I/61DQTmgqL0L._AC_SL1500_.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV83633_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_NEGRA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV83633_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_NEGRA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV83633_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_NEGRA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV83633</td>
+        <td>VICTORINOX FORESTER 111 MM 12 FUNCIONES NEGRA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>63.0</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://5tavenida.cl/wp-content/uploads/2026/04/image-16-scaled.jpeg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV8361MC_VICTORINOX_FORESTER_M_GRIP_111_MM_10_FUNCIONES_ROJO_NEGRO.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV8361MC_VICTORINOX_FORESTER_M_GRIP_111_MM_10_FUNCIONES_ROJO_NEGRO.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV8361MC_VICTORINOX_FORESTER_M_GRIP_111_MM_10_FUNCIONES_ROJO_NEGRO.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV8361MC</td>
+        <td>VICTORINOX FORESTER M GRIP 111 MM 10 FUNCIONES ROJO NEGRO</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>61.6</td>
+        <td>Sí (0.5)</td>
+        <td><a href="https://assets.katogroup.eu/i/katogroup/VT0-8361-MC_04_victorinox" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV8573</td>
+        <td>VICTORINOX HUNTER 111 MM 12 FUNCIONES ROJO</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV84133_VICTORINOX_SENTINEL_111_MM_4_FUNCIONES_NEGRA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV84133_VICTORINOX_SENTINEL_111_MM_4_FUNCIONES_NEGRA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV84133_VICTORINOX_SENTINEL_111_MM_4_FUNCIONES_NEGRA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV84133</td>
+        <td>VICTORINOX SENTINEL 111 MM 4 FUNCIONES NEGRA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>63.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://knifeleader.eu/95725-large_default/navaja-suiza-victorinox-sentinel-one-hand-clip-negra-111mm-4-funciones.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV8416M3</td>
+        <td>VICTORINOX SENTINEL CLIP UNA MANO FILO DENTADO NEGRO</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV8463MW3_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_DENTADA_NEGRA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV8463MW3_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_DENTADA_NEGRA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV8463MW3_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_DENTADA_NEGRA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV8463MW3</td>
+        <td>VICTORINOX TRAILMASTER 111 MM 12 FUNCIONES DENTADA NEGRA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>60.5</td>
+        <td>Sí (0.86)</td>
+        <td><a href="https://ferreteriamarsella.vtexassets.com/arquivos/ids/178486/F039725-NAVAJA-TRAILMASTER-111MM-10-FUNCIONES-BEIGE-CAFE-0.8461.MWC941-VICTORINOX.jpg?v=638507686954470000" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV970163_VICTORINOX_WINE_MASTER_130_MM_6_FUNCIONES_NOGAL_ESTUCHE_CUERO.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV970163_VICTORINOX_WINE_MASTER_130_MM_6_FUNCIONES_NOGAL_ESTUCHE_CUERO.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV970163_VICTORINOX_WINE_MASTER_130_MM_6_FUNCIONES_NOGAL_ESTUCHE_CUERO.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV970163</td>
+        <td>VICTORINOX WINE MASTER 130 MM 6 FUNCIONES NOGAL ESTUCHE CUERO</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>63.2</td>
+        <td>Sí (0.59)</td>
+        <td><a href="https://imageengine.victorinox.com/transform/7b0ab382-dd41-46e6-a530-faa034975852/SAK_0-9701-63__B4-jpg?io=transform:crop,height:900,width:1000,path:square&focuspoint=0.5,0.64" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</body>
+</html>

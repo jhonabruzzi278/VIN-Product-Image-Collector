@@ -63,7 +63,7 @@ def process_product(product: Product, db: Database, engine: SearchEngine, verifi
         result.notes = "sin resultados de búsqueda tras reintentos"
         return result
 
-    ranked = rank_candidates(candidates)
+    ranked = rank_candidates(candidates, product)
     downloaded = download_best_image(product, ranked)
 
     if not downloaded:

@@ -1,0 +1,535 @@
+[
+  {
+    "category": "semillas y jardin",
+    "canonical": "sem prado manquehue",
+    "covered": [
+      {
+        "sku": "SEM1478022",
+        "name": "Sem Prado Manquehue 1 Kg",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEM1478022_SEM_PRADO_MANQUEHUE_1_KG.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEM1467651",
+        "name": "Sem Prado Manquehue 5 Kg",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "linea jardin",
+    "canonical": "protector arbol uv mat 1000",
+    "covered": [
+      {
+        "sku": "LIN1950440",
+        "name": "Protector Arbol Uv Mat 31cm 1000",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\LIN1950440_PROTECTOR_ARBOL_UV_MAT_31CM_1000.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "LIN1935457",
+        "name": "Protector Arbol Uv Mat 20cm 1000",
+        "file": ""
+      },
+      {
+        "sku": "LIN1906268",
+        "name": "Protector Arbol Uv Mat 25cm 1000",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "buzo coverall g blanco t",
+    "covered": [
+      {
+        "sku": "SEG1090502",
+        "name": "Buzo Coverall G Blanco T Xl",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1090502_BUZO_COVERALL_G_BLANCO_T_XL.webp"
+      },
+      {
+        "sku": "SEG1018756",
+        "name": "Buzo Coverall G Blanco T M",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1018756_BUZO_COVERALL_G_BLANCO_T_M.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1082712",
+        "name": "Buzo Coverall G Blanco T L",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "botin bata cargo nubuck camel",
+    "covered": [
+      {
+        "sku": "SEG1021476",
+        "name": "Botin Bata Cargo Nubuck Camel 42",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1021476_BOTIN_BATA_CARGO_NUBUCK_CAMEL_42.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1090067",
+        "name": "Botin Bata Cargo Nubuck Camel 39",
+        "file": ""
+      },
+      {
+        "sku": "SEG1067135",
+        "name": "Botin Bata Cargo Nubuck Camel 41",
+        "file": ""
+      },
+      {
+        "sku": "SEG1049484",
+        "name": "Botin Bata Cargo Nubuck Camel 40",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "bota bata agricola 802 negra",
+    "covered": [
+      {
+        "sku": "SEG1043592",
+        "name": "Bota Bata Agricola 802 Negra N41",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1043592_BOTA_BATA_AGRICOLA_802_NEGRA_N41.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1090926",
+        "name": "Bota Bata Agricola 802 Negra N42",
+        "file": ""
+      },
+      {
+        "sku": "SEG1077164",
+        "name": "Bota Bata Agricola 802 Negra N39",
+        "file": ""
+      },
+      {
+        "sku": "SEG1059406",
+        "name": "Bota Bata Agricola 802 Negra N43",
+        "file": ""
+      },
+      {
+        "sku": "SEG1021271",
+        "name": "Bota Bata Agricola 802 Negra N40",
+        "file": ""
+      },
+      {
+        "sku": "SEG1006851",
+        "name": "Bota Bata Agricola 802 Negra N38",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "buzo poplin pil azul c cta refl t",
+    "covered": [
+      {
+        "sku": "SEG1026121",
+        "name": "Buzo Poplin Pil Azul C/Cta Refl T Xl",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1026121_BUZO_POPLIN_PIL_AZUL_C_CTA_REFL_T_XL.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1089120",
+        "name": "Buzo Poplin Pil Azul C/Cta Refl T M",
+        "file": ""
+      },
+      {
+        "sku": "SEG1044423",
+        "name": "Buzo Poplin Pil Azul C/Cta Refl T L",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "guante nitrilo flocado verde greenway",
+    "covered": [
+      {
+        "sku": "SEG1028839",
+        "name": "Guante Nitrilo Flocado T10 Verde Greenway",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1028839_GUANTE_NITRILO_FLOCADO_T10_VERDE_GREENWAY.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1089054",
+        "name": "Guante Nitrilo Flocado T9 Verde Greenway",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "botin edelbrock ed106 aislante",
+    "covered": [
+      {
+        "sku": "SEG1086698",
+        "name": "Botin Edelbrock Ed106 Aislante N 42",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1086698_BOTIN_EDELBROCK_ED106_AISLANTE_N_42.webp"
+      },
+      {
+        "sku": "SEG1081746",
+        "name": "Botin Edelbrock Ed106 Aislante N 41",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1081746_BOTIN_EDELBROCK_ED106_AISLANTE_N_41.webp"
+      },
+      {
+        "sku": "SEG1019430",
+        "name": "Botin Edelbrock Ed106 Aislante N 40",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1019430_BOTIN_EDELBROCK_ED106_AISLANTE_N_40.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1061426",
+        "name": "Botin Edelbrock Ed106 Aislante N 39",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "bota concretera negra",
+    "covered": [
+      {
+        "sku": "SEG1071706",
+        "name": "Bota Concretera Negra 40",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1071706_BOTA_CONCRETERA_NEGRA_40.webp"
+      },
+      {
+        "sku": "SEG1067258",
+        "name": "Bota Concretera Negra 43",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1067258_BOTA_CONCRETERA_NEGRA_43.webp"
+      },
+      {
+        "sku": "SEG1019571",
+        "name": "Bota Concretera Negra 44",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1019571_BOTA_CONCRETERA_NEGRA_44.webp"
+      },
+      {
+        "sku": "SEG1001454",
+        "name": "Bota Concretera Negra 45",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1001454_BOTA_CONCRETERA_NEGRA_45.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1084853",
+        "name": "Bota Concretera Negra 41",
+        "file": ""
+      },
+      {
+        "sku": "SEG1081868",
+        "name": "Bota Concretera Negra 39",
+        "file": ""
+      },
+      {
+        "sku": "SEG1024729",
+        "name": "Bota Concretera Negra 42",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "botin bata bickz acces 804",
+    "covered": [
+      {
+        "sku": "SEG1084708",
+        "name": "Botin Bata Bickz Acces 804 N 42",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1084708_BOTIN_BATA_BICKZ_ACCES_804_N_42.webp"
+      },
+      {
+        "sku": "SEG1076000",
+        "name": "Botin Bata Bickz Acces 804 N 38",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1076000_BOTIN_BATA_BICKZ_ACCES_804_N_38.webp"
+      },
+      {
+        "sku": "SEG1056630",
+        "name": "Botin Bata Bickz Acces 804 N 40",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1056630_BOTIN_BATA_BICKZ_ACCES_804_N_40.webp"
+      },
+      {
+        "sku": "SEG1022823",
+        "name": "Botin Bata Bickz Acces 804 N 39",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1022823_BOTIN_BATA_BICKZ_ACCES_804_N_39.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1050421",
+        "name": "Botin Bata Bickz Acces 804 N 41",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "botin nazca xr",
+    "covered": [
+      {
+        "sku": "SEG1070464",
+        "name": "Botin Nazca Xr 09 N42",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1070464_BOTIN_NAZCA_XR_09_N42.webp"
+      },
+      {
+        "sku": "SEG1055196",
+        "name": "Botin Nazca Xr 09 N38",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1055196_BOTIN_NAZCA_XR_09_N38.webp"
+      },
+      {
+        "sku": "SEG1044538",
+        "name": "Botin Nazca Xr 09 N39",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1044538_BOTIN_NAZCA_XR_09_N39.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1080474",
+        "name": "Botin Nazca Xr 09 N41",
+        "file": ""
+      },
+      {
+        "sku": "SEG1039238",
+        "name": "Botin Nazca Xr 09 N40",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "guante nitrilo flocado verde",
+    "covered": [
+      {
+        "sku": "SEG1075157",
+        "name": "Guante Nitrilo Flocado T/7 Verde",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1075157_GUANTE_NITRILO_FLOCADO_T_7_VERDE.webp"
+      },
+      {
+        "sku": "SEG1031695",
+        "name": "Guante Nitrilo Flocado T/9 Verde",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1031695_GUANTE_NITRILO_FLOCADO_T_9_VERDE.webp"
+      },
+      {
+        "sku": "SEG1028195",
+        "name": "Guante Nitrilo Flocado T/8 Verde",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1028195_GUANTE_NITRILO_FLOCADO_T_8_VERDE.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1000167",
+        "name": "Guante Nitrilo Flocado T/10 Verde",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "traje d agua 360 greenway amaflow",
+    "covered": [
+      {
+        "sku": "ART926419",
+        "name": "Traje D/Agua 360 Greenway Amaflow Xxl",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART926419_TRAJE_D_AGUA_360_GREENWAY_AMAFLOW_XXL.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1067878",
+        "name": "Traje D/Agua 360 Greenway Amaflow Xl",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de seguridad",
+    "canonical": "guante eagle flex grey blue",
+    "covered": [
+      {
+        "sku": "SEG1032261",
+        "name": "Guante Eagle Flex Grey/Blue T/8",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\SEG1032261_GUANTE_EAGLE_FLEX_GREY_BLUE_T_8.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "SEG1039107",
+        "name": "Guante Eagle Flex Grey/Blue T/9",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de riego",
+    "canonical": "valvula bola compacta",
+    "covered": [
+      {
+        "sku": "ART954978",
+        "name": "Valvula Bola Pvc Compacta 1 1/4\"",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART954978_VALVULA_BOLA_PVC_COMPACTA_1_1_4.webp"
+      },
+      {
+        "sku": "ART953312",
+        "name": "Valvula Bola Compacta Hi 2 Pulg",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART953312_VALVULA_BOLA_COMPACTA_HI_2_PULG.webp"
+      },
+      {
+        "sku": "ART931094",
+        "name": "Valvula Bola Pvc Compacta 1 1/2\"",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART931094_VALVULA_BOLA_PVC_COMPACTA_1_1_2.webp"
+      },
+      {
+        "sku": "ART916635",
+        "name": "Valvula Bola Compacta Hi 1 1/2 Pulg",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART916635_VALVULA_BOLA_COMPACTA_HI_1_1_2_PULG.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "ART996259",
+        "name": "Valvula Bola Pvc Compacta 1\"",
+        "file": ""
+      },
+      {
+        "sku": "ART986219",
+        "name": "Valvula Bola Pvc Compacta 2\"",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de riego",
+    "canonical": "conduit mts",
+    "covered": [
+      {
+        "sku": "ART995428",
+        "name": "Conduit 20 Mm X 6 Mts",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART995428_CONDUIT_20_MM_X_6_MTS.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "ART972265",
+        "name": "Conduit 16 Mm X 6 Mts",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de riego",
+    "canonical": "manguera jardin bicolor extra",
+    "covered": [
+      {
+        "sku": "ART920341",
+        "name": "Manguera Jardin Bicolor Extra",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART920341_MANGUERA_JARDIN_BICOLOR_EXTRA.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "ART989003",
+        "name": "Manguera Jardin Bicolor Extra 50 Mts",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de riego",
+    "canonical": "caneria polietileno",
+    "covered": [
+      {
+        "sku": "ART970365",
+        "name": "Cañeria Polietileno 2\" 100 Mts",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART970365_CAERIA_POLIETILENO_2_100_MTS.webp"
+      },
+      {
+        "sku": "ART949641",
+        "name": "Cañeria Polietileno 1 1/2\" 100 Mts",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART949641_CAERIA_POLIETILENO_1_1_2_100_MTS.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "ART986770",
+        "name": "Cañeria Polietileno 1/2\" 100 Mts",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de riego",
+    "canonical": "cinta aquatraxx pvx 5mil got",
+    "covered": [
+      {
+        "sku": "ART975866",
+        "name": "Cinta Aquatraxx Pvx 5mil Got 15",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART975866_CINTA_AQUATRAXX_PVX_5MIL_GOT_15.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "ART933849",
+        "name": "Cinta Aquatraxx Pvx 5mil Got 10",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de riego",
+    "canonical": "tee",
+    "covered": [
+      {
+        "sku": "ART945932",
+        "name": "Tee Pe 1 1/2",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART945932_TEE_PE_1_1_2.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "ART968641",
+        "name": "Tee Pe 2\"",
+        "file": ""
+      },
+      {
+        "sku": "ART959829",
+        "name": "Tee Pe 1\"",
+        "file": ""
+      },
+      {
+        "sku": "ART904499",
+        "name": "Tee Pe 1 1/4",
+        "file": ""
+      }
+    ]
+  },
+  {
+    "category": "articulos de riego",
+    "canonical": "mulch negro um mts",
+    "covered": [
+      {
+        "sku": "ART921274",
+        "name": "Mulch Negro 1.20 X20 Um X 1000 Mts",
+        "file": "C:\\Trabajos\\agrofarias\\agrofarias-astro\\material-productos\\03-APROBADOS\\fotos\\ART921274_MULCH_NEGRO_120_X20_UM_X_1000_MTS.webp"
+      }
+    ],
+    "pending": [
+      {
+        "sku": "ART940041",
+        "name": "Mulch Negro 1.30 X20 Um X 1000 Mts",
+        "file": ""
+      }
+    ]
+  }
+]

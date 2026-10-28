@@ -1,5 +1,6 @@
 {
   "fabricantes": [
+    "victorinox.com", "assets.victorinox.com", "imageengine.victorinox.com",
     "syngenta.cl", "syngenta.com", "corteva.cl", "corteva.com", "bayer.cl",
     "cropscience.bayer.com", "anasac.cl", "upl-ltd.com", "basf.cl", "fmc.com"
   ],

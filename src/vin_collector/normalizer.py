@@ -60,12 +60,13 @@ class NameNormalizer:
             return ""
         candidate = self._apply_rules(raw_name)
 
-        if self._canonical_names:
-            match = process.extractOne(
-                candidate, self._canonical_names, scorer=fuzz.token_sort_ratio
-            )
-            if match and match[1] >= FUZZY_THRESHOLD:
-                return match[0]
+        # No colapsar automáticamente nombres parecidos: en catálogos de producto
+        # una sola palabra puede identificar una variante distinta (rojo/negro,
+        # 1 L/5 L, dentado/liso). Las reglas determinísticas de arriba sí corrigen
+        # unidades; la similitud difusa se reserva para futuras sugerencias de
+        # revisión y nunca decide el nombre canónico por sí sola.
+        if candidate in self._canonical_names:
+            return candidate
 
         if learn:
             self._canonical_names.append(candidate)

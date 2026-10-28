@@ -1,0 +1,1864 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Reporte — VIN Product Image Collector</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; background: #f7f7f8; color: #1a1a1a; }
+  h1 { margin-bottom: .25rem; }
+  .subtitle { color: #666; margin-top: 0; }
+  .stats { display: flex; gap: 1rem; margin: 1.5rem 0; }
+  .stat { background: white; border-radius: 8px; padding: 1rem 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+  .stat .value { font-size: 1.8rem; font-weight: 700; }
+  .stat .label { color: #666; font-size: .85rem; }
+  table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; padding: .5rem .75rem; border-bottom: 1px solid #eee; font-size: .9rem; vertical-align: middle; }
+  th { background: #fafafa; position: sticky; top: 0; }
+  td.image-cell { text-align: center; }
+  a.thumb-link { display: inline-block; }
+  img.thumb {
+    width: 140px; height: 140px; object-fit: contain; border: 1px solid #eee;
+    border-radius: 8px; background: white; display: block; transition: transform .15s ease, box-shadow .15s ease;
+  }
+  a.thumb-link:hover img.thumb { transform: scale(1.08); box-shadow: 0 4px 14px rgba(0,0,0,.15); }
+  a.dl-btn {
+    display: inline-flex; align-items: center; gap: .3rem; margin-top: .5rem; padding: .3rem .7rem;
+    background: #111827; color: white; border-radius: 6px; font-size: .78rem; font-weight: 600;
+    text-decoration: none;
+  }
+  a.dl-btn:hover { background: #2563eb; }
+  .badge { padding: .15rem .5rem; border-radius: 999px; font-size: .75rem; font-weight: 600; }
+  .badge.encontrado { background: #dcfce7; color: #166534; }
+  .badge.no_encontrado { background: #fee2e2; color: #991b1b; }
+  .badge.requiere_revision { background: #fef9c3; color: #854d0e; }
+  .badge.pendiente { background: #e5e7eb; color: #374151; }
+</style>
+</head>
+<body>
+  <h1>VIN Product Image Collector</h1>
+  <p class="subtitle">Reporte generado el 2026-08-12 17:51</p>
+
+  <div class="stats">
+    <div class="stat"><div class="value">110</div><div class="label">Productos</div></div>
+    <div class="stat"><div class="value">42</div><div class="label">Encontrados</div></div>
+    <div class="stat"><div class="value">68</div><div class="label">Pendientes</div></div>
+    <div class="stat"><div class="value">38.2%</div><div class="label">Cobertura</div></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Imagen</th><th>SKU</th><th>Nombre</th><th>Marca</th><th>Categoría</th>
+        <th>Estado</th><th>Score</th><th>IA</th><th>Fuente</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/REP1980227_ACEITE_2_T_X_100_CC.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/REP1980227_ACEITE_2_T_X_100_CC.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/REP1980227_ACEITE_2_T_X_100_CC.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>REP1980227</td>
+        <td>ACEITE 2 T X 100 CC</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>70.3</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://arenadistribuidora.com/wp-content/uploads/2024/10/2t-x-100-x-48.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ADH841310</td>
+        <td>ACID 3 CONTROL 1 CC 1 LT</td>
+        <td></td>
+        <td>Adherentes</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FER197584</td>
+        <td>AGRI PRODUCCION FRUTILLAS 5 LT</td>
+        <td></td>
+        <td>Fertilizantes</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL265041</td>
+        <td>AMICULT CA POLVO X25K</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL290063</td>
+        <td>AMICULT K42 15 LT</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1090817</td>
+        <td>ANTEOJO ARGON GRIS HC 900494</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/HER1255619_ARCO_24D_X_20_LT.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/HER1255619_ARCO_24D_X_20_LT.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/HER1255619_ARCO_24D_X_20_LT.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>HER1255619</td>
+        <td>ARCO 2.4D X 20 LT</td>
+        <td></td>
+        <td>Herbicidas</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>60.2</td>
+        <td>Sí (0.5)</td>
+        <td><a href="https://cooprinsem.cl/4271-superlarge_default/arco-24-d-480-sl-20-lts.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART956521_BALANZA_7_KG_1_GR_GRAMERA_SF-400.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART956521_BALANZA_7_KG_1_GR_GRAMERA_SF-400.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART956521_BALANZA_7_KG_1_GR_GRAMERA_SF-400.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART956521</td>
+        <td>BALANZA 7 KG 1 GR GRAMERA SF-400</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>74.7</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://cloud.mideporte.pe/wp-content/uploads/2025/11/balanza-gramera-digital-7-kg-sf-400_17IMBABL_1.webp" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/REP1996256_BARRA_2_BOQUILLAS.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/REP1996256_BARRA_2_BOQUILLAS.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/REP1996256_BARRA_2_BOQUILLAS.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>REP1996256</td>
+        <td>BARRA 2 BOQUILLAS</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>68.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://cl.solo.global/386-thickbox_default/barra-pulverizacion-2-boquillas.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>REP1921531</td>
+        <td>BARRA DE PULV 4 BOQUILLAS 4900299</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/REP1965087_BATERIA_LION_18V_25AH_MOD_441.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/REP1965087_BATERIA_LION_18V_25AH_MOD_441.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/REP1965087_BATERIA_LION_18V_25AH_MOD_441.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>REP1965087</td>
+        <td>BATERIA LI*ON 18V 2.5AH MOD 441</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge requiere_revision">requiere_revision</span></td>
+        <td>60.2</td>
+        <td>No (0.33)</td>
+        <td><a href="https://media.adeo.com/media/3409731/media.png?width=3000&height=3000&format=jpg&quality=80&fit=bounds" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>REP1973216</td>
+        <td>BATERIA LI*ON 18V 5AH MOD 442</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/REP1943411_BOQUILLA_ESPEJO_50_AZUL.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/REP1943411_BOQUILLA_ESPEJO_50_AZUL.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/REP1943411_BOQUILLA_ESPEJO_50_AZUL.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>REP1943411</td>
+        <td>BOQUILLA ESPEJO 5.0 AZUL</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>62.0</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://cdnx.jumpseller.com/repserchile/image/38563134/resize/1200/1200?1692298280" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEG1077164_BOTA_BATA_AGRICOLA_802_NEGRA_N39.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEG1077164_BOTA_BATA_AGRICOLA_802_NEGRA_N39.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEG1077164_BOTA_BATA_AGRICOLA_802_NEGRA_N39.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEG1077164</td>
+        <td>BOTA BATA AGRICOLA 802 NEGRA N39</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>60.8</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://eppmexico.com/images/com_hikashop/upload/029_407440253.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1057488</td>
+        <td>BOTIN BATA ACCESS FLEX ANTIPERFORANTE N 42</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1061426</td>
+        <td>BOTIN EDELBROCK ED106 AISLANTE N 39</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEG1019430_BOTIN_EDELBROCK_ED106_AISLANTE_N_40.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEG1019430_BOTIN_EDELBROCK_ED106_AISLANTE_N_40.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEG1019430_BOTIN_EDELBROCK_ED106_AISLANTE_N_40.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEG1019430</td>
+        <td>BOTIN EDELBROCK ED106 AISLANTE N 40</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>69.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://cdnx.jumpseller.com/roli-shop/image/63386942/resize/1200/1200?1747101783" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEG1070464_BOTIN_NAZCA_XR_09_N42.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEG1070464_BOTIN_NAZCA_XR_09_N42.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEG1070464_BOTIN_NAZCA_XR_09_N42.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEG1070464</td>
+        <td>BOTIN NAZCA XR 09 N42</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.0</td>
+        <td>Sí (0.67)</td>
+        <td><a href="http://maryun.cl/cdn/shop/files/Captura_de_pantalla_2023_07_19_a_la_s__09_27_24.png?v=1713464190" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1082712</td>
+        <td>BUZO COVERALL G BLANCO T L</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL274237</td>
+        <td>CALMOD PRO 2 KG</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART911622</td>
+        <td>CAÃ±ERIA PLANZA RECUPERADO 1 1 4 PULGADA</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART962075</td>
+        <td>CAÃ±ERIA PLANZA RECUPERADO 3 PULGADA</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART986770</td>
+        <td>CAÃ±ERIA POLIETILENO 1 2" 100 MTS</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART970365_CAERIA_POLIETILENO_2_100_MTS.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART970365_CAERIA_POLIETILENO_2_100_MTS.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART970365_CAERIA_POLIETILENO_2_100_MTS.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART970365</td>
+        <td>CAÃ±ERIA POLIETILENO 2" 100 MTS</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>61.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://www.districentroferretero.com/wp-content/uploads/2022/08/56.jpg.webp" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART945609_CINTA_AQUATRAXX_PVX_6_MIL_GOT_15.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART945609_CINTA_AQUATRAXX_PVX_6_MIL_GOT_15.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART945609_CINTA_AQUATRAXX_PVX_6_MIL_GOT_15.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART945609</td>
+        <td>CINTA AQUATRAXX PVX 6 MIL GOT 15</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>60.2</td>
+        <td>Sí (0.6)</td>
+        <td><a href="https://agrocity.mx/cdn/shop/products/CINTADEGOTEOFCAQUA-TRAXX_2048x2048.jpg?v=1646422081" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART914101</td>
+        <td>CONECTOR CINTA PE 17 X16 MM CRC AZUL</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART976445</td>
+        <td>COPLA CINTA-CINTA 17 MM</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV5520316</td>
+        <td>CUCHILLO CARNICERO HOJA RECTA MANGO FIBROX</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>WAY141498</td>
+        <td>CUCHILLO PRM</td>
+        <td></td>
+        <td>Wayu</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV67796L9D</td>
+        <td>CUCHILLO VERD 2U DENT+LISO NARANJA 10 CM</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV67793B_CUCHILLO_VERD_2U_DENTLISO_NEGRO_10CM.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV67793B_CUCHILLO_VERD_2U_DENTLISO_NEGRO_10CM.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV67793B_CUCHILLO_VERD_2U_DENTLISO_NEGRO_10CM.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV67793B</td>
+        <td>CUCHILLO VERD 2U DENT+LISO NEGRO 10CM</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>62.0</td>
+        <td>Sí (0.6)</td>
+        <td><a href="https://assets.katogroup.eu/i/katogroup/VT6-7793-B_06_victorinox-swissclassic" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV67603B</td>
+        <td>CUCHILLO VERD 2U PUNT MANGO NEGRO 8CM</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ADH815250</td>
+        <td>DASH HC 500CCX100</td>
+        <td></td>
+        <td>Adherentes</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>INS303196</td>
+        <td>DIMETOATO 40</td>
+        <td></td>
+        <td>Insecticidas</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>REP1953304</td>
+        <td>DISCO NEGRO 4074756</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>INS325620</td>
+        <td>ENTRUSS 120 GR 50X200</td>
+        <td></td>
+        <td>Insecticidas</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV406701</td>
+        <td>ESTUCHE CUERO C CORDON DARK ILUSION</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>INS387706</td>
+        <td>EXIREL 1 LT 200X200</td>
+        <td>EXIREL</td>
+        <td>Insecticidas</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEG1021857_FILTRO_MASPROUT_MET_SIMPLE_MGV_1A_GASES.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEG1021857_FILTRO_MASPROUT_MET_SIMPLE_MGV_1A_GASES.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEG1021857_FILTRO_MASPROUT_MET_SIMPLE_MGV_1A_GASES.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEG1021857</td>
+        <td>FILTRO MASPROUT MET SIMPLE MGV 1A GASES</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>63.5</td>
+        <td>Sí (0.5)</td>
+        <td><a href="https://www.apro.cl/cdn/shop/files/40700000070000-F1.jpg?v=1756844441&width=1200" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV611133_GORRO_DE_LANA_DELUXE_ROJO.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV611133_GORRO_DE_LANA_DELUXE_ROJO.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV611133_GORRO_DE_LANA_DELUXE_ROJO.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV611133</td>
+        <td>GORRO DE LANA DELUXE ROJO</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>69.5</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://http2.mlstatic.com/D_NQ_NP_799279-MLC76788128078_062024-O.webp" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV611022_GORRO_GOLF_ROJO.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV611022_GORRO_GOLF_ROJO.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV611022_GORRO_GOLF_ROJO.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV611022</td>
+        <td>GORRO GOLF ROJO</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.7</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://f.fcdn.app/imgs/c7a1fc/southgolf.com.uy/sgoluy/12d7/original/catalogo/TH20AWCB_-601_1/1920-1200/gorro-titleist-boardwalk-rojo-claro.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEG1010041_GUANTE_EAGLE_1700_BLACK_8.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEG1010041_GUANTE_EAGLE_1700_BLACK_8.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEG1010041_GUANTE_EAGLE_1700_BLACK_8.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEG1010041</td>
+        <td>GUANTE EAGLE 1700 BLACK 8</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>69.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://www.apro.cl/cdn/shop/files/50100000009207-Eagle-Guantes-Seguridad-1700-F2.jpg?v=1761073453&width=1500" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1041296</td>
+        <td>GUANTE EAGLE 1700 BLACK 9</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1052378</td>
+        <td>GUANTE EAGLE 1700 BLACK 9</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEG1032261_GUANTE_EAGLE_FLEX_GREY_BLUE_T_8.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEG1032261_GUANTE_EAGLE_FLEX_GREY_BLUE_T_8.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEG1032261_GUANTE_EAGLE_FLEX_GREY_BLUE_T_8.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEG1032261</td>
+        <td>GUANTE EAGLE FLEX GREY BLUE T 8</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>76.2</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://www.apro.cl/cdn/shop/files/51120000008324-Eagle-Guantes-Seguridad-Flex-Grey-Blue-F1.jpg?v=1769526192&width=1200" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEG1028195_GUANTE_NITRILO_FLOCADO_T_8_VERDE.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEG1028195_GUANTE_NITRILO_FLOCADO_T_8_VERDE.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEG1028195_GUANTE_NITRILO_FLOCADO_T_8_VERDE.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEG1028195</td>
+        <td>GUANTE NITRILO FLOCADO T 8 VERDE</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>62.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://cdnx.jumpseller.com/winclean-spa/image/36765591/resize/1200/1200?1687724204" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1089054</td>
+        <td>GUANTE NITRILO FLOCADO T9 VERDE GREENWAY</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEG1044957</td>
+        <td>GUANTE NITRILO S VERDE TOP SAFE7.5 X100</td>
+        <td></td>
+        <td>ArtÃ­culos de Seguridad</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/LIN1976889_HORMIGAS_LPU_ZECTO_500_CC.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/LIN1976889_HORMIGAS_LPU_ZECTO_500_CC.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/LIN1976889_HORMIGAS_LPU_ZECTO_500_CC.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>LIN1976889</td>
+        <td>HORMIGAS LPU ZECTO 500 CC</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>72.0</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://copargocontrol.cl/cdn/shop/files/ZectoHormigas.jpg?v=1775075042&width=990" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL209306</td>
+        <td>IBICALCIO NEUTRASAL 1 X 15 LT</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/LIN1921988_INSECTICIDA_PLAGAS_RASTRERAS_25_WP.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/LIN1921988_INSECTICIDA_PLAGAS_RASTRERAS_25_WP.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/LIN1921988_INSECTICIDA_PLAGAS_RASTRERAS_25_WP.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>LIN1921988</td>
+        <td>INSECTICIDA PLAGAS RASTRERAS 2.5 WP</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>70.5</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://tricahuecurico.cl/cdn/shop/files/Plagas_Rastreras-Zecto.jpg?v=1750774780&width=900" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>REP1976494</td>
+        <td>JUEGO DE BOQUILLAS SOLO</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>REP1931171</td>
+        <td>JUEGO DE JUNTAS 425</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ACA735581_KANEMITE_1_LT.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ACA735581_KANEMITE_1_LT.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ACA735581_KANEMITE_1_LT.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ACA735581</td>
+        <td>KANEMITE 1 LT</td>
+        <td></td>
+        <td>Acaricidas</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.0</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://biopredatox.com/cdn/shop/products/150-kanemite-1lt_20bc19bc-a550-486c-beee-719bc9e30a5a.png?v=1710261514" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART995360_MANGUERA_JARDIN_MALLAFLEX_VERDE_1_2_PULG.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART995360_MANGUERA_JARDIN_MALLAFLEX_VERDE_1_2_PULG.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART995360_MANGUERA_JARDIN_MALLAFLEX_VERDE_1_2_PULG.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART995360</td>
+        <td>MANGUERA JARDIN MALLAFLEX VERDE 1 2 PULG</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>65.8</td>
+        <td>Sí (0.8)</td>
+        <td><a href="https://cdnx.jumpseller.com/fermet/image/60124752/thumb/1079/1079?1739475895" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEM1412213</td>
+        <td>MELON TUNA</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FER145159</td>
+        <td>MEZCLA INSTITUCIONAL 15-27-12</td>
+        <td></td>
+        <td>Fertilizantes</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART931422</td>
+        <td>MICROTUNEL TUVA 1.40X50X500</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>LIN1981803</td>
+        <td>MINI ANTIHELADA 2.4X10 MTS IT</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>LIN1997310</td>
+        <td>MOSQUITERO FIBRA DE VIDRIO GRIS 120X30</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/REP1909484_MOTOSIERRA_402_CC_CS420.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/REP1909484_MOTOSIERRA_402_CC_CS420.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/REP1909484_MOTOSIERRA_402_CC_CS420.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>REP1909484</td>
+        <td>MOTOSIERRA 40.2 CC CS420</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>71.7</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://www.luma.com.mx/722-thickbox_default/motosierra-agricola-echo-cs420-402cc-18.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/WAY161221_MUG_TERMICO_40_OZ_KEEP_1182_CC.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/WAY161221_MUG_TERMICO_40_OZ_KEEP_1182_CC.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/WAY161221_MUG_TERMICO_40_OZ_KEEP_1182_CC.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>WAY161221</td>
+        <td>MUG TERMICO 40 OZ KEEP (1182 CC)</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>73.5</td>
+        <td>Sí (0.8)</td>
+        <td><a href="http://titaniosv.cl/cdn/shop/files/6902221427328_20.jpg?v=1747059308" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART921274_MULCH_NEGRO_120_X20_UM_X_1000_MTS.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART921274_MULCH_NEGRO_120_X20_UM_X_1000_MTS.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART921274_MULCH_NEGRO_120_X20_UM_X_1000_MTS.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART921274</td>
+        <td>MULCH NEGRO 1.20 X20 UM X 1000 MTS</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>65.5</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://images.implementos.cl/img/1000/PROMAN0002-3.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART940041</td>
+        <td>MULCH NEGRO 1.30 X20 UM X 1000 MTS</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART974616</td>
+        <td>MULCH NEGRO PLATA 1.20X25X1000 X 1000MTS</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL218973</td>
+        <td>NANO ENERGY 19-19-19 1 KG</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV800026</td>
+        <td>NAV ALOX 93MM 1 FUNCION ALOX EST</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV6223T82G</td>
+        <td>NAV CLASSIC 58 MM 7 FUN FIRE OPAL</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV13703</td>
+        <td>NAV CLIMBER 91MM 14 FUNCIONES ROJA</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV6123</td>
+        <td>NAV ESCORT 58 MM 6 FUNCIONES ROJA</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV16703</td>
+        <td>NAV EXPLORER 911MM 19 FUNCIONES ROJA</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV8573</td>
+        <td>NAV HUNTER 111 MM 12 FUNCIONES ROJA</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV137133</td>
+        <td>NAV HUNTSMAN 91 MM 15 FUNCIONES NEGRA</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV13603_NAV_SPARTAN_91MM_12_FUNCIONES_ROJA.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV13603_NAV_SPARTAN_91MM_12_FUNCIONES_ROJA.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV13603_NAV_SPARTAN_91MM_12_FUNCIONES_ROJA.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV13603</td>
+        <td>NAV SPARTAN 91MM 12 FUNCIONES ROJA</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge requiere_revision">requiere_revision</span></td>
+        <td>60.3</td>
+        <td>No (0.35)</td>
+        <td><a href="https://imageengine.victorinox.com/transform/52b2008a-0b73-44f1-bcf6-509c217d9efe/SAK_1_3603_3__S1-tif" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV3803_NAV_SPORTSMAN_84_MM_13_FUNCIONES_ROJA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV3803_NAV_SPORTSMAN_84_MM_13_FUNCIONES_ROJA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV3803_NAV_SPORTSMAN_84_MM_13_FUNCIONES_ROJA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV3803</td>
+        <td>NAV SPORTSMAN 84 MM 13 FUNCIONES ROJA</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>62.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://www.inuka.com/7978-zoom_product/navaja-suiza-sportsman-13-funciones.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV41896N_NECK_CORD_BLUE_GRAY.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV41896N_NECK_CORD_BLUE_GRAY.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV41896N_NECK_CORD_BLUE_GRAY.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV41896N</td>
+        <td>NECK CORD BLUE GRAY</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://redhillcutlery.com/wp-content/uploads/2023/10/beige.png" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>INS351820</td>
+        <td>NEEM X ORGANICO 1 LT 500CCX200LTS</td>
+        <td></td>
+        <td>Insecticidas</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/WAY108074_OLLA_A_PRESION_RED_6_LT_KEEP.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/WAY108074_OLLA_A_PRESION_RED_6_LT_KEEP.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/WAY108074_OLLA_A_PRESION_RED_6_LT_KEEP.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>WAY108074</td>
+        <td>OLLA A PRESION RED 6 LT KEEP</td>
+        <td></td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>77.5</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://media.falabella.com/falabellaCL/135821786_01/w=800,h=800,fit=pad" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>LIN1933416</td>
+        <td>OXICLORURO COBRE</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>LIN1999583</td>
+        <td>PASTO SINTETICO 2MX 25MX 25MM 50CUADRADOS</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>LIN1944857</td>
+        <td>PERLITA A6 100 LT</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>REP1936217</td>
+        <td>PERNO 8 X 30 SOLO 425 ANTIGUA N0010165</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>REP1935469</td>
+        <td>PULVERIZADOR SOLO 475</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART900945_REDUCCION_GALVANIZADO_3X2.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART900945_REDUCCION_GALVANIZADO_3X2.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART900945_REDUCCION_GALVANIZADO_3X2.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART900945</td>
+        <td>REDUCCION GALVANIZADO 3X2</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>67.6</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://insumosfirstpro.com/wp-content/uploads/2025/04/valvula.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/HER1279836_RIPPER_MAX_75_SG_10KL.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/HER1279836_RIPPER_MAX_75_SG_10KL.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/HER1279836_RIPPER_MAX_75_SG_10KL.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>HER1279836</td>
+        <td>RIPPER MAX 75 SG 10KL</td>
+        <td></td>
+        <td>Herbicidas</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>61.8</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://www.woodcraft.com/cdn/shop/files/193861_000_003_1946x.jpg?v=1740027851" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEM1493438_SEM_ZANAHORIA_5_GR.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEM1493438_SEM_ZANAHORIA_5_GR.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEM1493438_SEM_ZANAHORIA_5_GR.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEM1493438</td>
+        <td>SEM ZANAHORIA 5 GR</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>68.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://www.hortinatura.com/productos/imagenes/img_15500_8cd13b34e076b89b848095203550d80e_1.png" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEM1469968</td>
+        <td>SEMILLA CEBOLLÃ­N 1 GR</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEM1417885</td>
+        <td>SEMILLA ESPARRAGOS</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEM1455642_SEMILLA_MAIZ_DULCE_1_GR.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEM1455642_SEMILLA_MAIZ_DULCE_1_GR.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEM1455642_SEMILLA_MAIZ_DULCE_1_GR.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEM1455642</td>
+        <td>SEMILLA MAIZ DULCE 1 GR</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>62.4</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://media.adeo.com/marketplace/LMES/16786805/2018627.jpeg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEM1434564_SEMILLA_MELON_CANTALOUP_PERLITA_1_GR.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEM1434564_SEMILLA_MELON_CANTALOUP_PERLITA_1_GR.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEM1434564_SEMILLA_MELON_CANTALOUP_PERLITA_1_GR.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEM1434564</td>
+        <td>SEMILLA MELON CANTALOUP PERLITA 1 GR</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>62.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://fredonia.com.gt/wp-content/uploads/2023/12/Semillas-Rocalba-21.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>SEM1483536</td>
+        <td>SEMILLA TOMATE COCTAIL CHERRY ROJO</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEM1428454_SEMILLA_ZAPALLO_ITALIANO_GREY_ZUCCHINI.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEM1428454_SEMILLA_ZAPALLO_ITALIANO_GREY_ZUCCHINI.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEM1428454_SEMILLA_ZAPALLO_ITALIANO_GREY_ZUCCHINI.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEM1428454</td>
+        <td>SEMILLA ZAPALLO ITALIANO GREY ZUCCHINI</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>67.6</td>
+        <td>Sí (0.8)</td>
+        <td><a href="https://www.covepa.cl/storage/products/dd8b7bda2d743fdad1d108f396e60999.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/SEM1442047_SEMILLA_ZAPALLO_ITALIANO_REDONDO_1_GR.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/SEM1442047_SEMILLA_ZAPALLO_ITALIANO_REDONDO_1_GR.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/SEM1442047_SEMILLA_ZAPALLO_ITALIANO_REDONDO_1_GR.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>SEM1442047</td>
+        <td>SEMILLA ZAPALLO ITALIANO REDONDO 1 GR</td>
+        <td></td>
+        <td>Semillas y JardÃ­n</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://ferreteriavidri.com/images/items/large/152010.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/FOL249695_STAMIN_UP_SOIL_20.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/FOL249695_STAMIN_UP_SOIL_20.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/FOL249695_STAMIN_UP_SOIL_20.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>FOL249695</td>
+        <td>STAMIN UP SOIL 20</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>60.2</td>
+        <td>Sí (0.5)</td>
+        <td><a href="https://blasters4masters.com/wp-content/uploads/2023/08/Stamin-Up-Perk-Machine-Miniature-Replica-Call-of-Duty-Black-Ops-Zombies5.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL230718</td>
+        <td>SUPERGROW 5 LT</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ACA768403</td>
+        <td>TALSTAR 10 EC</td>
+        <td></td>
+        <td>Acaricidas</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART904499_TEE_PE_1_1_4.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART904499_TEE_PE_1_1_4.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART904499_TEE_PE_1_1_4.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART904499</td>
+        <td>TEE PE 1 1 4</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.0</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://ferrecito.com/cdn/shop/products/45465-1.jpg?v=1724193953" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>ART959829</td>
+        <td>TEE PE 1"</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART916487_TERMINAL_HE_PE_2.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART916487_TERMINAL_HE_PE_2.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART916487_TERMINAL_HE_PE_2.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART916487</td>
+        <td>TERMINAL HE PE 2"</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>61.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://www.impovar.cl/img/p/7/5/3/753-thickbox_default.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL242735</td>
+        <td>TERRAPHYLLUM</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/REP1992579_TOBERA_DOBLE_SOLO.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/REP1992579_TOBERA_DOBLE_SOLO.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/REP1992579_TOBERA_DOBLE_SOLO.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>REP1992579</td>
+        <td>TOBERA DOBLE SOLO</td>
+        <td></td>
+        <td>Repuestos</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>64.2</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://http2.mlstatic.com/D_NQ_NP_665024-MLC77658303760_072024-O.webp" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FER121994</td>
+        <td>ULTRASOL FRUTA X 25 KG</td>
+        <td></td>
+        <td>Fertilizantes</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART949346_UNION_DOBLE_PE_1_1_2.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART949346_UNION_DOBLE_PE_1_1_2.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART949346_UNION_DOBLE_PE_1_1_2.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART949346</td>
+        <td>UNION DOBLE PE 1 1 2"</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>68.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://www.ropelato.com.ar/19410-large_default/0108466.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART917917_UNION_DOBLE_PE_1.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART917917_UNION_DOBLE_PE_1.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART917917_UNION_DOBLE_PE_1.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART917917</td>
+        <td>UNION DOBLE PE 1"</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>71.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://f.fcdn.app/imgs/6d3b34/mangusi.com.uy/hmanuy/3f24/original/catalogo/UDPPL_1_1/2000-2000/union-doble-ppl-mh-1.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART933266_UNION_DOBLE_PE_3.webp" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART933266_UNION_DOBLE_PE_3.webp" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART933266_UNION_DOBLE_PE_3.webp" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART933266</td>
+        <td>UNION DOBLE PE 3"</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>61.8</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://vulcano-sa.com.ar/wp-content/uploads/2024/02/101018.webp" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/ART953312_VALVULA_BOLA_COMPACTA_HI_2_PULG.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/ART953312_VALVULA_BOLA_COMPACTA_HI_2_PULG.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/ART953312_VALVULA_BOLA_COMPACTA_HI_2_PULG.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>ART953312</td>
+        <td>VALVULA BOLA COMPACTA HI 2 PULG</td>
+        <td></td>
+        <td>ArtÃ­culos de Riego</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://hoffens.com/1616-large_default/valvula-bola-compacta-hi.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL202464</td>
+        <td>VECA MOVE 1 LT</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FOL299579</td>
+        <td>VEGE GROW 5 LT</td>
+        <td></td>
+        <td>Foliares</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>LIN1905718</td>
+        <td>VELA SOMBRA TRIANGULAR 4.88X4.88</td>
+        <td></td>
+        <td>LÃ­nea JardÃ­n</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>FUN493361</td>
+        <td>[FALTA NOMBRE REAL - PROVEEDOR: COPEVAL] FUN493361</td>
+        <td></td>
+        <td>Fungicidas</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</body>
+</html>

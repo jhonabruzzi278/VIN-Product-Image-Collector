@@ -1,0 +1,770 @@
+2026-08-12 18:08:36.080 | INFO     | vin_collector.importer:import_products:146 - Importados 88 productos desde lote-01.csv
+2026-08-12 18:08:36.081 | INFO     | vin_collector.pipeline:run_pipeline:101 - [1/88] Procesando: Punto 70 250grs 70X200
+2026-08-12 18:08:36.848 | INFO     | vin_collector.search_engine:search_product:208 - '"INS397556"  PUNTO 70 250 GR 70X200' -> 10 resultados
+2026-08-12 18:08:37.426 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.3: https://dimasa.cl/wp-content/uploads/2025/07/PUE4060_2-600x481.webp
+2026-08-12 18:08:37.583 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.0: https://dimasa.cl/wp-content/uploads/2025/07/PUE4060-600x547.webp
+2026-08-12 18:08:37.724 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.0: https://media.falabella.com/falabellaCL/140337572_01/public
+2026-08-12 18:08:37.920 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.3: https://media.adeo.com/media/5193175/media.jpg
+2026-08-12 18:08:39.787 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.8: https://www.spitishop.gr/1865124/χαλί-διαδρόμου-70x200-kentia-loft-hunter-10-green.jpg
+2026-08-12 18:08:39.948 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.3: https://media.adeo.com/media/5193693/media.jpg
+2026-08-12 18:08:40.384 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://socodima.cl/15307-large_default/punto-ingco-punta-aguda-16x250-mm-mango-pvc-hcc08.jpg: Client error '404 Not Found' for url 'https://socodima.cl/15307-large_default/punto-ingco-punta-aguda-16x250-mm-mango-pvc-hcc08.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 18:08:40.511 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: https://cdn11.bigcommerce.com/s-dtlje5musq/images/stencil/960w/products/1160/9158/PR1100BI936_34852_Insecticida_Anasac_Hurricane_70_WP_0_25_kg_IMD__80948.1773163092.jpg?c=1
+2026-08-12 18:08:40.551 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: https://cdn11.bigcommerce.com/s-dtlje5musq/images/stencil/960w/products/1160/9157/PR1100BI5964_34852_Insecticida_Anasac_Hurricane_70_WP_0_25_kg_IMD__22267.1773163091.jpg?c=1
+2026-08-12 18:08:41.187 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.3: https://pobreguacho.cl/wp-content/uploads/2023/03/PUNTO-70-WP-FUMIGACION-250gr--293x400.jpg
+2026-08-12 18:08:41.192 | INFO     | vin_collector.pipeline:run_pipeline:101 - [2/88] Procesando: Ripper Full 20 Lts
+2026-08-12 18:08:46.734 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para '"HER1218207"  RIPPER FULL 20 LT': error sending request for url (https://duckduckgo.com/?q=%22HER1218207%22++RIPPER+FULL+20+LT) > operation timed out
+2026-08-12 18:08:47.421 | INFO     | vin_collector.search_engine:search_product:208 - '"HER1218207"  RIPPER FULL 20 LT' -> 10 resultados
+2026-08-12 18:08:48.462 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.9: https://smartcherry.cl/wp-content/uploads/2022/11/ripper-full.png
+2026-08-12 18:08:49.695 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.4: https://www.ythawk.com/uploads/202340490/20-ton-excavator-rippera316b1ea-eb72-41c4-b619-bfbcea76d0e0.jpg
+2026-08-12 18:08:52.019 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 38.3: https://media.machines4u.com.au/machinery/20/1221820/Ripper-BEDROCK-RIPPER-FITS-JOHN-DEERE-120-EXCAVATOR-2-X-65MM-PINS-ER-JD120_79164021.h.jpg
+2026-08-12 18:08:57.261 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://agrohuerto.cl/wp-content/uploads/2021/05/rango-full-anasac-envase-20-l-600x600.jpg: Client error '404 Not Found' for url 'https://www.agrohuerto.cl/wp-content/uploads/2021/05/rango-full-anasac-envase-20-l-600x600.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 18:08:58.406 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.4: https://www.ythawk.com/uploads/202340490/20-ton-excavator-rippera85cb781-a2a8-408d-9a4b-1515ffd31b4f.jpg
+2026-08-12 18:08:59.928 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.2: https://www.earthmovingwarehouse.com.au/cdn/shop/files/Roo-attachments-20t-ripper_10.png?v=1735798118&width=600
+2026-08-12 18:09:02.703 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.8: https://3genexport.com/wp-content/uploads/2024/11/EXCAVATOR-RIPPER-3-1.webp
+2026-08-12 18:09:05.107 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.6: https://www.buckets.ie/wp-content/uploads/20t-ripper-tooth-3.jpg
+2026-08-12 18:09:06.496 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://image.chukouplus.com/upload/C_3309/file/20231219/3708180992454b8fdd35d247f36b8406.jpg?x-oss-process=image/format,webp,image/resize,m_pad,h_620,w_620,color_FFFFFF
+2026-08-12 18:09:07.649 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.4: https://www.ythawk.com/uploads/202340490/20-ton-excavator-ripperd311f7b2-38c1-40b8-93a3-d2c2b421c45a.jpg
+2026-08-12 18:09:07.656 | INFO     | vin_collector.pipeline:run_pipeline:101 - [3/88] Procesando: Nano Energy Agrisciences
+2026-08-12 18:09:08.077 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL245383"  NANO ENERGY AGRISCIENCES' -> 10 resultados
+2026-08-12 18:09:10.869 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 38.5: https://axmpaperspacescalemodels.com/wp-content/uploads/2016/11/560B63F1-C701-4E10-B8E6-857A4A438140-7639-00000696162CCA72_tmp.jpg
+2026-08-12 18:09:11.295 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.5: https://axmpaperspacescalemodels.com/wp-content/uploads/2019/11/C54CF7C9-4859-42AF-A59A-D0E0DC563D34-scaled.jpeg
+2026-08-12 18:09:13.497 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 33.1: https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/270-niwat6406-eye.jpg?w=1600&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1950b6e57901c51332b045016c998d22
+2026-08-12 18:25:22.928 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.notsonoisy.com/wp-content/uploads/2016/11/rh2oket_011.jpg: peer closed connection without sending complete message body (received 105814 bytes, expected 377316)
+2026-08-12 18:25:23.302 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://axm61.files.wordpress.com/2017/11/19477e9a-d13a-42dc-939e-ef1331f51ca9.jpeg?w=515: [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:23.367 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://axm61.files.wordpress.com/2017/09/9dbcc335-6853-49fc-a7fa-918dfb7f6b58.jpeg?w=538: [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:23.394 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para http://www.uswaterrockets.com/construction_&_tutorials/removable_box_fins/images/USWR_T9DB.JPG: [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:23.439 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para http://gadgetsin.com/uploads/2017/09/powerup_dart_app_controlled_paper_airplane_2.jpg?x78359: [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:23.487 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://axm61.files.wordpress.com/2018/02/687687dd-2e57-4aee-8bea-be181fd112d5.jpeg?w=768: [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:23.547 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://3.bp.blogspot.com/-2oHFD53KIUc/WHjAnyR9WBI/AAAAAAAACno/ako5oBkSEf4n0uSDMYquCq1LzsLcYjXyQCLcB/w1200-h630-p-k-no-nu/_MG_35841.jpg: [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:23.561 | INFO     | vin_collector.pipeline:run_pipeline:101 - [4/88] Procesando: Nano Energy 00-52-34 1kg
+2026-08-12 18:25:25.322 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para '"FOL227809"  NANO ENERGY 00-52-34 1 KG': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=%22FOL227809%22++NANO+ENERGY+00-52-34+1+KG) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:25.949 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para '"FOL227809"  NANO ENERGY 00-52-34 1 KG': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:26.033 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para '"FOL227809"  NANO ENERGY 00-52-34 1 KG', probando siguiente consulta
+2026-08-12 18:25:26.580 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'NANO ENERGY 00-52-34 1 KG': ConnectError: ConnectError('error sending request for url (https://www.bing.com/images/async?q=NANO+ENERGY+00-52-34+1+KG&async=1&first=1&count=35) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:26.836 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'NANO ENERGY 00-52-34 1 KG': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:26.860 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para 'NANO ENERGY 00-52-34 1 KG', probando siguiente consulta
+2026-08-12 18:25:27.136 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'NANO ENERGY 00-52-34 1 KG Chile': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=NANO+ENERGY+00-52-34+1+KG+Chile) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:27.284 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'NANO ENERGY 00-52-34 1 KG Chile': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:27.306 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para 'NANO ENERGY 00-52-34 1 KG Chile', probando siguiente consulta
+2026-08-12 18:25:27.495 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'NANO ENERGY 00-52-34 1 KG distributor': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=NANO+ENERGY+00-52-34+1+KG+distributor) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:27.748 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'NANO ENERGY 00-52-34 1 KG distributor': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:27.812 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para 'NANO ENERGY 00-52-34 1 KG distributor', probando siguiente consulta
+2026-08-12 18:25:27.892 | DEBUG    | vin_collector.search_engine:search:188 - Cache hit para consulta: NANO ENERGY 00-52-34 1 KG
+2026-08-12 18:25:28.374 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'NANO': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=NANO) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:28.610 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'NANO': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:28.875 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'NANO EC': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=NANO+EC) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:29.042 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'NANO EC': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:29.233 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'FOL227809': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=FOL227809) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:29.536 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'FOL227809': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:29.619 | INFO     | vin_collector.pipeline:run_pipeline:101 - [5/88] Procesando: Fast Plus
+2026-08-12 18:25:30.062 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para '"ACA710027"  FAST PLUS': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=%22ACA710027%22++FAST+PLUS) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:30.294 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para '"ACA710027"  FAST PLUS': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:30.307 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para '"ACA710027"  FAST PLUS', probando siguiente consulta
+2026-08-12 18:25:30.579 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'FAST PLUS': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=FAST+PLUS) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:30.842 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'FAST PLUS': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:30.894 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para 'FAST PLUS', probando siguiente consulta
+2026-08-12 18:25:31.142 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'FAST PLUS Chile': ConnectError: ConnectError('error sending request for url (https://www.bing.com/images/async?q=FAST+PLUS+Chile&async=1&first=1&count=35) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:31.311 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'FAST PLUS Chile': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:31.330 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para 'FAST PLUS Chile', probando siguiente consulta
+2026-08-12 18:25:31.485 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'FAST PLUS distributor': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=FAST+PLUS+distributor) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:31.682 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'FAST PLUS distributor': [Errno 11001] getaddrinfo failed
+2026-08-12 18:25:31.692 | DEBUG    | vin_collector.search_engine:search_product:210 - Sin resultados para 'FAST PLUS distributor', probando siguiente consulta
+2026-08-12 18:25:31.724 | DEBUG    | vin_collector.search_engine:search:188 - Cache hit para consulta: FAST PLUS
+2026-08-12 18:25:31.980 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'FAST': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=FAST) > client error (Connect) > dns error > no connections available')
+2026-08-12 18:25:32.171 | WARNING  | vin_collector.search_engine:search_images:101 - Búsqueda Bing falló para 'FAST': [Errno 11001] getaddrinfo failed
+2026-08-12 19:01:41.383 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'FAST EC': ConnectError: ConnectError('error sending request for url (https://www.bing.com/images/async?q=FAST+EC&async=1&first=1&count=35) > client error (Connect) > dns error > no connections available')
+2026-08-12 19:01:45.693 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://smilekao.com/wp-content/uploads/2023/04/タイトル大見出し-1024x576.png: Client error '403 Forbidden' for url 'https://smilekao.com/wp-content/uploads/2023/04/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB%E5%A4%A7%E8%A6%8B%E5%87%BA%E3%81%97-1024x576.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 19:01:45.800 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://smilekao.com/wp-content/uploads/2023/11/OGP_FASTEC.png: Client error '403 Forbidden' for url 'https://smilekao.com/wp-content/uploads/2023/11/OGP_FASTEC.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 19:01:46.466 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 33.9: https://cdn.slidesharecdn.com/ss_thumbnails/protocolofast-251016105143-66e2c40c-thumbnail.jpg?width=640&height=640&fit=bounds
+2026-08-12 19:01:47.222 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: https://play-lh.googleusercontent.com/ITEJd4zmY5sGjL5R3VsKHIvVht_jmAbCSWpiL_WZH40rxq-uEY0Zos6ZvDoU7Xmt2jk=s300
+2026-08-12 19:01:49.350 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.2: https://d1larhalzuwzrz.cloudfront.net/y8nwe8iapjxa7zfdryjify77u5i7
+2026-08-12 19:01:51.336 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BFB5FD0>
+2026-08-12 19:01:51.336 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 25.5: https://www.fastec.de/wp-content/uploads/2020/03/FASTEC-Logo.svg
+2026-08-12 19:01:51.829 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://www.fastec.de/wp-content/uploads/2024/05/FASTedge-SFT15-weiss-900px-web-Branding.jpg
+2026-08-12 19:01:53.905 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://www.fastec.cl/wp-content/uploads/2022/10/FASTEC.jpg
+2026-08-12 19:01:54.253 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BFB5760>
+2026-08-12 19:01:54.253 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 25.5: https://www.fastec.de/wp-content/uploads/2020/03/FASTEC-Logo-White.svg
+2026-08-12 20:58:16.409 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.fastec.ch/images/lay/logo.jpg: Server disconnected without sending a response.
+2026-08-12 20:58:16.775 | INFO     | vin_collector.pipeline:run_pipeline:101 - [6/88] Procesando: Nav Sentinel Clip Un Mano Filo Dentado Negro Cajita
+2026-08-12 20:58:22.827 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para 'Victorinox "0.8416.M3"': ConnectError: ConnectError('error sending request for url (https://duckduckgo.com/?q=Victorinox+%220.8416.M3%22) > client error (Connect) > dns error > no connections available')
+2026-08-12 20:58:25.506 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.8416.M3"' -> 10 resultados
+2026-08-12 20:58:27.927 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 53.3: https://cuchilleriabrasil.com/wp-content/uploads/2019/06/VICTORINOX-Sentinel-Clip-0.8416.M3.jpg
+2026-08-12 20:58:29.063 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.4: https://assets.katogroup.eu/i/katogroup/VT0-8416-M3_06_victorinox
+2026-08-12 20:58:33.425 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.6: https://www.fifthelement.gr/image/cache/catalog/products/Victorinox/0.8416.M3-4-2400x2400.jpg
+2026-08-12 20:58:35.005 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.8: https://assets.katogroup.eu/i/katogroup/VT0-8416-M3_03_victorinox
+2026-08-12 20:58:36.293 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 53.3: https://cuchilleriabrasil.com/wp-content/uploads/2019/06/VICTORINOX-Sentinel-Clip-0.8416.M3-C.jpg
+2026-08-12 20:58:37.034 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.marrodan.com.ar/wp-content/uploads/2025/08/CORTAPLUMA-VICTORINOX-0.8416.M3-SENTINEL-5USOS-FILO-LISA-A.23128-22.jpg: Client error '403 Forbidden' for url 'https://www.marrodan.com.ar/wp-content/uploads/2025/08/CORTAPLUMA-VICTORINOX-0.8416.M3-SENTINEL-5USOS-FILO-LISA-A.23128-22.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 20:58:37.223 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.fifthelement.gr/image/cache/catalog/products/Victorinox/0.8416.M3-3-2400x2400.jpg: Server disconnected without sending a response.
+2026-08-12 20:58:39.107 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://static.riachuelo.com.br/relogioswebshop/0.8416.m3/portrait/tmpCnova_4377521240_15146291107-0-8416-m3-1-copy.jpg: Client error '403 Forbidden' for url 'https://static.riachuelo.com.br/relogioswebshop/0.8416.m3/portrait/tmpCnova_4377521240_15146291107-0-8416-m3-1-copy.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 20:58:41.521 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.4: https://content2.rozetka.com.ua/goods/images/original/10758572.jpg
+2026-08-12 20:58:42.527 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://www.darumarelojes.com/wp-content/uploads/Victorinox/0.8413.3-2.jpg
+2026-08-12 20:58:42.716 | INFO     | vin_collector.pipeline:run_pipeline:101 - [7/88] Procesando: Nav Evoke Bs Alox 136 Mm 4 Funciones
+2026-08-12 20:58:43.712 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.9415.DS23"' -> 10 resultados
+2026-08-12 20:58:44.492 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV9415DS23_NAV_EVOKE_BS_ALOX_136_MM_4_FUNCIONES.jpg (score=60.2, fuente=www.knivesandtools.dk)
+2026-08-12 20:58:47.561 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV9415DS23_NAV_EVOKE_BS_ALOX_136_MM_4_FUNCIONES.jpg
+2026-08-12 20:58:47.582 | INFO     | vin_collector.pipeline:run_pipeline:101 - [8/88] Procesando: Nav Equestrian 111 Mm 12 Funciones
+2026-08-12 20:58:48.600 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV8583"  NAV EQUESTRIAN 111 MM 12 FUNCIONES' -> 10 resultados
+2026-08-12 20:58:48.929 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 59.5: https://5tavenida.cl/wp-content/uploads/2026/04/image-26-scaled.jpeg
+2026-08-12 20:58:51.219 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.comercialrodriguez.com/4721-thickbox_default/equestrian-12-usos-111mm-c-bloqueo-roja-mate.jpg: Client error '403 Forbidden' for url 'https://www.comercialrodriguez.com/4721-thickbox_default/equestrian-12-usos-111mm-c-bloqueo-roja-mate.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 20:58:51.539 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.5: https://http2.mlstatic.com/D_NQ_NP_822578-MLM31220948711_062019-O-navaja-victorinox-equestrian-rojo12-funciones-08583grabado.webp
+2026-08-12 20:58:51.838 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.5: https://http2.mlstatic.com/D_NQ_NP_629808-MLM44509362642_012021-O.webp
+2026-08-12 20:59:12.132 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://vx-swiss.ru/pics/big/1/ct/victorinox/nozh-perochinnyiy-victorinox-equestrian-12-funktsiy-s-fiksatorom-lezviya-08583-4.jpg: timed out
+2026-08-12 20:59:32.985 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://cdn.sportmaster.ru/upload/mdm/media_content/resize/e21/768_1024_4055/115280800299.jpg: timed out
+2026-08-12 20:59:52.995 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://cdn.sportmaster.ru/upload/mdm/media_content/resize/960/768_1024_6425/115280790299.jpg: timed out
+2026-08-12 21:00:13.011 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://cdn.sportmaster.ru/upload/mdm/media_content/resize/6b8/768_1024_3f5c/115280810299.jpg: timed out
+2026-08-12 21:00:14.542 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: https://cuchilleriabrasil.com/wp-content/uploads/2019/06/VICTORINOX-Equestrian-0.8583-C.jpg
+2026-08-12 21:00:14.729 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.5: https://http2.mlstatic.com/D_NQ_NP_831055-MLV53753575302_022023-O.webp
+2026-08-12 21:00:14.768 | INFO     | vin_collector.pipeline:run_pipeline:101 - [9/88] Procesando: Nav Forester 111 Mm 12 Funciones Negra
+2026-08-12 21:00:16.489 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.8363.3"' -> 10 resultados
+2026-08-12 21:00:17.020 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.3: https://m.media-amazon.com/images/I/710-P95DBXL._AC_SL1500_.jpg
+2026-08-12 21:00:37.959 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://static.onlinetrade.ru/img/fullreviews/31903/5_big.jpg: timed out
+2026-08-12 21:00:58.038 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://kotofoto.ru/product_img/1477/202333/202333_victorinox-forester-0-8363-3_1m.webp?v=1769450198: timed out
+2026-08-12 21:00:59.044 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://dojiw2m9tvv09.cloudfront.net/38080/product/cortaplumavictorinox0-8363-3forester3546.jpg?46&t=1771819173
+2026-08-12 21:00:59.354 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://assets.katogroup.eu/i/katogroup/VT0-8363-3_01_victorinox-vt0-8363-3-01
+2026-08-12 21:01:40.404 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://vx-market.com.ua/image/data/083633/new083633.JPG: The read operation timed out
+2026-08-12 21:01:40.826 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.3: https://http2.mlstatic.com/D_NQ_NP_715982-MLC69981398716_062023-O-victorinox-forester-black-083633-rb-center.webp
+2026-08-12 21:02:01.138 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://qslab.ru/media/catalog/product/cache/1/image/e1d32284d4fc0a4201a200c1172f9536/0/_/0.8363.3.jpg: timed out
+2026-08-12 21:02:02.814 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.8: https://content.rozetka.com.ua/goods/images/big/447881743.jpg
+2026-08-12 21:02:22.886 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.noze-pok.cz/foto/velke/0.8363.3.jpg: timed out
+2026-08-12 21:02:22.893 | INFO     | vin_collector.pipeline:run_pipeline:101 - [10/88] Procesando: Juego Cuchillo Verdura Dentado 3u Mango Ny
+2026-08-12 21:02:24.426 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV671133"  JUEGO CUCHILLO VERDURA DENTADO 3U MANGO NY' -> 10 resultados
+2026-08-12 21:02:24.518 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV671133_JUEGO_CUCHILLO_VERDURA_DENTADO_3U_MANGO_NY.webp (score=67.2, fuente=articulo.mercadolibre.cl)
+2026-08-12 21:02:24.707 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV671133_JUEGO_CUCHILLO_VERDURA_DENTADO_3U_MANGO_NY.webp
+2026-08-12 21:02:24.726 | INFO     | vin_collector.pipeline:run_pipeline:101 - [11/88] Procesando: Nav Classic 58 Mm 7 Funciones Dark Ili
+2026-08-12 21:02:25.641 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV62233G"  NAV CLASSIC 58 MM 7 FUNCIONES DARK ILI' -> 10 resultados
+2026-08-12 21:02:29.503 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: https://tabaqueria.cl/cdn/shop/files/navaja_0.6203_840_1.jpg?v=1700083580
+2026-08-12 21:02:32.214 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.4: http://tabaqueria.cl/cdn/shop/files/navaja_0.6203_T5_1.jpg?v=1700083787
+2026-08-12 21:02:34.118 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.7: https://tabaqueria.cl/cdn/shop/files/navaja_0.6223_8_1.jpg?v=1700096466
+2026-08-12 21:02:36.739 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: http://tabaqueria.cl/cdn/shop/files/navaja_0.6223.7_1.jpg?v=1700099536
+2026-08-12 21:02:37.633 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 56.5: https://ferreteriamarsella.vtexassets.com/arquivos/ids/178358/F039692-_NAVAJA-CLASSIC-58MM-7-FUNCIONES-DARK-ILLUSION-0.6223.3G-VICTORINOX-C.jpg?v=638507021203430000
+2026-08-12 21:02:38.374 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.0: https://ferreteriamarsella.vtexassets.com/arquivos/ids/178356-800-auto?v=638507021032270000&width=800&height=auto&aspect=true
+2026-08-12 21:02:39.884 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.8: https://tabaqueria.cl/cdn/shop/files/navaja_0.6223.L2002_1.jpg?v=1700098835&width=1346
+2026-08-12 21:02:41.287 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.4: https://tabaqueria.cl/cdn/shop/files/navaja_0.6223.L1809_2.jpg?v=1700097733&width=1445
+2026-08-12 21:02:42.132 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.7: https://ferreteriamarsella.vtexassets.com/arquivos/ids/178371/F039695-_NAVAJA-CLASSICA-58MM-7-FUNCIONES-STYLE-ICON-0.6223.G-VICTORINOX-C.jpg?v=638507063728630000
+2026-08-12 21:02:42.975 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://ferreteriamarsella.vtexassets.com/arquivos/ids/178320/F039685-_NAVAJA-CLASSIC-58MM-7-FUNCIONES-TASTY-GRAPE-0.6223.52G-VICTORINOX-C.jpg?v=638506963873900000
+2026-08-12 21:02:42.996 | INFO     | vin_collector.pipeline:run_pipeline:101 - [12/88] Procesando: Nav Classic 58 Mm 7 Fun Cupcake Dream
+2026-08-12 21:02:43.568 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.6223.T5G"' -> 10 resultados
+2026-08-12 21:02:45.135 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV6223T5G_NAV_CLASSIC_58_MM_7_FUN_CUPCAKE_DREAM.jpg (score=64.5, fuente=www.knivesandtools.co.uk)
+2026-08-12 21:02:49.479 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV6223T5G_NAV_CLASSIC_58_MM_7_FUN_CUPCAKE_DREAM.jpg
+2026-08-12 21:02:49.500 | INFO     | vin_collector.pipeline:run_pipeline:101 - [13/88] Procesando: Nav Classic Alox 58mm 5 Fun Cotton Candy
+2026-08-12 21:02:50.155 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV6221252G"  NAV CLASSIC ALOX 58MM 5 FUN COTTON CANDY' -> 10 resultados
+2026-08-12 21:02:52.045 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV6221252G_NAV_CLASSIC_ALOX_58MM_5_FUN_COTTON_CANDY.jpg (score=64.4, fuente=shopee.ph)
+2026-08-12 21:02:53.540 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV6221252G_NAV_CLASSIC_ALOX_58MM_5_FUN_COTTON_CANDY.jpg
+2026-08-12 21:02:53.562 | INFO     | vin_collector.pipeline:run_pipeline:101 - [14/88] Procesando: Nav Explorer 911mm 19 Funciones Roja
+2026-08-12 21:02:54.472 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.1670.3"' -> 10 resultados
+2026-08-12 21:02:56.865 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV16703_NAV_EXPLORER_911MM_19_FUNCIONES_ROJA.png (score=60.3, fuente=www.victorinox.com)
+2026-08-12 21:03:00.555 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV16703_NAV_EXPLORER_911MM_19_FUNCIONES_ROJA.png
+2026-08-12 21:03:00.574 | INFO     | vin_collector.pipeline:run_pipeline:101 - [15/88] Procesando: Nav Clasic 58mm 7fun Cherryblossom
+2026-08-12 21:03:01.076 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV0622351G"  NAV CLASIC 58MM 7FUN CHERRYBLOSSOM' -> 10 resultados
+2026-08-12 21:03:01.447 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV0622351G_NAV_CLASIC_58MM_7FUN_CHERRYBLOSSOM.webp (score=60.2, fuente=www.alvaoutdoor.cl)
+2026-08-12 21:03:02.708 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV0622351G_NAV_CLASIC_58MM_7FUN_CHERRYBLOSSOM.webp
+2026-08-12 21:03:02.737 | INFO     | vin_collector.pipeline:run_pipeline:101 - [16/88] Procesando: Semilla Zapallo Italiano 5 Gr
+2026-08-12 21:03:03.190 | INFO     | vin_collector.search_engine:search_product:208 - '"SEM1491564"  SEMILLA ZAPALLO ITALIANO 5 GR' -> 10 resultados
+2026-08-12 21:03:04.905 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEM1491564_SEMILLA_ZAPALLO_ITALIANO_5_GR.jpg (score=74.7, fuente=copreser.cl)
+2026-08-12 21:03:07.745 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEM1491564_SEMILLA_ZAPALLO_ITALIANO_5_GR.jpg
+2026-08-12 21:03:07.789 | INFO     | vin_collector.pipeline:run_pipeline:101 - [17/88] Procesando: Semilla Tomate Coctail Cherry Rojo
+2026-08-12 21:03:09.473 | INFO     | vin_collector.search_engine:search_product:208 - '"SEM1483536"  SEMILLA TOMATE COCTAIL CHERRY ROJO' -> 10 resultados
+2026-08-12 21:03:10.631 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEM1483536_SEMILLA_TOMATE_COCTAIL_CHERRY_ROJO.jpg (score=62.3, fuente=mercadoagrario.com)
+2026-08-12 21:03:11.165 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEM1483536_SEMILLA_TOMATE_COCTAIL_CHERRY_ROJO.jpg
+2026-08-12 21:03:11.203 | INFO     | vin_collector.pipeline:run_pipeline:101 - [18/88] Procesando: Semilla Zapallo Haloween
+2026-08-12 21:03:12.852 | INFO     | vin_collector.search_engine:search_product:208 - '"SEM1446977"  SEMILLA ZAPALLO HALOWEEN' -> 10 resultados
+2026-08-12 21:03:14.849 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEM1446977_SEMILLA_ZAPALLO_HALOWEEN.jpg (score=63.0, fuente=www.pehuenalimentos.cl)
+2026-08-12 21:03:17.643 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEM1446977_SEMILLA_ZAPALLO_HALOWEEN.jpg
+2026-08-12 21:03:17.678 | INFO     | vin_collector.pipeline:run_pipeline:101 - [19/88] Procesando: Semilla Ciboulette
+2026-08-12 21:03:18.554 | INFO     | vin_collector.search_engine:search_product:208 - '"SEM1434299"  SEMILLA CIBOULETTE' -> 10 resultados
+2026-08-12 21:03:19.564 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.3: https://tienda.agroservicioscapurro.cl/wp-content/uploads/2018/05/Semilla-Ciboulette-1-Gr-Anasac-1000x1000.png
+2026-08-12 21:03:19.988 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEM1434299_SEMILLA_CIBOULETTE.jpg (score=60.8, fuente=www.ofertitas.cl)
+2026-08-12 21:03:26.808 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEM1434299_SEMILLA_CIBOULETTE.jpg
+2026-08-12 21:03:26.850 | INFO     | vin_collector.pipeline:run_pipeline:101 - [20/88] Procesando: Ferti Bio Huerto Lpu Eco 500ml
+2026-08-12 21:03:28.575 | INFO     | vin_collector.search_engine:search_product:208 - '"SEM1415609"  FERTI BIO HUERTO LPU ECO 500 CC' -> 10 resultados
+2026-08-12 21:03:29.406 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEM1415609_FERTI_BIO_HUERTO_LPU_ECO_500_CC.png (score=70.5, fuente=www.ladamasca.cl)
+2026-08-12 21:03:31.724 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEM1415609_FERTI_BIO_HUERTO_LPU_ECO_500_CC.png
+2026-08-12 21:03:31.761 | INFO     | vin_collector.pipeline:run_pipeline:101 - [21/88] Procesando: Semilla Acelga Penca Amarilla
+2026-08-12 21:03:34.193 | INFO     | vin_collector.search_engine:search_product:208 - '"SEM1412407"  SEMILLA ACELGA PENCA AMARILLA' -> 10 resultados
+2026-08-12 21:03:35.805 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEM1412407_SEMILLA_ACELGA_PENCA_AMARILLA.webp (score=66.5, fuente=indrasemillas.com)
+2026-08-12 21:03:39.194 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEM1412407_SEMILLA_ACELGA_PENCA_AMARILLA.webp
+2026-08-12 21:03:39.226 | INFO     | vin_collector.pipeline:run_pipeline:101 - [22/88] Procesando: Desmalezadora B451
+2026-08-12 21:03:39.885 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1992662"  DESMALEZADORA B451' -> 10 resultados
+2026-08-12 21:03:42.081 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: REP1992662_DESMALEZADORA_B451.png (score=60.3, fuente=ditec-ec.com)
+2026-08-12 21:03:49.457 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para REP1992662_DESMALEZADORA_B451.png
+2026-08-12 21:03:49.505 | INFO     | vin_collector.pipeline:run_pipeline:101 - [23/88] Procesando: Biela L 40474409
+2026-08-12 21:03:51.033 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1978906"  BIELA L 40474409' -> 10 resultados
+2026-08-12 21:03:52.469 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: REP1978906_BIELA_L_40474409.jpg (score=60.2, fuente=www.tienda.cummins.cl)
+2026-08-12 21:03:55.568 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para REP1978906_BIELA_L_40474409.jpg
+2026-08-12 21:03:55.604 | INFO     | vin_collector.pipeline:run_pipeline:101 - [24/88] Procesando: Correa Solo 425
+2026-08-12 21:03:56.286 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1973918"  CORREA SOLO 425' -> 10 resultados
+2026-08-12 21:03:56.787 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://despiecepro.com/wp-content/images/John-Deere-425-Belt-Diagram-8145.webp: Client error '403 Forbidden' for url 'https://despiecepro.com/wp-content/images/John-Deere-425-Belt-Diagram-8145.webp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:03:57.383 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.0: https://media.rs-online.com/image/upload/bo_1.5px_solid_white,b_auto,c_pad,dpr_2,f_auto,h_399,q_auto,w_710/c_pad,h_399,w_710/R0175859-01?pgw=1
+2026-08-12 21:03:57.431 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://despiecepro.com/wp-content/images/hcjhi_John-Deere-425-48-Deck-Belt-Diagram.webp: Client error '403 Forbidden' for url 'https://despiecepro.com/wp-content/images/hcjhi_John-Deere-425-48-Deck-Belt-Diagram.webp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:03:58.388 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.agroarenas.com/10258-large_default/correa-honda-sb-425-motoazadas-f660-f720.jpg: Client error '403 Forbidden' for url 'https://www.agroarenas.com/10258-large_default/correa-honda-sb-425-motoazadas-f660-f720.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:04:18.458 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://tjlvargas.com/18463-large_default/correa.jpg: timed out
+2026-08-12 21:04:19.605 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.2: https://cruzeirogomas.cl/wp-content/uploads/2025/01/24499747_13a-1.jpg
+2026-08-12 21:04:20.913 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.1: https://s.alicdn.com/@sc04/kf/H7673e33ae86e4155bde4efc09c6880bbe.jpg_720x720q50.jpg
+2026-08-12 21:04:21.626 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 34.1: https://s.alicdn.com/@sc04/kf/H9bd694e9484b4fb5a9611dff08d99db39.jpg_720x720q50.jpg
+2026-08-12 21:04:22.793 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 38.0: https://cdnx.jumpseller.com/v28-tienda/image/68959426/resize/1200/1200?1761184219
+2026-08-12 21:04:23.208 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 36.3: https://cruzeirogomas.cl/wp-content/uploads/2025/01/24499747_15-1.jpg
+2026-08-12 21:04:23.224 | INFO     | vin_collector.pipeline:run_pipeline:101 - [25/88] Procesando: Pantalla Redonda
+2026-08-12 21:04:24.024 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1965845"  PANTALLA REDONDA' -> 10 resultados
+2026-08-12 21:04:26.755 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: REP1965845_PANTALLA_REDONDA.png (score=68.8, fuente=www.tecneu.com)
+2026-08-12 21:04:33.366 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para REP1965845_PANTALLA_REDONDA.png
+2026-08-12 21:04:33.538 | INFO     | vin_collector.pipeline:run_pipeline:101 - [26/88] Procesando: Arandela Manguera 31356
+2026-08-12 21:04:34.070 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1961630"  ARANDELA MANGUERA 31356' -> 10 resultados
+2026-08-12 21:04:34.898 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.0: https://img.ltwebstatic.com/images3_spmp/2023/05/27/1685155483dcd9de9b2e8b510ef37ac677c8d75813.webp
+2026-08-12 21:04:35.598 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://img.ltwebstatic.com/gspCenter/goodsImage/2023/3/13/3249439500_1028590/61E434AD93EE6C070ADB9F4922421A82.jpg
+2026-08-12 21:04:35.829 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.0: https://img.ltwebstatic.com/images3_pi/2023/11/10/d5/1699589308974fe9e34bfbf39361bee6874ba96a15_thumbnail_900x.webp
+2026-08-12 21:04:36.580 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.0: https://images.tcdn.com.br/img/img_prod/947469/jaqueta_bomber_masculina_em_couro_premium_504_169_1_ac33b3280c78905328987b176306ad6c.jpg
+2026-08-12 21:04:37.013 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.0: https://img.ltwebstatic.com/images3_pi/2023/10/22/28/169797962764ee43415648dadde513129ab2e21b91_thumbnail_900x.jpg
+2026-08-12 21:04:37.308 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://img.ltwebstatic.com/gspCenter/goodsImage/2023/3/25/8256422991_1059447/F73F0820622213B04100FC5E4D40B7C8_thumbnail_900x.webp
+2026-08-12 21:04:37.787 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://img.ltwebstatic.com/gspCenter/goodsImage/2023/3/25/8256422991_1059447/2E7C32FB8E0A5C6A8A7016C56F197BCB_thumbnail_900x.webp
+2026-08-12 21:04:38.984 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.5: https://img.ltwebstatic.com/gspCenter/goodsImage/2023/2/25/5208399605_1051631/85679BFA5327D2773875433708495B64_thumbnail_900x.jpg
+2026-08-12 21:04:39.308 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 30.7: https://img.ltwebstatic.com/images3_spmp/2024/08/04/0c/17227587176053cc92af1ca110c1592e8fc1989edb_thumbnail_900x.webp
+2026-08-12 21:04:39.628 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 25.9: https://img.ltwebstatic.com/images3_pi/2022/09/02/1662088483df4996077343b9235a47793570572be1_thumbnail_600x.jpg
+2026-08-12 21:04:39.645 | INFO     | vin_collector.pipeline:run_pipeline:101 - [27/88] Procesando: Disco Negro 4074756
+2026-08-12 21:04:40.669 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1953304"  DISCO NEGRO 4074756' -> 10 resultados
+2026-08-12 21:04:41.988 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.0: https://displanic.com/wp-content/uploads/2025/08/RANGE6_NEGRO-1920w-1024x683.jpg
+2026-08-12 21:04:43.808 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.3: https://www.refaccionarianissan.com.mx/fotos/img/40206-1HL0AFP/40206-1HL0AFP_2.JPG
+2026-08-12 21:04:44.359 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.3: https://www.refaccionarianissan.com.mx/fotos/img/40206EL000/40206EL000_2.JPG
+2026-08-12 21:04:44.948 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.8: https://www.refaccionarianissan.com.mx/fotos/img/40206A03G0/40206A03G0_1.JPG
+2026-08-12 21:04:45.008 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://cichile.cl/wp-content/uploads/2023/11/D_NQ_NP_908276-MLC72507674123_102023-F.jpg: [Errno 11001] getaddrinfo failed
+2026-08-12 21:04:45.921 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://reacsacorp.com/wp-content/uploads/2024/11/BRO74376-ALT-1.webp: Client error '441 status code 441' for url 'https://reacsacorp.com/wp-content/uploads/2024/11/BRO74376-ALT-1.webp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/441
+2026-08-12 21:04:46.083 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.8: https://cdnx.jumpseller.com/frenoscenter/image/29008719/resize/540/540?1691076146
+2026-08-12 21:04:46.191 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.3: https://cdnx.jumpseller.com/frenoscenter/image/29008721/resize/540/540?1691076146
+2026-08-12 21:04:46.352 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.3: https://http2.mlstatic.com/D_NQ_NP_757040-MLM48138976801_112021-O.webp
+2026-08-12 21:04:46.463 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://http2.mlstatic.com/D_NQ_NP_733953-MLM74803524236_032024-O.webp
+2026-08-12 21:04:46.497 | INFO     | vin_collector.pipeline:run_pipeline:101 - [28/88] Procesando: Perno 8 X 30 Solo 425 Antigua N0010165
+2026-08-12 21:04:47.651 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1936217"  PERNO 8 X 30 SOLO 425 ANTIGUA N0010165' -> 10 resultados
+2026-08-12 21:04:49.478 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://www.tfasteners.com/wp-content/uploads/2024/11/Stainless-Steel-Single-End-Threaded-Stud-3.jpg
+2026-08-12 21:04:49.798 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://www.tfasteners.com/wp-content/uploads/2024/11/Stainless-Steel-Single-End-Threaded-Stud-5.jpg
+2026-08-12 21:04:50.817 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.6: https://aibo-qa-bucket.s3.amazonaws.com/ae87966b-2187-4c5e-84b1-37be03744534/Perno_hexagonal_m8_x_30_Rational.webp
+2026-08-12 21:04:52.457 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://www.tornillos-express.es/133048-thickbox_default/cuerpo-de-perno-roscado-parcial-inoxidable-a2-cabeza-hexagonal-m8x36-roscado-en-15.jpg
+2026-08-12 21:04:54.723 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.3: https://proivalgroup.com/wp-content/uploads/2022/12/perno-tuerca-y-arandela.jpg
+2026-08-12 21:04:56.387 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.1: https://imdipsa.com.pe/wp-content/uploads/2021/10/Perno-Hexagonal-SAE-Grado-8.png
+2026-08-12 21:04:57.746 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://pernoval.cl/22430-large_default/perno_hexagonal_c_8_8_zincado_m101_50_x_30_prv.jpg
+2026-08-12 21:04:58.670 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.3: https://verkoper.cl/wp-content/uploads/2024/09/18.3-12.9-unc.jpg
+2026-08-12 21:04:59.005 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.3: https://imgv2-2-f.scribdassets.com/img/document/617848388/original/78c99fe6f8/1?v=1
+2026-08-12 21:05:00.001 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 41.3: https://casatornillos.com/wp-content/uploads/2024/08/Ficha-tecnica-medidas-perno-soldable.png
+2026-08-12 21:05:00.053 | INFO     | vin_collector.pipeline:run_pipeline:101 - [29/88] Procesando: Pulverizador Solo 475
+2026-08-12 21:05:00.873 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1935469"  PULVERIZADOR SOLO 475' -> 10 resultados
+2026-08-12 21:05:01.304 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: REP1935469_PULVERIZADOR_SOLO_475.jpg (score=74.7, fuente=cooprinsem.cl)
+2026-08-12 21:05:03.374 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para REP1935469_PULVERIZADOR_SOLO_475.jpg
+2026-08-12 21:05:03.430 | INFO     | vin_collector.pipeline:run_pipeline:101 - [30/88] Procesando: Barra De Pulv 4 Boquillas 4900299
+2026-08-12 21:05:04.089 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1921531"  BARRA DE PULV 4 BOQUILLAS 4900299' -> 10 resultados
+2026-08-12 21:05:06.507 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.2: https://www.fiaba.net/wp-content/uploads/2022/12/Solo-barra-irroratrice-alluminio-4-ugelli-120-cm-4900299-ambientata-1.jpg
+2026-08-12 21:05:06.973 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.5: https://http2.mlstatic.com/D_NQ_NP_828962-CBT87855553742_072025-O.webp
+2026-08-12 21:05:07.301 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.5: https://http2.mlstatic.com/D_NQ_NP_919856-CBT83391795494_042025-O.webp
+2026-08-12 21:05:07.696 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.5: https://http2.mlstatic.com/D_NQ_NP_857550-CBT69849851079_062023-O.webp
+2026-08-12 21:05:07.996 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 53.5: https://http2.mlstatic.com/D_NQ_NP_802150-MLC86014242022_062025-O-lubricacion-con-refrigerante-nebulizado-con-boquilla-de-pulv.webp
+2026-08-12 21:05:09.233 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: https://ibermangueras.com/wp-content/uploads/2021/02/boquillasdob.jpg
+2026-08-12 21:05:13.752 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.5: https://www.swissmex.com/PortalWeb/media/11833718/r2002219031.png
+2026-08-12 21:05:14.177 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.5: https://http2.mlstatic.com/D_NQ_NP_827301-CBT84011612349_042025-O.webp
+2026-08-12 21:05:14.631 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.5: https://ccmercosur.org/wp-content/uploads/2025/03/20220404092018_160414.jpg
+2026-08-12 21:05:16.763 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 31.6: https://es.beacon-auto.com/Uploads/66062fafd4c07.jpg
+2026-08-12 21:05:16.791 | INFO     | vin_collector.pipeline:run_pipeline:101 - [31/88] Procesando: Tobera Cono Negra 4074755
+2026-08-12 21:05:17.549 | INFO     | vin_collector.search_engine:search_product:208 - '"REP1906033"  TOBERA CONO NEGRA 4074755' -> 10 resultados
+2026-08-12 21:05:19.005 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: REP1906033_TOBERA_CONO_NEGRA_4074755.jpg (score=62.5, fuente=www.decohogar.com.ar)
+2026-08-12 21:05:21.919 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para REP1906033_TOBERA_CONO_NEGRA_4074755.jpg
+2026-08-12 21:05:21.960 | INFO     | vin_collector.pipeline:run_pipeline:101 - [32/88] Procesando: Antimaleza 90 1.20x100 Circular Ri
+2026-08-12 21:05:23.050 | INFO     | vin_collector.search_engine:search_product:208 - '"LIN1997665"  ANTIMALEZA 90 1.20X100 CIRCULAR RI' -> 10 resultados
+2026-08-12 21:05:23.529 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://http2.mlstatic.com/D_NQ_NP_656028-MLC52282818343_112022-O.webp
+2026-08-12 21:05:24.833 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.8: https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/133229115_01/w=800,h=800,fit=pad
+2026-08-12 21:05:26.556 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.0: https://www.mallatec.cl/1774-large_default/tela-ground-cover-o-antimaleza-140mx100m.jpg
+2026-08-12 21:05:28.257 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://mallasraschel.cl/wp-content/uploads/2025/08/Antimalezas-1.png
+2026-08-12 21:05:28.840 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.5: https://compralotodo.cl/wp-content/uploads/2025/11/D_923060-MLC98291000796_112025-F.jpg
+2026-08-12 21:05:29.203 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://media.falabella.com/falabellaCL/138924508_01/public
+2026-08-12 21:05:30.544 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.5: https://mallasraschel.cl/wp-content/uploads/2025/08/Antimalezas-1-510x510.webp
+2026-08-12 21:05:32.163 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.5: https://www.dmtecnologias.com.mx/wp-content/uploads/2023/02/MALLA_GROUND_COVER_DM_TECNOLOGIAS_CULIACAN_SINALOA_GUADALAJARA_MEXICO_DM_AGROMALLAS_1-966x602.png
+2026-08-12 21:05:33.052 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.0: https://http2.mlstatic.com/D_NQ_NP_754673-MLC72249728291_102023-O.webp
+2026-08-12 21:05:33.070 | INFO     | vin_collector.pipeline:run_pipeline:101 - [33/88] Procesando: Turba Xl Dsm2 W 280l
+2026-08-12 21:05:33.792 | INFO     | vin_collector.search_engine:search_product:208 - '"LIN1992404"  TURBA XL DSM2 W 280 LT' -> 10 resultados
+2026-08-12 21:05:34.467 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: LIN1992404_TURBA_XL_DSM2_W_280_LT.png (score=61.7, fuente=tienda.agroservicioscapurro.cl)
+2026-08-12 21:05:36.522 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para LIN1992404_TURBA_XL_DSM2_W_280_LT.png
+2026-08-12 21:05:36.562 | INFO     | vin_collector.pipeline:run_pipeline:101 - [34/88] Procesando: Mini Antihelada 1.6x5 Mts It
+2026-08-12 21:05:37.101 | INFO     | vin_collector.search_engine:search_product:208 - '"LIN1980599"  MINI ANTIHELADA 1.6X5 MTS IT' -> 10 resultados
+2026-08-12 21:05:39.778 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 59.5: http://www.mohican.cl/cdn/shop/files/antihelada-f30d6139-9174-47cb-9145-397f69dcc5f3_260cc04b-5615-4b64-ab93-f5109a64d84b.png?v=1713914455
+2026-08-12 21:05:39.974 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.5: https://http2.mlstatic.com/D_NQ_NP_846939-MLC74659013891_022024-O-malla-antihelada-150x15-mts-30g-gruesa-manto-termico.webp
+2026-08-12 21:05:40.054 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 53.0: https://http2.mlstatic.com/D_NQ_NP_838676-MLM73589293375_122023-O.webp
+2026-08-12 21:05:41.807 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.2: https://www.hidroquillon.cl/1536-large_default/malla-antihelada-140-ancho-x-1-mt.jpg
+2026-08-12 21:05:42.339 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.hogarjardin.com.ar/wp-content/uploads/2023/05/Manto-Antihelada-2_1kx1k.jpg: Client error '403 Forbidden' for url 'https://www.hogarjardin.com.ar/wp-content/uploads/2023/05/Manto-Antihelada-2_1kx1k.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:05:42.437 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://http2.mlstatic.com/D_NQ_NP_976941-MLC69465802503_052023-O.webp
+2026-08-12 21:05:42.620 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.hogarjardin.com.ar/wp-content/uploads/2023/05/Manto-Antihelada-6_1kx1k-768x768.jpg: Client error '403 Forbidden' for url 'https://www.hogarjardin.com.ar/wp-content/uploads/2023/05/Manto-Antihelada-6_1kx1k-768x768.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:05:42.788 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.hogarjardin.com.ar/wp-content/uploads/2023/05/Manto-Antihelada-3_1kx1k-700x700.jpg: Client error '403 Forbidden' for url 'https://www.hogarjardin.com.ar/wp-content/uploads/2023/05/Manto-Antihelada-3_1kx1k-700x700.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:05:44.179 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.0: https://img.mrvcdn.com/g/fb/kf/E671309cefd6c4a2fa7fa396e0bf58c647.jpg_720x720q38.jpg?icc=1
+2026-08-12 21:05:45.760 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://cdn.bodanius.com/media/1/b29212002_6-meter-vorstwerend-snoer-consistent-warmth_x.jpg
+2026-08-12 21:05:45.772 | INFO     | vin_collector.pipeline:run_pipeline:101 - [35/88] Procesando: Vela Sombra Cuadrada 4.88x4.88 Arena
+2026-08-12 21:05:46.485 | INFO     | vin_collector.search_engine:search_product:208 - '"LIN1966811"  VELA SOMBRA CUADRADA 4.88X4.88 ARENA' -> 10 resultados
+2026-08-12 21:05:46.622 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://falabella.scene7.com/is/image/Falabella/gsc_127912123_5025318_1?wid=800&hei=800&qlt=70: [Errno 11001] getaddrinfo failed
+2026-08-12 21:05:46.624 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://falabella.scene7.com/is/image/Falabella/gsc_127975255_5048396_1?wid=800&hei=800&qlt=70: [Errno 11001] getaddrinfo failed
+2026-08-12 21:05:47.727 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.idmarket.com/36857-product_main_2x/sombra-cuadrada-diseno-vela-camuflaje-4x4-m-arena.jpg: Client error '403 Forbidden' for url 'https://www.idmarket.com/36857-product_main_2x/sombra-cuadrada-diseno-vela-camuflaje-4x4-m-arena.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:05:49.487 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.5: https://sombratec.cl/426-thickbox_default/vela-sombreadora-malla-raschel-cuadrada-beige-5x5-mts.jpg
+2026-08-12 21:05:49.977 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.2: https://http2.mlstatic.com/D_NQ_NP_766132-MLC71451412629_092023-O.webp
+2026-08-12 21:05:51.406 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.7: https://m.media-amazon.com/images/I/811PMIMpa2L._AC_SL1500_.jpg
+2026-08-12 21:05:51.877 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.6: https://cdn.manomano.com/images/images_products/27421671/P/150470609_1.jpg
+2026-08-12 21:05:53.094 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.2: https://aa.ftbpic.com/product-amz/sunny-guard-toldo-vela-de-sombra-cuadrado-2x2m-hdpe-transpirable/31a4BbW-uPL._AC_SR480,480_.jpg
+2026-08-12 21:05:53.822 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: https://cdn1.vente-unique.com/thumbnails/product/3643/3643636/large/0/42202649.webp
+2026-08-12 21:05:54.522 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.4: https://media.adeo.com/marketplace/MKP/86815343/5bd13dba2f1e8289f6bf62f1c84d4ba7.jpeg
+2026-08-12 21:05:54.577 | INFO     | vin_collector.pipeline:run_pipeline:101 - [36/88] Procesando: Oxicloruro Cobre
+2026-08-12 21:05:55.947 | INFO     | vin_collector.search_engine:search_product:208 - '"LIN1933416"  OXICLORURO COBRE' -> 10 resultados
+2026-08-12 21:06:00.733 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 56.2: https://viveroobrien.cl/wp-content/uploads/2025/08/20250804_171243-scaled.jpg
+2026-08-12 21:06:01.454 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.8: https://cdnx.jumpseller.com/plusagro1/image/69363225/resize/1079/1079?1762357015
+2026-08-12 21:06:03.352 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: LIN1933416_OXICLORURO_COBRE.jpg (score=67.6, fuente=www.agrotiendas.es)
+2026-08-12 21:06:09.332 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para LIN1933416_OXICLORURO_COBRE.jpg
+2026-08-12 21:06:09.392 | INFO     | vin_collector.pipeline:run_pipeline:101 - [37/88] Procesando: Aerosoldescarga Unica 150cc
+2026-08-12 21:06:10.772 | INFO     | vin_collector.search_engine:search_product:208 - '"LIN1922043"  AEROSOLDESCARGA UNICA 150 CC' -> 10 resultados
+2026-08-12 21:06:12.096 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.1: https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_868sg1dsq56qn87t018j8aac18/-FJPG-FWEBP-B800
+2026-08-12 21:06:13.292 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.8: https://d2c5rvsfjg2eub.cloudfront.net/image/208244749100/image_4gvd31i6d9699akf24nkrm7q2s/-FJPG-FWEBP-B800
+2026-08-12 21:06:14.864 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://detqhtv6m6lzl.cloudfront.net/HCLContenido/producto/FullImage/6941057425979-1.jpg
+2026-08-12 21:06:16.281 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BCBFFB0>
+2026-08-12 21:06:16.281 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.5: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3780921737597515931
+2026-08-12 21:06:18.080 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://ae01.alicdn.com/kf/S5983cf6aadef4b01951509784dd1a1e4a.jpg
+2026-08-12 21:06:18.518 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://ae01.alicdn.com/kf/Sb9efd4a8be5e44b18c5272620a66b2838.jpg
+2026-08-12 21:06:19.299 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://ae01.alicdn.com/kf/S24736f75e18b41458556add81dc7e438b.jpg
+2026-08-12 21:06:19.453 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 24.6: https://ae01.alicdn.com/kf/S0f42a78a0f9c464eaac266a87335b65e8/Diesel-Fuel-Injector-Nozzle-DLLA150P2121-DLLA118P2203.jpg
+2026-08-12 21:06:19.747 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 32.8: https://ae01.alicdn.com/kf/Sbe55f7a72f194a18a41a1d6d6a2fea646/Motor-de-bomba-de-aceite-refrigerado-por-aire-para-CG150-CG200-CG-150cc-37-dientes-39.jpg
+2026-08-12 21:06:19.777 | INFO     | vin_collector.pipeline:run_pipeline:101 - [38/88] Procesando: Mosquitero Fibra De Vidrio Blanco 120x29
+2026-08-12 21:06:20.449 | INFO     | vin_collector.search_engine:search_product:208 - '"LIN1903728"  MOSQUITERO FIBRA DE VIDRIO BLANCO 120X29' -> 10 resultados
+2026-08-12 21:06:20.598 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://falabella.scene7.com/is/image/Falabella/gsc_126247080_4432787_1?wid=800&hei=800&qlt=70: [Errno 11001] getaddrinfo failed
+2026-08-12 21:06:22.306 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: LIN1903728_MOSQUITERO_FIBRA_DE_VIDRIO_BLANCO_120X29.png (score=64.5, fuente=www.leroymerlin.es)
+2026-08-12 21:06:30.453 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para LIN1903728_MOSQUITERO_FIBRA_DE_VIDRIO_BLANCO_120X29.png
+2026-08-12 21:06:30.537 | INFO     | vin_collector.pipeline:run_pipeline:101 - [39/88] Procesando: Engeo Litro 70cc x 200
+2026-08-12 21:06:31.454 | INFO     | vin_collector.search_engine:search_product:208 - '"INS359960" ENGEO ENGEO LITRO 70 CC X 200' -> 10 resultados
+2026-08-12 21:06:32.967 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.2: https://agrorepuestoskarina.com/wp-content/uploads/2023/12/ENGEO-X-250-ML-1024x1024.png
+2026-08-12 21:06:33.897 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: http://agrizon.com/cdn/shop/files/ENGEO-100ML-1_1200x1200.jpg?v=1698421660
+2026-08-12 21:06:34.775 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://www.construmole.com/wp-content/uploads/2025/05/Anadir-un-titulo-81-5.png
+2026-08-12 21:06:35.609 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.2: https://agrorepuestoskarina.com/wp-content/uploads/2023/12/ENGEO-X-LT-600x600.png
+2026-08-12 21:06:37.045 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://www.tqc.com.pe/wp-content/uploads/2020/04/Engeo-1-600x744.jpg
+2026-08-12 21:06:39.758 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://laesquinadelcampo.com/public/uploads/all/flkP9gcehOOCBRukQ1EAsbT87kn4UtjZm7iZidqM.jpg
+2026-08-12 21:06:40.756 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://agrotodostore.com/cdn/shop/files/ClipDropImage1705246025733.png?v=1705246059&width=1946
+2026-08-12 21:06:41.139 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.7: https://http2.mlstatic.com/D_NQ_NP_769227-MLV80137477086_112024-O.webp
+2026-08-12 21:06:41.494 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.2: https://http2.mlstatic.com/D_NQ_NP_914853-MLV75883789577_042024-O.webp
+2026-08-12 21:06:41.835 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.2: https://http2.mlstatic.com/D_NQ_NP_970900-MCO86477497751_062025-O.webp
+2026-08-12 21:06:41.850 | INFO     | vin_collector.pipeline:run_pipeline:101 - [40/88] Procesando: Entruss 120grs 50X200
+2026-08-12 21:06:42.469 | INFO     | vin_collector.search_engine:search_product:208 - '"INS325620"  ENTRUSS 120 GR 50X200' -> 10 resultados
+2026-08-12 21:06:44.645 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: INS325620_ENTRUSS_120_GR_50X200.jpg (score=66.0, fuente=www.yasarteknikonline.com)
+2026-08-12 21:06:47.752 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para INS325620_ENTRUSS_120_GR_50X200.jpg
+2026-08-12 21:06:47.788 | INFO     | vin_collector.pipeline:run_pipeline:101 - [41/88] Procesando: Winspray Emulsible X 205 Lts
+2026-08-12 21:06:48.829 | INFO     | vin_collector.search_engine:search_product:208 - '"INS313157"  WINSPRAY EMULSIBLE 205 LT' -> 10 resultados
+2026-08-12 21:06:50.503 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: INS313157_WINSPRAY_EMULSIBLE_205_LT.jpg (score=63.0, fuente=dipagro.cl)
+2026-08-12 21:06:52.760 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para INS313157_WINSPRAY_EMULSIBLE_205_LT.jpg
+2026-08-12 21:06:52.792 | INFO     | vin_collector.pipeline:run_pipeline:101 - [42/88] Procesando: Nuzol Plus St 20lts
+2026-08-12 21:06:54.045 | INFO     | vin_collector.search_engine:search_product:208 - '"HER1281071"  NUZOL PLUS ST 20 LT' -> 10 resultados
+2026-08-12 21:06:55.433 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: HER1281071_NUZOL_PLUS_ST_20_LT.png (score=71.8, fuente=smartcherry.cl)
+2026-08-12 21:06:57.456 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para HER1281071_NUZOL_PLUS_ST_20_LT.png
+2026-08-12 21:06:57.507 | INFO     | vin_collector.pipeline:run_pipeline:101 - [43/88] Procesando: Mcpa X1lts
+2026-08-12 21:06:58.062 | INFO     | vin_collector.search_engine:search_product:208 - '"HER1265061"  MCPA 1 LT' -> 10 resultados
+2026-08-12 21:07:01.076 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://agrohuerto.cl/wp-content/uploads/2021/03/mcpa-750-anasac-envase-1-l.jpg: Client error '404 Not Found' for url 'https://www.agrohuerto.cl/wp-content/uploads/2021/03/mcpa-750-anasac-envase-1-l.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:07:03.424 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: HER1265061_MCPA_1_LT.jpg (score=63.0, fuente=www.kaina24.lt)
+2026-08-12 21:07:05.244 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para HER1265061_MCPA_1_LT.jpg
+2026-08-12 21:07:05.292 | INFO     | vin_collector.pipeline:run_pipeline:101 - [44/88] Procesando: [FALTA NOMBRE REAL - proveedor: Agroconnection] FUN450060
+2026-08-12 21:07:05.930 | INFO     | vin_collector.search_engine:search_product:208 - '"FUN450060"  [FALTA NOMBRE REAL - PROVEEDOR: AGROCONNECTION] FUN450060' -> 10 resultados
+2026-08-12 21:07:07.218 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.7: https://cms.boardmix.com/images/es/articles/examples/diagrama-er-sistema-de-alquiler-de-coches.png
+2026-08-12 21:07:07.927 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.caosyciencia.com/wp-content/uploads/2024/10/nombres-para-camisetas-de-futbol-scaled.jpg: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)
+2026-08-12 21:07:08.618 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.0: https://es.smartsheet.com/sites/default/files/IC-Vendor-Evaluation-10842_EXCEL_ES.png
+2026-08-12 21:07:12.205 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 33.3: https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/A3QwlPM3ynfNEryy/chatgpt-image-9-jun-2025-02_39_26-p.m.-mv0JoDVGNMIVj2y1.png
+2026-08-12 21:07:14.527 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 30.7: https://concepto.de/wp-content/uploads/2022/12/proveedores.jpg
+2026-08-12 21:07:15.643 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 32.9: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTkXJlz9KFVH8TYiUpAOV2ItMHKwPexowtY51I2RwRaIe1RvJS2kjiSElOjrV5hrrbLjpoKN_5COFVa0Qy3xABywsm713MV85i7YRivmviaEbBX1luZgVfM8lAljzQoRl6Qo8nG5ClkLOUtoSTwdC39j2vKza1Uw-eRjvJkO5gNVPBLhMkX3T_gu8HJs4/w1200-h630-p-k-no-nu/Escuela-Mexicana-Falta-de-Capacitación-a-Profesores.jpg
+2026-08-12 21:07:15.799 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://sparrou.net/wp-content/uploads/aguila-real_aquila-chrysaetos-1-768x576.jpg: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)
+2026-08-12 21:07:16.749 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.5: https://www.emprender-facil.com/wp-content/uploads/2024/03/Busqueda-y-seleccion-de-proveedores-1.jpg
+2026-08-12 21:07:16.961 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://es.smartsheet.com/sites/default/files/2024-03/ic-sample-vendor-application-10985-word_es.png
+2026-08-12 21:07:17.205 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://imgv2-1-f.scribdassets.com/img/document/632111395/original/be1adf76a3/1709981834?v=1
+2026-08-12 21:07:17.224 | INFO     | vin_collector.pipeline:run_pipeline:101 - [45/88] Procesando: Keyfeed Micro Mix X 25 Kg
+2026-08-12 21:07:17.788 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL297779"  KEYFEED MICRO MIX X 25 KG' -> 10 resultados
+2026-08-12 21:07:19.780 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.5: https://agriyseedperu.com/inicio/wp-content/uploads/2024/02/Micromix-1280x1702.jpg
+2026-08-12 21:07:20.128 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.3: https://5.imimg.com/data5/SELLER/Default/2024/5/416283278/NY/LI/PO/9393692/mix-micronutrient-fertilizers-1000x1000.png
+2026-08-12 21:07:20.908 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://gigatron.vtexassets.com/arquivos/ids/208129/image65f2ca6e13dca.jpg.jpg?v=639139461522230000
+2026-08-12 21:07:22.681 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://casagro.com.ec/wp-content/uploads/2025/07/Ultrasol-Micro-Fe-XQ58-25-kg.jpg
+2026-08-12 21:07:23.223 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.3: https://www.animalesyhuerto.com/2284-large_default/snack-perros-micros-mix-2kg.jpg
+2026-08-12 21:07:24.303 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.3: https://img.ep-cdn.com/i/500/500/os/osawxdbtnrhcpuvzgyiq/rolls-rocky-keksici-za-pse-micros-mix-2-kg-cene.jpg
+2026-08-12 21:07:44.914 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://mauxanh.vn/images/san-pham/2024/2/19/feed-mix-mxpo25-19022024043340899.png: timed out
+2026-08-12 21:07:45.179 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.8: https://http2.mlstatic.com/D_NQ_NP_964481-MLM91350818275_082025-O.webp
+2026-08-12 21:07:45.264 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.0: https://http2.mlstatic.com/D_NQ_NP_863597-MLM74078013006_012024-O.webp
+2026-08-12 21:07:45.506 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 21.9: https://5.imimg.com/data5/ANDROID/Default/2025/7/532487416/GR/SH/KV/77020462/product-jpeg-500x500.jpg
+2026-08-12 21:07:45.573 | INFO     | vin_collector.pipeline:run_pipeline:101 - [46/88] Procesando: Calmod Pro 2kg
+2026-08-12 21:07:47.059 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL274237"  CALMOD PRO 2 KG' -> 10 resultados
+2026-08-12 21:07:47.416 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://media.licdn.com/dms/image/v2/C4D22AQGpZN5qh8duJA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1627425362700?e=2147483647&v=beta&t=pZA5OIcFXd3hIwRyHS3CsdbCCOcWBdl0IhXiQagalZk: Client error '404 Not Found' for url 'https://media.licdn.com/dms/image/v2/C4D22AQGpZN5qh8duJA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1627425362700?e=2147483647&v=beta&t=pZA5OIcFXd3hIwRyHS3CsdbCCOcWBdl0IhXiQagalZk'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:07:49.205 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: FOL274237_CALMOD_PRO_2_KG.jpg (score=60.2, fuente=www.trendyol.com)
+2026-08-12 21:07:52.827 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para FOL274237_CALMOD_PRO_2_KG.jpg
+2026-08-12 21:07:52.861 | INFO     | vin_collector.pipeline:run_pipeline:101 - [47/88] Procesando: Key Feed Micromix X 1kg
+2026-08-12 21:07:54.122 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL266613"  KEY FEED MICROMIX X 1 KG' -> 10 resultados
+2026-08-12 21:07:57.252 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: FOL266613_KEY_FEED_MICROMIX_X_1_KG.jpg (score=66.0, fuente=www.laboratorioscivet.com)
+2026-08-12 21:08:04.858 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para FOL266613_KEY_FEED_MICROMIX_X_1_KG.jpg
+2026-08-12 21:08:04.896 | INFO     | vin_collector.pipeline:run_pipeline:101 - [48/88] Procesando: Screen Duo X 20 Kg
+2026-08-12 21:08:05.472 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL252696"  SCREEN DUO X 20 KG' -> 10 resultados
+2026-08-12 21:08:06.468 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: FOL252696_SCREEN_DUO_X_20_KG.jpg (score=66.5, fuente=sodimac.falabella.com)
+2026-08-12 21:08:09.796 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para FOL252696_SCREEN_DUO_X_20_KG.jpg
+2026-08-12 21:08:09.843 | INFO     | vin_collector.pipeline:run_pipeline:101 - [49/88] Procesando: Kick Up 00-0-30 Tineta 17lts
+2026-08-12 21:08:10.402 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL243100"  KICK UP 00-0-30 TINETA 17 LT' -> 10 resultados
+2026-08-12 21:08:12.363 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: FOL243100_KICK_UP_00-0-30_TINETA_17_LT.jpg (score=60.2, fuente=www.paris.cl)
+2026-08-12 21:08:15.981 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para FOL243100_KICK_UP_00-0-30_TINETA_17_LT.jpg
+2026-08-12 21:08:16.009 | INFO     | vin_collector.pipeline:run_pipeline:101 - [50/88] Procesando: Ibisoil Ca Flow X20lts
+2026-08-12 21:08:17.025 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL217099"  IBISOIL CA FLOW 20 LT' -> 10 resultados
+2026-08-12 21:08:17.406 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://media.licdn.com/dms/image/v2/D4E22AQEzNOwaFMIwVw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715007746474?e=2147483647&v=beta&t=g0j-Va9qP16n9axmqhLuGx59Ol0dpIENOid6Ei0xDpw: Client error '404 Not Found' for url 'https://media.licdn.com/dms/image/v2/D4E22AQEzNOwaFMIwVw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1715007746474?e=2147483647&v=beta&t=g0j-Va9qP16n9axmqhLuGx59Ol0dpIENOid6Ei0xDpw'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:08:19.338 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: FOL217099_IBISOIL_CA_FLOW_20_LT.jpg (score=68.8, fuente=smartcherry.cl)
+2026-08-12 21:08:22.172 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para FOL217099_IBISOIL_CA_FLOW_20_LT.jpg
+2026-08-12 21:08:22.242 | INFO     | vin_collector.pipeline:run_pipeline:101 - [51/88] Procesando: Photonsun X2lts
+2026-08-12 21:08:23.419 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL205736"  PHOTONSUN 2 LT' -> 10 resultados
+2026-08-12 21:08:24.470 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://photonsenergy.com/wp-content/uploads/2023/02/RiiO-Sun-2.png: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)
+2026-08-12 21:08:27.086 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://assets.katogroup.eu/i/katogroup/PH-MLII-R_01_photon
+2026-08-12 21:08:28.770 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://ideacdn.net/idea/dk/72/myassets/products/895/photon-t10-w5w-ph7029-b2-mavera-otomotiv.jpg?revision=1697143329
+2026-08-12 21:08:30.521 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.3: https://sarinskin.com/cdn/shop/files/MG_6081_1160x.jpg?v=1748236394
+2026-08-12 21:08:32.290 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://photon.education/wp-content/uploads/20220317_PhysicsPackshots_V2.jpeg
+2026-08-12 21:08:34.985 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 34.0: https://www.doryos.com/main-files/uploads/2025/01/Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-VIII-Simposio-Biopsia-Liquida-1-1.jpg
+2026-08-12 21:08:36.698 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.5: https://parduotuve.ugdymomeistrai.lt/cdn/shop/products/Rinkinysfizikai_2_2048x2048.png?v=1672323226
+2026-08-12 21:08:38.182 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 25.1: https://www.liqcreate.com/wp-content/uploads/2023/04/photon-mono-2-vs-photon-4k-1170x668.jpg
+2026-08-12 21:08:39.620 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://catalogo.borgatta.com.mx/cdn/shop/files/PHOTON_20MONO_202_20T_20copia2400px_5df8d3b1-6aef-4b08-a97a-04fe4ce164d4_1024x.jpg?v=1754351472
+2026-08-12 21:08:39.638 | INFO     | vin_collector.pipeline:run_pipeline:101 - [52/88] Procesando: Mezcla Institucional 15-27-12
+2026-08-12 21:08:40.684 | INFO     | vin_collector.search_engine:search_product:208 - '"FER145159"  MEZCLA INSTITUCIONAL 15-27-12' -> 10 resultados
+2026-08-12 21:08:41.492 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://arpon.com.ar/ambiental/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-07-at-12.17.28-1.jpeg
+2026-08-12 21:08:41.988 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://imgv2-1-f.scribdassets.com/img/document/887726980/original/d6f5f0edcc/1?v=1
+2026-08-12 21:08:43.117 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.unijui.edu.br/arquivos/tinyMCE4/comunica1/WhatsApp+Image+2025-10-27+at+15.28.09.jpeg: Client error '404 Not Found' for url 'https://www.unijui.edu.br/arquivos/tinyMCE4/comunica1/WhatsApp+Image+2025-10-27+at+15.28.09.jpeg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:09:03.318 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://importadoramaizo.com/wp-content/uploads/2023/12/27-relajo-la-canasta-grande-768px.jpg: timed out
+2026-08-12 21:09:04.696 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.8: https://www.ceutaldia.com/asset/thumbnail,1280,720,center,center/media/ceutaldia/images/2026/03/12/2026031219435887154.jpg
+2026-08-12 21:09:06.153 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 34.5: https://lh7-us.googleusercontent.com/TDNI9tpuTPP2QEaJ0F4Y8L4J8_q15t9T4iIFbm2sYGZ5HFhycNw0iQweIDjeMG27bRs-X0nEajX-YGAbOCm0FSKX5RP-fTocHljfmDYKOj88ho0v-WpdeGEVfxBN44HXjHfWd9vjtznd_VCzX7QLxQ
+2026-08-12 21:09:09.318 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 38.5: https://images.prom.ua/4183647074_w640_h640_gidroraspredelitel-r40-1-st7d10-1.jpg
+2026-08-12 21:09:12.981 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.0: https://naturjemagro.com/545-large_default/complejo-15-15-15.jpg
+2026-08-12 21:09:13.519 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 18.9: https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/d0/49/es-sc-1698750836-ficha-de-actividad-separar-mezclas_ver_1.jpg
+2026-08-12 21:09:13.539 | INFO     | vin_collector.pipeline:run_pipeline:101 - [53/88] Procesando: Ok X 10kg
+2026-08-12 21:09:14.580 | INFO     | vin_collector.search_engine:search_product:208 - '"FER191769"  OK X 10 KG' -> 10 resultados
+2026-08-12 21:09:16.264 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://shop.simonettionline.com/348-superlarge_default/roundup-ultramax-x-10-kg.jpg
+2026-08-12 21:09:17.462 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://centrum-techniki.pl/63609-large_default/drut-spawalniczy-esab-autrod-ok-1264-08mm-15-kg-sg3.jpg: Client error '403 Forbidden' for url 'https://centrum-techniki.pl/63609-large_default/drut-spawalniczy-esab-autrod-ok-1264-08mm-15-kg-sg3.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:09:19.231 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://app.misaplicaciones.com/img/catalogo/109728_MAYORISTA_PRODUCTOS_WEB.zip__38.jpg
+2026-08-12 21:09:22.129 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://www.viajablog.com/wp-content/uploads/2023/02/Tipos-de-equipaje-con-Ryanair.png
+2026-08-12 21:09:22.709 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://www.sagosa.com.ar/12996-thickbox_default/cao-polietileno-1-2x-10-kg.jpg
+2026-08-12 21:09:43.306 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.zafido.sk/fotky48155/fotos/_vyr_3233H30001_Kravsky_hnoj_30kg.jpg: timed out
+2026-08-12 21:09:44.097 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://ae01.alicdn.com/kf/S81b10394853a4dbcba3b33ef7dcb89acX.jpg
+2026-08-12 21:09:45.294 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://jawad-alsaffar.com/shop/12911-medium_default/yf-18009-road-separator-round-90-x-92-cm-x-10-kg.jpg
+2026-08-12 21:09:45.956 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.5: https://http2.mlstatic.com/D_NQ_NP_611584-MLA73767105382_012024-O.webp
+2026-08-12 21:09:48.439 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.5: https://brait.sk/wp-content/uploads/2024/03/h5.jpg
+2026-08-12 21:09:48.550 | INFO     | vin_collector.pipeline:run_pipeline:101 - [54/88] Procesando: Manta O Capa Imp Azul
+2026-08-12 21:09:49.384 | INFO     | vin_collector.search_engine:search_product:208 - '"SEG1059613"  MANTA O CAPA IMP AZUL' -> 10 resultados
+2026-08-12 21:09:52.847 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEG1059613_MANTA_O_CAPA_IMP_AZUL.png (score=62.5, fuente=www.bluespace.es)
+2026-08-12 21:09:57.998 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEG1059613_MANTA_O_CAPA_IMP_AZUL.png
+2026-08-12 21:09:58.036 | INFO     | vin_collector.pipeline:run_pipeline:101 - [55/88] Procesando: Guante Eagle 1700 Black 9
+2026-08-12 21:09:59.765 | INFO     | vin_collector.search_engine:search_product:208 - '"SEG1052378"  GUANTE EAGLE 1700 BLACK 9' -> 10 resultados
+2026-08-12 21:10:00.430 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://socodima.cl/16400-large_default/guante-eagle-1700-black-9-uso-general.jpg: Client error '404 Not Found' for url 'https://socodima.cl/16400-large_default/guante-eagle-1700-black-9-uso-general.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:10:01.389 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEG1052378_GUANTE_EAGLE_1700_BLACK_9.jpg (score=69.5, fuente=www.apro.cl)
+2026-08-12 21:10:06.713 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEG1052378_GUANTE_EAGLE_1700_BLACK_9.jpg
+2026-08-12 21:10:06.770 | INFO     | vin_collector.pipeline:run_pipeline:101 - [56/88] Procesando: Guante Eagle 1700 Black 9
+2026-08-12 21:10:07.372 | INFO     | vin_collector.search_engine:search_product:208 - '"SEG1041296"  GUANTE EAGLE 1700 BLACK 9' -> 10 resultados
+2026-08-12 21:10:07.764 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://socodima.cl/16400-large_default/guante-eagle-1700-black-9-uso-general.jpg: Client error '404 Not Found' for url 'https://socodima.cl/16400-large_default/guante-eagle-1700-black-9-uso-general.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:10:09.831 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 56.5: https://www.apro.cl/cdn/shop/files/50100000009207-Eagle-Guantes-Seguridad-1700-F4.jpg?v=1761073453&width=1500
+2026-08-12 21:10:10.812 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEG1041296_GUANTE_EAGLE_1700_BLACK_9.jpg (score=60.4, fuente=www.apro.cl)
+2026-08-12 21:10:16.189 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEG1041296_GUANTE_EAGLE_1700_BLACK_9.jpg
+2026-08-12 21:10:16.212 | INFO     | vin_collector.pipeline:run_pipeline:101 - [57/88] Procesando: Calcetin Termico Alaska 5pares
+2026-08-12 21:10:16.928 | INFO     | vin_collector.search_engine:search_product:208 - '"SEG1019164"  CALCETIN TERMICO ALASKA 5PARES' -> 10 resultados
+2026-08-12 21:10:18.120 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://mundsocks.com/1211-large_default/calcetin-termico-auto-calentable-mundsocks-alaska.jpg: Client error '406 Not Acceptable' for url 'https://mundsocks.com/1211-large_default/calcetin-termico-auto-calentable-mundsocks-alaska.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406
+2026-08-12 21:10:19.143 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para http://frovima.com/wp-content/uploads/2020/10/ALASKA-19.jpg: Client error '406 Not Acceptable' for url 'http://frovima.com/wp-content/uploads/2020/10/ALASKA-19.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406
+2026-08-12 21:10:19.388 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para http://frovima.com/wp-content/uploads/2020/10/ALASKA-29.jpg: Client error '406 Not Acceptable' for url 'http://frovima.com/wp-content/uploads/2020/10/ALASKA-29.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406
+2026-08-12 21:10:19.925 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: SEG1019164_CALCETIN_TERMICO_ALASKA_5PARES.png (score=61.5, fuente=www.apro.cl)
+2026-08-12 21:10:21.202 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para SEG1019164_CALCETIN_TERMICO_ALASKA_5PARES.png
+2026-08-12 21:10:21.221 | INFO     | vin_collector.pipeline:run_pipeline:101 - [58/88] Procesando: Mulch Negro 1.40 X20 Um 1000 Mts
+2026-08-12 21:10:22.397 | INFO     | vin_collector.search_engine:search_product:208 - '"ART991580"  MULCH NEGRO 1.40 X20 UM 1000 MTS' -> 10 resultados
+2026-08-12 21:10:23.741 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.1: https://images.implementos.cl/img/1000/PROMAN0002-4.jpg
+2026-08-12 21:10:26.068 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.7: https://riegosema.cl/cdn/shop/files/Foto-malch2.jpg?v=1688160007&width=1946
+2026-08-12 21:10:26.691 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.1: https://http2.mlstatic.com/D_NQ_NP_882008-MLC78951008987_092024-O.webp
+2026-08-12 21:10:27.120 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.6: https://www.baksan.cl/wp-content/uploads/2025/05/1-3.jpg
+2026-08-12 21:10:27.396 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.0: https://cdnx.jumpseller.com/nougarden/image/31191236/resize/640/640?1714669392
+2026-08-12 21:10:29.801 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.5: https://agrocolombiasas.com/wp-content/uploads/2025/03/NEGRO-NEGRO.png
+2026-08-12 21:10:31.814 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.2: https://agropecuariaelproductor.com/wp-content/uploads/2025/02/Green-and-White-Modern-Agriculture-Consultant-Services-Instagram-Post.zip-12.png
+2026-08-12 21:10:32.551 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://cdn.awsli.com.br/2500x2500/1054/1054328/produto/327884030/mulching-preto-preto-perfurado--1--zp5btegq5n.png
+2026-08-12 21:10:33.684 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.0: https://www.reokim.com/image/cache/images/2021-01-29/5f91c8/883a0e04e8eaeb6dc494c333cadedfd6a3bf5e19_105-550x550w.jpg
+2026-08-12 21:10:34.624 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://marshalltrading.bb/media/catalog/product/cache/1030f3c94d9e16fabbb26c0b6b66b556/A/S/ASFTXXXXBLK15XX_YWXZrWsLYHso3OKf.jpg
+2026-08-12 21:10:34.640 | INFO     | vin_collector.pipeline:run_pipeline:101 - [59/88] Procesando: Copla Cinta-Cinta 17 Mm
+2026-08-12 21:10:36.090 | WARNING  | vin_collector.search_engine:search_images:59 - Búsqueda DuckDuckGo falló para '"ART976445"  COPLA CINTA-CINTA 17 MM': No results found.
+2026-08-12 21:10:36.976 | INFO     | vin_collector.search_engine:search_product:208 - '"ART976445"  COPLA CINTA-CINTA 17 MM' -> 10 resultados
+2026-08-12 21:10:37.292 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART976445_COPLA_CINTA-CINTA_17_MM.webp (score=62.8, fuente=articulo.mercadolibre.cl)
+2026-08-12 21:10:37.698 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART976445_COPLA_CINTA-CINTA_17_MM.webp
+2026-08-12 21:10:37.722 | INFO     | vin_collector.pipeline:run_pipeline:101 - [60/88] Procesando: Mulch Negro Plata 1.20x25x1000 X 1000mts
+2026-08-12 21:10:39.078 | INFO     | vin_collector.search_engine:search_product:208 - '"ART974616"  MULCH NEGRO PLATA 1.20X25X1000 X 1000MTS' -> 10 resultados
+2026-08-12 21:10:40.960 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 59.0: https://agrourbano.uy/sites/agrourbano/files/2024-05/NYLON_MULCH_CULTIVOS.jpg
+2026-08-12 21:10:42.391 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART974616_MULCH_NEGRO_PLATA_120X25X1000_X_1000MTS.jpg (score=60.5, fuente=riegosema.cl)
+2026-08-12 21:10:43.199 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART974616_MULCH_NEGRO_PLATA_120X25X1000_X_1000MTS.jpg
+2026-08-12 21:10:43.219 | INFO     | vin_collector.pipeline:run_pipeline:101 - [61/88] Procesando: CaÃ±eria Planza Recuperado 3 Pulgada
+2026-08-12 21:10:44.544 | INFO     | vin_collector.search_engine:search_product:208 - '"ART962075"  CAÃ±ERIA PLANZA RECUPERADO 3 PULGADA' -> 10 resultados
+2026-08-12 21:10:45.786 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://ferosor.cl/525-large_default/tuberia-planza-pn4-pp-1-pulgada-r-100-m.jpg
+2026-08-12 21:10:46.817 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.8: https://www.lapulga.com.do/f/7309275-6.jpg
+2026-08-12 21:10:46.922 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://www.weitzler.cl/bitobee/wp-content/uploads/2022/12/30000400012-1.jpg
+2026-08-12 21:10:48.195 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://images.implementos.cl/img/1000/IRRFIT0025-1.jpg
+2026-08-12 21:10:49.235 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.8: https://proexi.cl/wp-content/uploads/2024/07/caneria.jpg
+2026-08-12 21:10:49.407 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: https://www.weitzler.cl/bitobee/wp-content/uploads/2022/06/2818ab18d7787f073302d1b20e248d2d-247x247.jpg
+2026-08-12 21:10:49.654 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.2: https://www.cobronce.cl/sitio/wp-content/uploads/2022/03/2126002-9-5.jpg
+2026-08-12 21:10:49.881 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: https://conelectric.cl/fotos-productos/300x300/11276-120750.jpeg
+2026-08-12 21:10:50.295 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.3: https://http2.mlstatic.com/D_Q_NP_2X_637883-MLV84923219687_052025-E.webp
+2026-08-12 21:10:50.353 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.2: https://www.cobronce.cl/sitio/wp-content/uploads/2022/03/2223005-0-2.jpg
+2026-08-12 21:10:50.381 | INFO     | vin_collector.pipeline:run_pipeline:101 - [62/88] Procesando: Union Doble Pe 1 1/4"
+2026-08-12 21:10:51.517 | INFO     | vin_collector.search_engine:search_product:208 - '"ART957292"  UNION DOBLE PE 1 1 4"' -> 10 resultados
+2026-08-12 21:10:52.179 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://eltrompo.com.uy/mvdpanel_productos_img/UNION_DOBLE_GALVANIZADA_1_.jpg: Client error '403 Forbidden' for url 'https://eltrompo.com.uy/mvdpanel_productos_img/UNION_DOBLE_GALVANIZADA_1_.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:10:53.090 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.8: https://tienda.dncp.gov.py/8603-large_default/union-doble-de-1-y-1-4-pulgadas-de-acero-galvanizado.jpg
+2026-08-12 21:10:53.292 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://laclarita.com.ar/5182-large_default/union-doble-termofusion-2.jpg: Client error '403 Forbidden' for url 'https://laclarita.com.ar/5182-large_default/union-doble-termofusion-2.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:10:53.301 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://laclarita.com.ar/5170-large_default/union-doble-conica-epoxi-1-1-4.jpg: Client error '403 Forbidden' for url 'https://laclarita.com.ar/5170-large_default/union-doble-conica-epoxi-1-1-4.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:10:53.692 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART957292_UNION_DOBLE_PE_1_1_4.webp (score=64.8, fuente=www.sodimac.cl)
+2026-08-12 21:10:54.922 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART957292_UNION_DOBLE_PE_1_1_4.webp
+2026-08-12 21:10:54.952 | INFO     | vin_collector.pipeline:run_pipeline:101 - [63/88] Procesando: Conector Gromit 16mm Con Goma
+2026-08-12 21:10:56.254 | INFO     | vin_collector.search_engine:search_product:208 - '"ART954019"  CONECTOR GROMIT 16MM CON GOMA' -> 10 resultados
+2026-08-12 21:10:57.418 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART954019_CONECTOR_GROMIT_16MM_CON_GOMA.jpg (score=73.5, fuente=aitec.cl)
+2026-08-12 21:10:58.292 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART954019_CONECTOR_GROMIT_16MM_CON_GOMA.jpg
+2026-08-12 21:10:58.308 | INFO     | vin_collector.pipeline:run_pipeline:101 - [64/88] Procesando: Union Doble Pe 1 1/2"
+2026-08-12 21:10:59.105 | INFO     | vin_collector.search_engine:search_product:208 - '"ART949346"  UNION DOBLE PE 1 1 2"' -> 10 resultados
+2026-08-12 21:11:00.581 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART949346_UNION_DOBLE_PE_1_1_2.jpg (score=72.8, fuente=sodimac.falabella.com)
+2026-08-12 21:11:03.623 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART949346_UNION_DOBLE_PE_1_1_2.jpg
+2026-08-12 21:11:03.652 | INFO     | vin_collector.pipeline:run_pipeline:101 - [65/88] Procesando: Filtro Malla Azud Agl Cod
+2026-08-12 21:11:04.576 | INFO     | vin_collector.search_engine:search_product:208 - '"ART945265"  FILTRO MALLA AZUD AGL COD' -> 10 resultados
+2026-08-12 21:11:06.983 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART945265_FILTRO_MALLA_AZUD_AGL_COD.jpg (score=64.5, fuente=hidroshop.cl)
+2026-08-12 21:11:09.358 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART945265_FILTRO_MALLA_AZUD_AGL_COD.jpg
+2026-08-12 21:11:09.382 | INFO     | vin_collector.pipeline:run_pipeline:101 - [66/88] Procesando: Cinta Irriway 8 Mil Got 10cm 2300mts
+2026-08-12 21:11:10.007 | INFO     | vin_collector.search_engine:search_product:208 - '"ART939918"  CINTA IRRIWAY 8 MIL GOT 10CM 2300MTS' -> 10 resultados
+2026-08-12 21:11:10.894 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART939918_CINTA_IRRIWAY_8_MIL_GOT_10CM_2300MTS.jpg (score=60.5, fuente=croper.com)
+2026-08-12 21:11:12.359 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART939918_CINTA_IRRIWAY_8_MIL_GOT_10CM_2300MTS.jpg
+2026-08-12 21:11:12.410 | INFO     | vin_collector.pipeline:run_pipeline:101 - [67/88] Procesando: Cinta Pvx 6 Mil Got 10
+2026-08-12 21:11:13.158 | INFO     | vin_collector.search_engine:search_product:208 - '"ART933170"  CINTA PVX 6 MIL GOT 10' -> 10 resultados
+2026-08-12 21:11:15.223 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://ortech.com.mx/wp-content/uploads/2023/03/tesa4174_ortech.jpg
+2026-08-12 21:11:17.719 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.zonaferreteria.com/85300-thickbox_default/cinta-aislante-pvc-5091-20mx19mm-t-t-a-v-de-plymouth-caja-de-10-unidades.jpg: Client error '404 Not Found' for url 'https://www.zonaferreteria.com/85300-thickbox_default/cinta-aislante-pvc-5091-20mx19mm-t-t-a-v-de-plymouth-caja-de-10-unidades.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:11:18.730 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: https://coldimport.com.pe/wp-content/uploads/2024/06/cinta-1024x1024.jpg
+2026-08-12 21:11:20.714 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: http://tiendamq.com/cdn/shop/products/976_1-100.jpg?v=1659014803
+2026-08-12 21:11:21.539 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.coelpuebla.com.mx/files/producto/3m-cinta-temflex-165-blanco.jpg: Client error '403 Forbidden' for url 'https://www.coelpuebla.com.mx/files/producto/3m-cinta-temflex-165-blanco.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:11:23.332 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.5: https://tecnoembalaje.com/wp-content/uploads/2023/11/cinta-adhesiva-aislante-diferentes-colores-aislado-blanco.webp
+2026-08-12 21:11:23.964 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.3: https://tecnoembalaje.com/wp-content/uploads/2023/11/cintas-brillantes-colores-alto-angulo.webp
+2026-08-12 21:11:25.250 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://ferrecsa.com.mx/JuquiStore-images/Articulos/263009_0213.webp
+2026-08-12 21:11:27.961 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 41.0: https://ferrecsa.com.mx/JuquiStore-images/Articulos/263002_0213.webp
+2026-08-12 21:11:28.310 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://ferrecsa.com.mx/JuquiStore-images/Articulos/263015_0213.webp
+2026-08-12 21:11:28.345 | INFO     | vin_collector.pipeline:run_pipeline:101 - [68/88] Procesando: Tub Got 50 Integrado 16/35 2lts/H 500mts
+2026-08-12 21:11:29.486 | INFO     | vin_collector.search_engine:search_product:208 - '"ART932855"  TUB GOT 50 INTEGRADO 16 35 2 LT H 500MTS' -> 10 resultados
+2026-08-12 21:11:32.407 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://ibermangueras.com/wp-content/uploads/2021/02/manggotde-9.jpg: Client error '404 Not Found' for url 'https://ibermangueras.com/wp-content/uploads/2021/02/manggotde-9.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:11:34.069 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.5: https://agrogomasonline.com/6134-large_default/tub-c-gotero-autoc-2-2-l-h-a-40-16mm-500mts-.jpg
+2026-08-12 21:11:54.530 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://hola.md/public/products/20/tub-irigare-picurare.jpg: timed out
+2026-08-12 21:12:14.697 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://agrosystems.cl/wp-content/uploads/2023/10/INTEGRADO-16-35-PC-22-3.jpg: timed out
+2026-08-12 21:12:14.827 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://abcbricoten.es/1233-medium_default/tubo-pe-con-gotero-30-ctm-integrado-o-16mm-turbulento.jpg: Client error '403 Forbidden' for url 'https://abcbricoten.es/1233-medium_default/tubo-pe-con-gotero-30-ctm-integrado-o-16mm-turbulento.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:12:35.338 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://macrotubo.es/wp-content/uploads/2026/02/Tuberia-de-Goteo-16-mm-con-Goteros-Integrados-2-lh-Rollo-25-m-2.png: timed out
+2026-08-12 21:12:36.170 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 34.0: https://cdnx.jumpseller.com/riegostore/image/48923359/Tuberia_con_Gotero_Plano_D5.jpg?1716081467
+2026-08-12 21:12:56.186 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://macrotubo.es/wp-content/uploads/2026/02/Tuberia-de-Goteo-16-mm-con-Goteros-Integrados-2-lh-Rollo-25-m.png: timed out
+2026-08-12 21:12:56.697 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.5: https://http2.mlstatic.com/D_NQ_NP_710819-MLA92691228709_092025-O.webp
+2026-08-12 21:12:57.036 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 29.0: https://cdnx.jumpseller.com/riegostore/image/48923498/thumb/540/540?1716081904
+2026-08-12 21:12:57.047 | INFO     | vin_collector.pipeline:run_pipeline:101 - [69/88] Procesando: CaÃ±eria Planza 1/2 Pulg Grueso
+2026-08-12 21:12:58.070 | INFO     | vin_collector.search_engine:search_product:208 - '"ART919185"  CAÃ±ERIA PLANZA 1 2 PULG GRUESO' -> 10 resultados
+2026-08-12 21:12:59.177 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.2: https://images.implementos.cl/img/1000/IRRFIT0020-1.jpg
+2026-08-12 21:12:59.395 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.8: https://cdnx.jumpseller.com/distribuidorafenix/image/66223810/resize/1200/1200?1754440575
+2026-08-12 21:12:59.598 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.3: https://reyver.cl/wp-content/uploads/2025/06/FIPL1911.jpg
+2026-08-12 21:13:00.543 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://ferreteriachacabuco.cl/cdn/shop/products/3166.jpg?v=1696443916&width=1946
+2026-08-12 21:13:00.763 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://reyver.cl/wp-content/uploads/2025/06/FIPL1304.jpg
+2026-08-12 21:13:01.478 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://www.aguaclima.cl/wp-content/uploads/2026/01/157436_1.webp
+2026-08-12 21:13:01.651 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: https://images.implementos.cl/img/250/IRRFIT0021-1.jpg
+2026-08-12 21:13:01.841 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.3: https://www.weitzler.cl/bitobee/wp-content/uploads/2022/12/30000400007-1.jpg
+2026-08-12 21:13:02.274 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.hidrocentro.cl/sanpedro/wp-content/uploads/sites/13/2021/02/caneria_planza_por_goteo.jpg: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)
+2026-08-12 21:13:03.575 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.3: https://tecnojardin.cl/wp-content/uploads/2023/09/PLANZA-1_2_.png
+2026-08-12 21:13:03.588 | INFO     | vin_collector.pipeline:run_pipeline:101 - [70/88] Procesando: CaÃ±eria Planza Recuperado 1 1/2 Pulgada
+2026-08-12 21:13:04.613 | INFO     | vin_collector.search_engine:search_product:208 - '"ART916833"  CAÃ±ERIA PLANZA RECUPERADO 1 1 2 PULGADA' -> 10 resultados
+2026-08-12 21:13:04.865 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.0: https://lh3.googleusercontent.com/-6ZaBfZ-jOFI/TXwnZf8FhPI/AAAAAAAALjU/xCqBg75qR6Q/s1600/Atividade+letra+ccursiva+pontilhada.jpg
+2026-08-12 21:13:05.261 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.0: https://imgv2-1-f.scribdassets.com/img/document/533945712/original/fecad348fd/1658835583?v=1
+2026-08-12 21:13:05.939 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.5: https://i.pinimg.com/736x/e1/bc/90/e1bc9072e3fa4cdbb8880178b5c133e4.jpg
+2026-08-12 21:13:06.386 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 27.3: https://i.ytimg.com/vi/4qbGUTPHYh0/maxresdefault.jpg
+2026-08-12 21:13:07.903 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 29.4: https://mundoindica.com/wp-content/uploads/2024/07/Atividade-letra-cursiva-C-maiuscula.jpg
+2026-08-12 21:13:09.187 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 30.3: https://mundoindica.com/wp-content/uploads/2024/07/Atividade-letra-cursiva-c-minuscula.jpg
+2026-08-12 21:13:09.689 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.3: https://imgv2-2-f.scribdassets.com/img/document/955985301/original/ba60abb5a3/1?v=1
+2026-08-12 21:13:09.864 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 36.3: https://i.pinimg.com/736x/5e/07/e2/5e07e2129bcf34b37da5b921235cb894.jpg
+2026-08-12 21:13:14.267 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.5: https://danieducar.com.br/wp-content/uploads/2021/08/Atividades-Letra-Cursiva-3-ano-2.jpg
+2026-08-12 21:13:14.545 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 20.0: https://imgv2-2-f.scribdassets.com/img/document/741969699/149x198/8b45a1fde5/1761003300?v=1
+2026-08-12 21:13:14.554 | INFO     | vin_collector.pipeline:run_pipeline:101 - [71/88] Procesando: Conector Cinta Pe 17 X16 Mm Crc Azul
+2026-08-12 21:13:15.582 | INFO     | vin_collector.search_engine:search_product:208 - '"ART914101"  CONECTOR CINTA PE 17 X16 MM CRC AZUL' -> 10 resultados
+2026-08-12 21:13:17.054 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ART914101_CONECTOR_CINTA_PE_17_X16_MM_CRC_AZUL.jpg (score=60.2, fuente=riego-tecnificado-peru.com)
+2026-08-12 21:13:19.306 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ART914101_CONECTOR_CINTA_PE_17_X16_MM_CRC_AZUL.jpg
+2026-08-12 21:13:19.337 | INFO     | vin_collector.pipeline:run_pipeline:101 - [72/88] Procesando: CaÃ±eria Planza Recuperado 1 1/4 Pulgada
+2026-08-12 21:13:19.919 | INFO     | vin_collector.search_engine:search_product:208 - '"ART911622"  CAÃ±ERIA PLANZA RECUPERADO 1 1 4 PULGADA' -> 10 resultados
+2026-08-12 21:13:20.102 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://www.weitzler.cl/bitobee/wp-content/uploads/2022/12/30000400010-1.jpg
+2026-08-12 21:13:20.147 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.0: https://www.weitzler.cl/bitobee/wp-content/uploads/2022/11/13002100016-510x510.jpg
+2026-08-12 21:13:20.296 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.2: https://http2.mlstatic.com/D_NQ_NP_676566-MLM85984540683_062025-O-manguera-poliducto-agricola-1-12-pulgada-100-mts-recuperado.webp
+2026-08-12 21:13:21.343 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.3: https://reyver.cl/product/caneria-planza-1-1-4/FIPL1910.jpg
+2026-08-12 21:13:22.516 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://ferosor.cl/524-large_default/tuberia-planza-pn4-pp-1-14-pulgadas-r-100-m.jpg
+2026-08-12 21:13:22.643 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.3: https://reyver.cl/wp-content/uploads/2025/06/FIPL1304.jpg
+2026-08-12 21:13:22.692 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.3: https://http2.mlstatic.com/D_NQ_NP_780737-MLC84354546313_052025-O.webp
+2026-08-12 21:13:22.740 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4C7F1A80>
+2026-08-12 21:13:22.740 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 36.2: https://www.cobronce.cl/sitio/wp-content/uploads/2022/03/2126002-9-6.jpg
+2026-08-12 21:13:23.519 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4C7F24D0>
+2026-08-12 21:13:23.519 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.3: https://tecnojardin.cl/wp-content/uploads/2023/09/PLANZA-1_2_.png
+2026-08-12 21:13:23.637 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.0: https://media.falabella.com/falabellaCL/145014978_01/public
+2026-08-12 21:13:23.646 | INFO     | vin_collector.pipeline:run_pipeline:101 - [73/88] Procesando: Cinta Flowcontrol 6mil Got 15
+2026-08-12 21:13:24.493 | INFO     | vin_collector.search_engine:search_product:208 - '"ART906372"  CINTA FLOWCONTROL 6MIL GOT 15' -> 10 resultados
+2026-08-12 21:13:25.374 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BCBF4C0>
+2026-08-12 21:13:25.374 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://raasagua.com/wp-content/uploads/2024/08/CINTA-DE-GOTEO-1.png
+2026-08-12 21:13:26.175 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.5: https://ae01.alicdn.com/kf/HTB1uH_EKbuWBuNjSszgq6z8jVXaa/Conector-de-derivaci-n-de-cinta-de-goteo-azul-de-16-mm-de-di-metro-exterior.jpg
+2026-08-12 21:13:27.003 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.5: https://www.waderain.com/media/catalog/product/cache/422183e0d99d1933c6a49566132b398d/e/a/eafc5060850.jpg
+2026-08-12 21:13:28.513 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://cdn.shopify.com/s/files/1/0866/6811/6281/files/12133_13926000-flow-control_0_CDNwebp.webp?v=1758086373
+2026-08-12 21:13:28.755 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 38.0: https://cdnx.jumpseller.com/eita/image/67619491/resize/1200/1200?1758036050
+2026-08-12 21:13:29.104 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://vetocl.vtexassets.com/arquivos/ids/187758-1000-1000?v=638249573556770000&width=1000&height=1000&aspect=true
+2026-08-12 21:13:29.232 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://vetocl.vtexassets.com/arquivos/ids/187760-1000-1000?v=638249613835430000&width=1000&height=1000&aspect=true
+2026-08-12 21:13:29.305 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.5: https://http2.mlstatic.com/D_NQ_NP_677729-MLU73785219260_012024-O.webp
+2026-08-12 21:13:29.315 | INFO     | vin_collector.pipeline:run_pipeline:101 - [74/88] Procesando: Break 50X200
+2026-08-12 21:13:29.955 | INFO     | vin_collector.search_engine:search_product:208 - '"ADH860072"  BREAK 50X200' -> 10 resultados
+2026-08-12 21:13:31.071 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ADH860072_BREAK_50X200.jpg (score=60.2, fuente=www.yasarteknikonline.com)
+2026-08-12 21:13:33.321 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ADH860072_BREAK_50X200.jpg
+2026-08-12 21:13:33.338 | INFO     | vin_collector.pipeline:run_pipeline:101 - [75/88] Procesando: Dash Hc 500CCX100
+2026-08-12 21:13:34.278 | INFO     | vin_collector.search_engine:search_product:208 - '"ADH815250"  DASH HC 500CCX100' -> 10 resultados
+2026-08-12 21:13:36.098 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://bat-agrar.pl/wp-content/uploads/2023/11/dash2.webp
+2026-08-12 21:13:38.218 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: https://agroshopping.gr/wp-content/uploads/2024/01/DASH-HC.png
+2026-08-12 21:13:40.158 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.0: https://filebroker-cdn.lazada.co.th/kf/S5640a5394219492b8c24f0fc5f309ed3E.jpg
+2026-08-12 21:13:42.077 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.2: https://asmcropprotection.com/wp-content/uploads/2023/08/Dash-HC_58026170_ES_720x720_webp-removebg-preview.png
+2026-08-12 21:13:42.977 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 43.6: https://img.lazcdn.com/g/p/c96ee4f19b17aee394d8946fa02cc2fb.jpg_720x720q80.jpg
+2026-08-12 21:13:43.296 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://fito-farm.ro/wp-content/uploads/2023/04/DASH-HC-5-L-600x600.jpg: Client error '403 Forbidden' for url 'https://fito-farm.ro/wp-content/uploads/2023/04/DASH-HC-5-L-600x600.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:13:43.733 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.2: https://img.lazcdn.com/g/p/53644e25ea3bb15e3a82ab47dd9ce2de.jpg_720x720q80.jpg
+2026-08-12 21:13:44.255 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 34.3: https://ae01.alicdn.com/kf/S320bda95da68491083c43c052adc2f0e5.jpg
+2026-08-12 21:14:42.776 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 32.5: https://th-live-01.slatic.net/p/1d2cc770027d35f1f98adb4b35d7d042.jpg
+2026-08-12 21:14:44.349 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 32.5: https://shr-motors.ro/image/cache/catalog/Piese-cf-moto/componente-electrice-cf-moto-500/25-cdi-cf-moto-500-500-a1-600x315w.jpg
+2026-08-12 21:14:44.368 | INFO     | vin_collector.pipeline:run_pipeline:101 - [76/88] Procesando: Agrimek
+2026-08-12 21:14:45.095 | INFO     | vin_collector.search_engine:search_product:208 - '"ACA787991"  AGRIMEK' -> 10 resultados
+2026-08-12 21:14:47.378 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.0: https://filebroker-cdn.lazada.com.ph/kf/Sf5a589a4f7dd457b8af8d22c9cf428aaQ.jpg
+2026-08-12 21:14:48.592 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.9: https://filebroker-cdn.lazada.com.ph/kf/S1edd965189264556b35e3a2ecb699e2a6.jpg
+2026-08-12 21:14:50.015 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.4: https://down-ph.img.susercontent.com/file/ph-11134207-7r98q-lzsmqmdcd0jif8
+2026-08-12 21:14:50.509 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 53.5: https://down-ph.img.susercontent.com/file/ph-11134207-7ra0i-mcxu5hszghlk2d
+2026-08-12 21:14:50.840 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.0: https://5.imimg.com/data5/ECOM/Default/2024/2/390103691/KT/SA/SQ/59373149/agrimek-500x500.png
+2026-08-12 21:14:53.093 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.0: https://lzd-img-global.slatic.net/g/ff/kf/Sdbdb33de715141cda29cdd6ecf4d81f3F.jpg_720x720q80.jpg
+2026-08-12 21:14:53.584 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.0: https://lzd-img-global.slatic.net/g/ff/kf/Sbbb89d6b9c2c4123af56b1173c47aa51O.jpg_720x720q80.jpg
+2026-08-12 21:14:54.048 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.5: https://img.lazcdn.com/g/p/152c4ee5a12cb7329aea2ed412f907e8.jpg_720x720q80.jpg
+2026-08-12 21:14:54.165 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.5: https://img.lazcdn.com/g/p/0f79bf203f34c9625ad06cd8bc42730a.jpg_720x720q80.jpg
+2026-08-12 21:14:55.083 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.0: https://down-ph.img.susercontent.com/file/eae217061431d153f409d6782706cd5a_tn
+2026-08-12 21:14:55.089 | INFO     | vin_collector.pipeline:run_pipeline:101 - [77/88] Procesando: Acaban 050 Sc X 1 Lt
+2026-08-12 21:14:55.986 | INFO     | vin_collector.search_engine:search_product:208 - '"ACA784343"  ACABAN 050 SC 1 LT' -> 10 resultados
+2026-08-12 21:14:56.718 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ACA784343_ACABAN_050_SC_1_LT.jpg (score=75.8, fuente=www.copeval.cl)
+2026-08-12 21:14:58.318 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ACA784343_ACABAN_050_SC_1_LT.jpg
+2026-08-12 21:14:58.388 | INFO     | vin_collector.pipeline:run_pipeline:101 - [78/88] Procesando: Bifentrin
+2026-08-12 21:14:58.947 | INFO     | vin_collector.search_engine:search_product:208 - '"ACA710259"  BIFENTRIN' -> 10 resultados
+2026-08-12 21:15:01.406 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: ACA710259_BIFENTRIN.jpg (score=63.0, fuente=mygarden-es.decorexpro.com)
+2026-08-12 21:15:03.169 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para ACA710259_BIFENTRIN.jpg
+2026-08-12 21:15:03.217 | INFO     | vin_collector.pipeline:run_pipeline:101 - [79/88] Procesando: Rescuetool de 111 Mm
+2026-08-12 21:15:03.948 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.8623.MWN"' -> 10 resultados
+2026-08-12 21:15:07.238 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 56.0: https://images-knifestock-cdn.rshop.sk/default/products/cea51f7fef1dff0905b89d46bd729493.jpg
+2026-08-12 21:15:08.772 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://www.efeav.com.tr/idea/al/14/myassets/products/008/5787837.jpg?revision=1773727886
+2026-08-12 21:15:29.012 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.noze-pok.cz/foto/velke/0.8623.MWN.jpg: timed out
+2026-08-12 21:15:29.803 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.7: https://http2.mlstatic.com/D_NQ_NP_969025-MLM25375153550_022017-O.webp
+2026-08-12 21:15:33.094 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.0: https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0410/users/42ddd7dc06ee66748a3eb0f4a4db0dadb36edf9c/i-img1200x1200-1697264344nmhnid7.jpg
+2026-08-12 21:16:13.475 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://ir.ozone.ru/s3/multimedia-s/c1000/6662157508.jpg: timed out
+2026-08-12 21:16:34.437 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.tifantex.sk/fotky39121/fotos/_vyrp12_6212victorinox-noz-rescue-tool-0-8623-mwn-3.jpg: timed out
+2026-08-12 21:17:14.467 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://ir.ozone.ru/s3/multimedia-1-5/c600/8282912333.jpg: timed out
+2026-08-12 21:17:14.904 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.kolayav.com/idea/dt/27/myassets/products/112/victorinox-0-8623-mwn-rescue-tool-hayat-kurtarma-cakisi-1-jpg.jpeg?revision=1720815328: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)
+2026-08-12 21:17:15.582 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 27.5: https://img.lazcdn.com/g/p/daa57deb2a73da699f6b8098a6187a0c.jpg_720x720q80.jpg
+2026-08-12 21:17:15.596 | INFO     | vin_collector.pipeline:run_pipeline:101 - [80/88] Procesando: Gorro Golf negro
+2026-08-12 21:17:16.264 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV611023"  GORRO GOLF NEGRO' -> 10 resultados
+2026-08-12 21:17:16.903 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV611023_GORRO_GOLF_NEGRO.jpg (score=74.7, fuente=www.textilshop.com.uy)
+2026-08-12 21:17:18.630 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV611023_GORRO_GOLF_NEGRO.jpg
+2026-08-12 21:17:18.671 | INFO     | vin_collector.pipeline:run_pipeline:101 - [81/88] Procesando: Estuche Cuero C/cordon Dark Ilusion
+2026-08-12 21:17:19.171 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV406701"  ESTUCHE CUERO C CORDON DARK ILUSION' -> 10 resultados
+2026-08-12 21:17:23.736 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.8: https://mundodelganadero.com/cdn/shop/files/498D9EDA-473A-427F-8DE2-C0263A7672E6_2048x2048.heic?v=1703010059
+2026-08-12 21:17:24.144 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 50.2: https://cdnx.jumpseller.com/tratur/image/75113695/estuche_negro_2.png?1774555819
+2026-08-12 21:17:25.774 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.6: https://trapillo.cl/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-17-at-09.15.37-7-scaled.jpeg
+2026-08-12 21:18:26.722 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.2: https://saborencaja.cl/wp-content/uploads/2024/10/Lapiz-Estuche-2048x2048.jpg
+2026-08-12 21:18:27.430 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.7: https://m.media-amazon.com/images/I/81eZc+wARuL._AC_SL1500_.jpg
+2026-08-12 21:18:28.498 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://tiendasemporio.com/wp-content/uploads/2026/02/Formato-pagina-2026-02-10T103938.076.png: Client error '403 Forbidden' for url 'https://tiendasemporio.com/wp-content/uploads/2026/02/Formato-pagina-2026-02-10T103938.076.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:18:29.604 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://lamarquesa.cl/wp-content/uploads/2024/10/estuche-lapices.jpg
+2026-08-12 21:18:30.782 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://lamarquesa.cl/wp-content/uploads/2022/06/estuches_cuero.jpg
+2026-08-12 21:18:32.153 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 38.0: https://cueroporaatyra.com.py/wp-content/uploads/2024/04/img_2212-2-700x875.jpeg
+2026-08-12 21:18:32.170 | INFO     | vin_collector.pipeline:run_pipeline:101 - [82/88] Procesando: Estu 14 PIEL CEFE ADHESIVO
+2026-08-12 21:18:33.260 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV0543"  ESTU 14 PIEL CEFE ADHESIVO' -> 10 resultados
+2026-08-12 21:18:33.406 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4C7F1350>
+2026-08-12 21:18:33.406 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://5tavenida.cl/wp-content/uploads/2026/04/image-83-scaled.jpeg
+2026-08-12 21:18:35.135 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 59.5: https://www.ifarmaonline.es/335427-thickbox_default/galenotirastelaapositoadhesivocolorpiel4tamanos14u.jpg
+2026-08-12 21:18:35.785 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.0: https://m.media-amazon.com/images/I/71LM-+y1wmL._AC_UF894,1000_QL80_.jpg
+2026-08-12 21:18:35.811 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BCBD0D0>
+2026-08-12 21:18:35.811 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://5tavenida.cl/wp-content/uploads/2026/04/image-81-scaled.jpeg
+2026-08-12 21:18:35.828 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BCBE570>
+2026-08-12 21:18:35.828 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://5tavenida.cl/wp-content/uploads/2026/04/image-84-scaled.jpeg
+2026-08-12 21:18:37.522 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://agmatattoo.com/wp-content/uploads/2025/08/10-1.jpg
+2026-08-12 21:18:37.881 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.5: https://ferreteriadab.cl/media/catalog/product/v/t/vt4-0822-l_01_victorinox_ft3jh6zjarlnjlq1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700
+2026-08-12 21:18:38.187 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 51.0: https://i.pinimg.com/originals/83/73/8f/83738fe25453cb630dce166493dc3a3b.jpg
+2026-08-12 21:18:38.964 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.0: https://proveedoramedical.com/wp-content/uploads/2023/07/Cinta-Adhesiva-Micropore-Piel-2.5cmx9.14m-3M-15331-3-600x600.webp
+2026-08-12 21:18:39.487 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 30.2: https://media.fashionnetwork.com/cdn-cgi/image/fit=contain,width=1000,height=1000,format=auto/m/cf0b/648f/d5a9/a703/d2fb/85af/8a13/65f0/5200/d26d/d26d.png
+2026-08-12 21:18:39.505 | INFO     | vin_collector.pipeline:run_pipeline:101 - [83/88] Procesando: Cuchillo Verd dent punt Mango Ny Neg 8CM
+2026-08-12 21:18:40.624 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.6763.3"' -> 10 resultados
+2026-08-12 21:18:43.135 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.5: https://imageengine.victorinox.com/transform/fb30d8c3-5e16-4358-82cb-a553e2dc2d35/SAK_0_6603_3__S1-tif
+2026-08-12 21:18:43.436 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 46.5: https://m.media-amazon.com/images/I/61j4iZMDIFL._AC_SL1500_.jpg
+2026-08-12 21:18:44.669 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://www.lizard.lt/images/detailed/22/image_2023-12-29_142004553.png
+2026-08-12 21:18:47.730 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://assets.katogroup.eu/i/katogroup/VT0-6603-3_03_victorinox
+2026-08-12 21:18:49.121 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BCBD0D0>
+2026-08-12 21:18:49.121 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 34.5: https://www.kristalgold.com/portal/foto/1663230884Victorinox+kuhinjski+nož+6_7633.jpg
+2026-08-12 21:18:50.436 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://down-th.img.susercontent.com/file/903e45cc9ebbcce97c7b036a2f68abbd
+2026-08-12 21:18:51.044 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://assets.katogroup.eu/i/katogroup/VT0-9663-MC_06_victorinox-rangergrip-78-vt0-9663-mc-d6
+2026-08-12 21:18:51.150 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.himalaya.ro/media/catalog/product/cache/ed28ed439e422ef86e1738fbcb8c6bfb/4/1/41_8_7.jpg: Client error '403 Forbidden' for url 'https://www.himalaya.ro/media/catalog/product/cache/ed28ed439e422ef86e1738fbcb8c6bfb/4/1/41_8_7.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:19:11.162 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.maxairi.gr/2996-home_default/μαχαιρι-κουζινας-με-δοντι-victorinox-67833.jpg: timed out
+2026-08-12 21:19:12.136 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 34.3: https://img.lazcdn.com/g/p/54b1da57d8cc6eb864d6cf4cad5e363b.jpg_720x720q80.jpg
+2026-08-12 21:19:12.152 | INFO     | vin_collector.pipeline:run_pipeline:101 - [84/88] Procesando: Cuchillo Verd Hoj Rect Mang 8 Cm Negro
+2026-08-12 21:19:12.719 | INFO     | vin_collector.search_engine:search_product:208 - 'Victorinox "0.6740.3"' -> 10 resultados
+2026-08-12 21:19:14.185 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://assets.katogroup.eu/i/katogroup/VT6-7403-2_01_victorinox
+2026-08-12 21:19:15.864 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://assets.katogroup.eu/i/katogroup/VT6-7401-2C1_01_victorinox
+2026-08-12 21:19:17.770 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://assets.katogroup.eu/i/katogroup/VT0-6603-3_04_victorinox
+2026-08-12 21:19:21.642 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 45.5: https://assets.katogroup.eu/i/katogroup/VT0-6203-87_07_victorinox
+2026-08-12 21:19:22.581 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 48.5: https://assets.katogroup.eu/i/katogroup/VT6-7634-C1_01_victorinox
+2026-08-12 21:19:23.101 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://images.tcdn.com.br/img/img_prod/1096000/relogio_victorinox_swiss_army_242040_quartz_144641279_1_90cd7bd69d900ca30d7dd29e14e434d4.jpg
+2026-08-12 21:19:23.776 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 29.8: https://img.lazcdn.com/g/ff/kf/S42979e8394714334adceef63f7170124y.jpg_720x720q80.jpg
+2026-08-12 21:19:25.143 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 30.5: https://img.ricardostatic.ch/images/601a45f0-3750-47af-860b-17ace524f518/t_1000x750/victorinox-executive-black-74-mm-neu-in-box-066033
+2026-08-12 21:19:27.475 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 36.3: https://www.planetarelojes.com/116099-tm_thickbox_default/victorinox-swiss-army-v242047.jpg
+2026-08-12 21:19:30.359 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 25.5: https://www.swisstimehouse.com/img/p/1/8/3/4/9/2/183492.jpg
+2026-08-12 21:19:30.373 | INFO     | vin_collector.pipeline:run_pipeline:101 - [85/88] Procesando: Afilador De Cuchillos Gris/negro
+2026-08-12 21:19:31.647 | INFO     | vin_collector.search_engine:search_product:208 - '"NAV787146"  AFILADOR DE CUCHILLOS GRIS NEGRO' -> 10 resultados
+2026-08-12 21:19:34.255 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV787146_AFILADOR_DE_CUCHILLOS_GRIS_NEGRO.png (score=73.5, fuente=torke.com.mx)
+2026-08-12 21:19:37.083 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV787146_AFILADOR_DE_CUCHILLOS_GRIS_NEGRO.png
+2026-08-12 21:19:37.127 | INFO     | vin_collector.pipeline:run_pipeline:101 - [86/88] Procesando: Arco 2.4D x 20 L
+2026-08-12 21:19:37.874 | INFO     | vin_collector.search_engine:search_product:208 - '"HER1255619"  ARCO 2.4D X 20 LT' -> 10 resultados
+2026-08-12 21:19:41.083 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://agrohuerto.cl/wp-content/uploads/2020/12/Herbicida-ARCO250CC.jpg: Client error '404 Not Found' for url 'https://www.agrohuerto.cl/wp-content/uploads/2020/12/Herbicida-ARCO250CC.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:19:41.293 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4C7F2750>
+2026-08-12 21:19:41.298 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.2: https://cooprinsem.cl/4271-superlarge_default/arco-24-d-480-sl-20-lts.jpg
+2026-08-12 21:19:42.432 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://www.conceptodental.com.ar/thumb/00DTC-S141-1925L24697arco-acero-141-1925l_800x800.jpg
+2026-08-12 21:19:46.507 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://naber.com/media/9e/dd/28/1776671421/5011267_P1.jpg?ts=1776671421: Client error '404 Not Found' for url 'https://naber.com/media/9e/dd/28/1776671421/5011267_P1.jpg?ts=1776671421'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-12 21:19:46.909 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://www.conceptodental.com.ar/thumb/MEGA-MOD-AC-R-1622-SUP00005acti-016x022-sup_800x800.jpg
+2026-08-12 21:19:48.921 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 56.0: https://www.identaldepot.com/web/image/product.template/35291/image_1024?unique=0bc9c02
+2026-08-12 21:19:49.815 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4C81D490>
+2026-08-12 21:19:49.815 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 41.2: https://www.semilleriasanalfonso.cl/wp-content/uploads/2020/09/arco.jpg
+2026-08-12 21:19:50.182 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://copargo.cl/wp-content/uploads/2025/02/e39557b2-7bb9-4bbd-b304-8aa36a378893-herbicida-arco-24-d-480-sl-1-litro-302x302.png: Client error '403 Forbidden' for url 'https://copargo.cl/wp-content/uploads/2025/02/e39557b2-7bb9-4bbd-b304-8aa36a378893-herbicida-arco-24-d-480-sl-1-litro-302x302.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 21:19:51.348 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.8: https://s2.studylib.es/store/data/002759721_1-3899820804d4ddc03fb43daae872644b-300x300.png
+2026-08-12 21:19:51.376 | INFO     | vin_collector.pipeline:run_pipeline:101 - [87/88] Procesando: Ultrasol Fruta x 25 kg
+2026-08-12 21:19:52.179 | INFO     | vin_collector.search_engine:search_product:208 - '"FER121994"  ULTRASOL FRUTA X 25 KG' -> 10 resultados
+2026-08-12 21:19:53.946 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.7: https://images.implementos.cl/img/1000/SOQPOT0002-1.jpg
+2026-08-12 21:19:54.729 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.2: https://agrizon.com/cdn/shop/files/Ultrasol-solucion-nutritiva-25-kg...jpg?v=1698675732
+2026-08-12 21:19:55.322 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.7: https://images.implementos.cl/img/1000/SOQNIT0001-1.jpg
+2026-08-12 21:19:56.372 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.2: https://sqmc.cl/wp-content/uploads/2022/06/2001549-Ultrasol-Tomate-soluble-1024x800.jpg
+2026-08-12 21:19:57.499 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.2: https://www.ftepeyac.com.mx/wp-content/uploads/2021/06/Imagen-ultrasol-banano.jpg
+2026-08-12 21:19:57.679 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 47.2: https://images.implementos.cl/img/250/SOQFOS0003-1.jpg
+2026-08-12 21:19:58.695 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 35.7: https://www.sqmnutrition.com/_next/image?url=https://cms.sqmnutrition.com/wp-content/uploads/2024/11/Saco-25Kg-CORP-Ultrasoline-Berries-MX-3D-3-238x300.png&w=640&q=75
+2026-08-12 21:19:59.496 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.2: https://http2.mlstatic.com/D_NQ_NP_926550-MLM77335661942_072024-O.webp
+2026-08-12 21:20:00.435 | DEBUG    | vin_collector.ranking:refine_score_with_bytes:108 - No se pudo abrir la imagen para refinar puntaje: cannot identify image file <_io.BytesIO object at 0x0000026E4BCBCF90>
+2026-08-12 21:20:00.437 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 36.2: https://casagro.com.ec/wp-content/uploads/2025/07/Ultrasol-Produccion-25-kg.-1_360x.webp
+2026-08-12 21:20:02.362 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 44.2: http://agrizon.com/cdn/shop/files/Ultrasol-chile-25-kg._1200x1200.png?v=1698675726
+2026-08-12 21:20:02.374 | INFO     | vin_collector.pipeline:run_pipeline:101 - [88/88] Procesando: Terra Radicular x 20 L
+2026-08-12 21:20:03.707 | INFO     | vin_collector.search_engine:search_product:208 - '"FOL240476"  TERRA RADICULAR X 20 LT' -> 10 resultados
+2026-08-12 21:20:06.979 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: FOL240476_TERRA_RADICULAR_X_20_LT.jpg (score=68.8, fuente=osadkowski.pl)
+2026-08-12 21:20:12.398 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para FOL240476_TERRA_RADICULAR_X_20_LT.jpg
+2026-08-12 21:20:12.444 | INFO     | vin_collector.pipeline:run_pipeline:114 - Pipeline finalizado: 45/88 encontrados (51.1% cobertura)
+2026-08-12 21:20:12.499 | INFO     | vin_collector.report:generate_report:156 - Reporte generado: reporte.html, catalogo.csv

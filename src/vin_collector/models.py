@@ -32,6 +32,7 @@ class Product(BaseModel):
 
 class ImageCandidate(BaseModel):
     url: str
+    title: str = ""
     source_url: str = ""
     source_domain: str = ""
     query_used: str = ""

@@ -9,18 +9,46 @@ producto centrado, ausencia de marca de agua aproximada).
 from __future__ import annotations
 
 import io
+import re
+import unicodedata
 
 from loguru import logger
 
-from .models import ImageCandidate
+from .models import ImageCandidate, Product
 
 WEIGHTS = {
-    "resolucion": 30,
-    "prioridad_dominio": 25,
-    "fondo_blanco": 20,
-    "centrado": 15,
-    "sin_marca_agua": 10,
+    "relevancia": 35,
+    "resolucion": 20,
+    "prioridad_dominio": 20,
+    "fondo_blanco": 10,
+    "centrado": 10,
+    "sin_marca_agua": 5,
 }
+
+_GENERIC_TOKENS = {
+    "para", "por", "con", "sin", "del", "las", "los", "una", "uno", "producto",
+    "agricola", "agricultura", "chile", "comprar", "venta", "tienda", "imagen", "foto",
+    "litro", "litros", "unidad", "unidades", "saco", "bidon", "tambor",
+}
+
+
+def _tokens(value: str) -> set[str]:
+    value = unicodedata.normalize("NFD", value or "")
+    value = "".join(char for char in value if unicodedata.category(char) != "Mn").lower()
+    return {
+        token for token in re.findall(r"[a-z0-9]+(?:[.,][0-9]+)?", value)
+        if len(token) > 2 and token not in _GENERIC_TOKENS
+    }
+
+
+def _score_relevance(candidate: ImageCandidate, product: Product | None) -> float:
+    if product is None:
+        return 0.5
+    expected = _tokens(" ".join(filter(None, [product.nombre_normalizado, product.marca or "", product.sku or ""])))
+    evidence = _tokens(" ".join([candidate.title, candidate.source_url, candidate.url]))
+    if not expected or not evidence:
+        return 0.0
+    return len(expected & evidence) / len(expected)
 
 
 def _score_resolution(width: int | None, height: int | None) -> float:
@@ -43,12 +71,13 @@ def _score_domain_priority(tier: int) -> float:
     return max(0.2, 1.2 - tier * 0.2)
 
 
-def score_candidate(candidate: ImageCandidate) -> ImageCandidate:
+def score_candidate(candidate: ImageCandidate, product: Product | None = None) -> ImageCandidate:
     """Puntuación basada solo en metadatos (rápida, sin descargar la imagen)."""
     res_score = _score_resolution(candidate.width, candidate.height)
     dom_score = _score_domain_priority(candidate.priority_tier)
 
     breakdown = {
+        "relevancia": round(_score_relevance(candidate, product) * WEIGHTS["relevancia"], 1),
         "resolucion": round(res_score * WEIGHTS["resolucion"], 1),
         "prioridad_dominio": round(dom_score * WEIGHTS["prioridad_dominio"], 1),
         # Sin bytes de imagen aún: valores neutros hasta refinar tras la descarga.
@@ -61,8 +90,8 @@ def score_candidate(candidate: ImageCandidate) -> ImageCandidate:
     return candidate
 
 
-def rank_candidates(candidates: list[ImageCandidate]) -> list[ImageCandidate]:
-    scored = [score_candidate(c) for c in candidates]
+def rank_candidates(candidates: list[ImageCandidate], product: Product | None = None) -> list[ImageCandidate]:
+    scored = [score_candidate(c, product) for c in candidates]
     return sorted(scored, key=lambda c: c.score, reverse=True)
 
 
@@ -87,6 +116,7 @@ def refine_score_with_bytes(candidate: ImageCandidate, image_bytes: bytes) -> Im
     watermark_score = _estimate_no_watermark(img)
 
     breakdown = dict(candidate.score_breakdown)
+    breakdown.setdefault("relevancia", round(0.5 * WEIGHTS["relevancia"], 1))
     breakdown["resolucion"] = round(_score_resolution(width, height) * WEIGHTS["resolucion"], 1)
     breakdown["fondo_blanco"] = round(white_bg_score * WEIGHTS["fondo_blanco"], 1)
     breakdown["centrado"] = round(centered_score * WEIGHTS["centrado"], 1)

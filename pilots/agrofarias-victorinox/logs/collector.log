@@ -1,0 +1,140 @@
+2026-08-12 17:08:25.226 | INFO     | vin_collector.importer:import_products:146 - Importados 10 productos desde agrofarias_piloto_victorinox.csv
+2026-08-12 17:08:25.226 | INFO     | vin_collector.pipeline:run_pipeline:101 - [1/10] Procesando: Victorinox Sentinel Clip una mano filo dentado negro
+2026-08-12 17:08:26.628 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX SENTINEL CLIP UNA MANO FILO DENTADO NEGRO' -> 10 resultados
+2026-08-12 17:08:27.516 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:08:27.908 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:08:28.048 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Client error '403 Forbidden' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:08:31.370 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:08:32.252 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg
+2026-08-12 17:08:34.224 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:08:35.410 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:08:35.857 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:08:37.573 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.9: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:08:37.573 | INFO     | vin_collector.pipeline:run_pipeline:101 - [2/10] Procesando: Victorinox Forester M Grip 111 mm 10 funciones rojo negro
+2026-08-12 17:08:38.363 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX FORESTER M GRIP 111 MM 10 FUNCIONES ROJO NEGRO' -> 10 resultados
+2026-08-12 17:08:38.635 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:08:38.783 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:08:38.955 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Client error '403 Forbidden' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:08:41.589 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:08:41.762 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg
+2026-08-12 17:08:41.993 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:08:42.343 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:08:42.463 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:08:42.579 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.9: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:08:42.587 | INFO     | vin_collector.pipeline:run_pipeline:101 - [3/10] Procesando: Victorinox Classic SD 58 mm 7 funciones Green Tea
+2026-08-12 17:08:43.351 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES GREEN TEA' -> 10 resultados
+2026-08-12 17:08:43.638 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:08:43.785 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:08:43.954 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Client error '403 Forbidden' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:08:46.525 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:08:46.573 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg: Client error '403 Forbidden' for url 'https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:08:46.823 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:08:47.375 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:08:47.533 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:08:47.621 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 41.3: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:08:47.628 | INFO     | vin_collector.pipeline:run_pipeline:101 - [4/10] Procesando: Victorinox Wine Master 130 mm 6 funciones nogal estuche cuero
+2026-08-12 17:08:48.373 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX WINE MASTER 130 MM 6 FUNCIONES NOGAL ESTUCHE CUERO' -> 10 resultados
+2026-08-12 17:08:48.788 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.4: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:08:49.017 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.4: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:08:49.073 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Client error '403 Forbidden' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:08:51.718 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.4: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:08:51.794 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg: Client error '403 Forbidden' for url 'https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:08:52.122 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.4: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:08:52.550 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.4: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:08:52.649 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.4: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:08:52.794 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.4: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:08:52.804 | INFO     | vin_collector.pipeline:run_pipeline:101 - [5/10] Procesando: Victorinox Evoke BS Alox 136 mm 4 funciones
+2026-08-12 17:08:53.851 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX EVOKE BS ALOX 136 MM 4 FUNCIONES' -> 10 resultados
+2026-08-12 17:08:54.115 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV9415DS23_VICTORINOX_EVOKE_BS_ALOX_136_MM_4_FUNCIONES.jpg (score=70.0, fuente=www.amazon.com.mx)
+2026-08-12 17:08:54.940 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV9415DS23_VICTORINOX_EVOKE_BS_ALOX_136_MM_4_FUNCIONES.jpg
+2026-08-12 17:08:54.975 | INFO     | vin_collector.pipeline:run_pipeline:101 - [6/10] Procesando: Victorinox Equestrian 111 mm 12 funciones
+2026-08-12 17:08:55.394 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX EQUESTRIAN 111 MM 12 FUNCIONES' -> 10 resultados
+2026-08-12 17:08:55.812 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:08:55.976 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:08:56.461 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Server error '520 <none>' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+2026-08-12 17:08:58.970 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:08:59.185 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg
+2026-08-12 17:08:59.448 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:08:59.808 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:08:59.926 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:09:00.012 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:09:00.018 | INFO     | vin_collector.pipeline:run_pipeline:101 - [7/10] Procesando: Victorinox Hunter 111 mm 12 funciones rojo
+2026-08-12 17:09:00.733 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX HUNTER 111 MM 12 FUNCIONES ROJO' -> 10 resultados
+2026-08-12 17:09:01.003 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:09:01.128 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:09:01.155 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Client error '403 Forbidden' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:09:03.531 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:09:03.763 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg
+2026-08-12 17:09:04.018 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:09:04.399 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:09:04.523 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 54.3: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:09:04.586 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 41.3: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:09:04.597 | INFO     | vin_collector.pipeline:run_pipeline:101 - [8/10] Procesando: Victorinox Trailmaster 111 mm 12 funciones dentada negra
+2026-08-12 17:09:05.244 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX TRAILMASTER 111 MM 12 FUNCIONES DENTADA NEGRA' -> 10 resultados
+2026-08-12 17:09:07.517 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.5: https://extremeadventuremexico.com/wp-content/uploads/2024/03/1sf-3.png
+2026-08-12 17:09:09.524 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 49.0: https://www.blades.co.uk/wp-content/uploads/2022/10/08463mw3-victorinox-trailmaster-111-mm-black-bg_black-800x800.jpg
+2026-08-12 17:09:10.283 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV8463MW3_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_DENTADA_NEGRA.jpg (score=60.5, fuente=www.ferreteriamarsella.cl)
+2026-08-12 17:09:10.567 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV8463MW3_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_DENTADA_NEGRA.jpg
+2026-08-12 17:09:10.594 | INFO     | vin_collector.pipeline:run_pipeline:101 - [9/10] Procesando: Victorinox Sentinel 111 mm 4 funciones negra
+2026-08-12 17:09:11.162 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX SENTINEL 111 MM 4 FUNCIONES NEGRA' -> 10 resultados
+2026-08-12 17:09:12.656 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV84133_VICTORINOX_SENTINEL_111_MM_4_FUNCIONES_NEGRA.jpg (score=63.8, fuente=knifeleader.eu)
+2026-08-12 17:09:12.858 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV84133_VICTORINOX_SENTINEL_111_MM_4_FUNCIONES_NEGRA.jpg
+2026-08-12 17:09:12.866 | INFO     | vin_collector.pipeline:run_pipeline:101 - [10/10] Procesando: Victorinox Forester 111 mm 12 funciones negra
+2026-08-12 17:09:13.756 | INFO     | vin_collector.search_engine:search_product:137 - 'VICTORINOX FORESTER 111 MM 12 FUNCIONES NEGRA' -> 10 resultados
+2026-08-12 17:09:14.048 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV83633_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_NEGRA.jpg (score=63.0, fuente=5tavenida.cl)
+2026-08-12 17:09:14.617 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV83633_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_NEGRA.jpg
+2026-08-12 17:09:14.634 | INFO     | vin_collector.pipeline:run_pipeline:114 - Pipeline finalizado: 4/10 encontrados (40.0% cobertura)
+2026-08-12 17:09:14.639 | INFO     | vin_collector.report:generate_report:156 - Reporte generado: reporte.html, catalogo.csv
+2026-08-12 17:11:23.446 | INFO     | vin_collector.importer:import_products:146 - Importados 10 productos desde agrofarias_piloto_victorinox.csv
+2026-08-12 17:11:23.446 | INFO     | vin_collector.pipeline:run_pipeline:101 - [1/10] Procesando: Victorinox Sentinel Clip una mano filo dentado negro
+2026-08-12 17:11:24.359 | INFO     | vin_collector.search_engine:search_product:152 - 'Victorinox "0.8416.M3"' -> 10 resultados
+2026-08-12 17:11:24.601 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.9: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:11:25.121 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:11:25.386 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:11:25.440 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Client error '403 Forbidden' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:11:27.864 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:11:28.213 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg: Client error '403 Forbidden' for url 'https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:11:28.621 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:11:29.071 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:11:29.516 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:11:29.529 | INFO     | vin_collector.pipeline:run_pipeline:101 - [2/10] Procesando: Victorinox Forester M Grip 111 mm 10 funciones rojo negro
+2026-08-12 17:11:30.559 | INFO     | vin_collector.search_engine:search_product:152 - 'Victorinox "0.8361.MC"' -> 10 resultados
+2026-08-12 17:11:31.642 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV8361MC_VICTORINOX_FORESTER_M_GRIP_111_MM_10_FUNCIONES_ROJO_NEGRO.jpg (score=61.6, fuente=www.knivesandtools.fr)
+2026-08-12 17:11:32.961 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV8361MC_VICTORINOX_FORESTER_M_GRIP_111_MM_10_FUNCIONES_ROJO_NEGRO.jpg
+2026-08-12 17:11:32.975 | INFO     | vin_collector.pipeline:run_pipeline:101 - [3/10] Procesando: Victorinox Classic SD 58 mm 7 funciones Green Tea
+2026-08-12 17:11:33.464 | INFO     | vin_collector.search_engine:search_product:152 - 'Victorinox "0.6223.T41G"' -> 10 resultados
+2026-08-12 17:11:34.834 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV6223T41G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_GREEN_TEA.jpg (score=87.8, fuente=www.victorinox.com)
+2026-08-12 17:11:36.013 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV6223T41G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_GREEN_TEA.jpg
+2026-08-12 17:11:36.026 | INFO     | vin_collector.pipeline:run_pipeline:101 - [4/10] Procesando: Victorinox Wine Master 130 mm 6 funciones nogal estuche cuero
+2026-08-12 17:11:36.894 | INFO     | vin_collector.search_engine:search_product:152 - '"NAV970163" Victorinox VICTORINOX WINE MASTER 130 MM 6 FUNCIONES NOGAL ESTUCHE CUERO' -> 10 resultados
+2026-08-12 17:11:37.588 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV970163_VICTORINOX_WINE_MASTER_130_MM_6_FUNCIONES_NOGAL_ESTUCHE_CUERO.jpg (score=63.2, fuente=www.victorinox.com)
+2026-08-12 17:11:38.053 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV970163_VICTORINOX_WINE_MASTER_130_MM_6_FUNCIONES_NOGAL_ESTUCHE_CUERO.jpg
+2026-08-12 17:11:38.061 | INFO     | vin_collector.pipeline:run_pipeline:101 - [5/10] Procesando: Victorinox Evoke BS Alox 136 mm 4 funciones
+2026-08-12 17:11:38.066 | DEBUG    | vin_collector.pipeline:process_product:44 - Ya existe imagen para 'NAV9415DS23', se omite
+2026-08-12 17:11:38.069 | INFO     | vin_collector.pipeline:run_pipeline:101 - [6/10] Procesando: Victorinox Equestrian 111 mm 12 funciones
+2026-08-12 17:11:38.595 | INFO     | vin_collector.search_engine:search_product:152 - '"NAV8583" Victorinox VICTORINOX EQUESTRIAN 111 MM 12 FUNCIONES' -> 10 resultados
+2026-08-12 17:11:39.528 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://electronicareal.cl/wp-content/uploads/2023/07/001018_1.webp: Client error '403 Forbidden' for url 'https://electronicareal.cl/wp-content/uploads/2023/07/001018_1.webp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:11:41.232 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV8583_VICTORINOX_EQUESTRIAN_111_MM_12_FUNCIONES.jpg (score=66.5, fuente=suizaxtreme.com)
+2026-08-12 17:11:41.506 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV8583_VICTORINOX_EQUESTRIAN_111_MM_12_FUNCIONES.jpg
+2026-08-12 17:11:41.519 | INFO     | vin_collector.pipeline:run_pipeline:101 - [7/10] Procesando: Victorinox Hunter 111 mm 12 funciones rojo
+2026-08-12 17:11:41.959 | INFO     | vin_collector.search_engine:search_product:152 - '"NAV8573" Victorinox VICTORINOX HUNTER 111 MM 12 FUNCIONES ROJO' -> 1 resultados
+2026-08-12 17:11:42.237 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 25.5: https://i.pinimg.com/736x/78/03/aa/7803aaeb6cb1731abda0b01f380a5072.jpg
+2026-08-12 17:11:42.244 | INFO     | vin_collector.pipeline:run_pipeline:101 - [8/10] Procesando: Victorinox Trailmaster 111 mm 12 funciones dentada negra
+2026-08-12 17:11:42.249 | DEBUG    | vin_collector.pipeline:process_product:44 - Ya existe imagen para 'NAV8463MW3', se omite
+2026-08-12 17:11:42.252 | INFO     | vin_collector.pipeline:run_pipeline:101 - [9/10] Procesando: Victorinox Sentinel 111 mm 4 funciones negra
+2026-08-12 17:11:42.258 | DEBUG    | vin_collector.pipeline:process_product:44 - Ya existe imagen para 'NAV84133', se omite
+2026-08-12 17:11:42.260 | INFO     | vin_collector.pipeline:run_pipeline:101 - [10/10] Procesando: Victorinox Forester 111 mm 12 funciones negra
+2026-08-12 17:11:42.264 | DEBUG    | vin_collector.pipeline:process_product:44 - Ya existe imagen para 'NAV83633', se omite
+2026-08-12 17:11:42.272 | INFO     | vin_collector.pipeline:run_pipeline:114 - Pipeline finalizado: 8/10 encontrados (80.0% cobertura)
+2026-08-12 17:11:42.275 | INFO     | vin_collector.report:generate_report:156 - Reporte generado: reporte.html, catalogo.csv

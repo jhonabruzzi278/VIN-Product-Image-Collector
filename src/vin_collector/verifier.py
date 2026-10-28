@@ -26,11 +26,17 @@ class HeuristicVerifier(ImageVerifier):
     """Compara tokens del nombre/marca del producto contra la URL, dominio y consulta usada."""
 
     def verify(self, product: Product, image_path: str | Path, candidate: ImageCandidate) -> tuple[bool, float]:
+        # La consulta contiene el nombre esperado por definiciÃ³n y no es evidencia
+        # de que el resultado realmente corresponda al producto.
         haystack = " ".join(
-            [candidate.source_url, candidate.source_domain, candidate.query_used]
+            [candidate.title, candidate.url, candidate.source_url, candidate.source_domain]
         ).upper()
 
-        tokens = [t for t in (product.nombre_normalizado or product.nombre_original).upper().split() if len(t) > 2]
+        ignored = {"PARA", "CON", "DEL", "LOS", "LAS", "UND", "UNIDAD", "LITRO", "SACO", "BIDON"}
+        tokens = [
+            t for t in (product.nombre_normalizado or product.nombre_original).upper().split()
+            if len(t) > 2 and t not in ignored
+        ]
         if product.marca:
             tokens.append(product.marca.upper())
 

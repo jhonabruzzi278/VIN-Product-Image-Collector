@@ -1,0 +1,442 @@
+﻿[
+    {
+        "id":  1585,
+        "sku":  "ADH815375",
+        "name":  "Ethrel 480 Sl 1 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Ethylen 48 SL 1 L.webp",
+        "confidence":  0.74,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1581,
+        "sku":  "WAY171143",
+        "name":  "Olla Con Tapa De Madera Wayu Iron Cast",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Olla Con Tapa De Madera Wayu Iron Cast Unidad,.webp",
+        "confidence":  0.875,
+        "decision":  "Aprobable",
+        "next_action":  "Lista para lote"
+    },
+    {
+        "id":  1573,
+        "sku":  "NAV970163",
+        "name":  "Nav Wine Master 130 Mm 6 Fun Noga Est Cuero",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Nav, Wine Master, 130 Mm, 6 Fun, Noga Est Cuero.webp",
+        "confidence":  0.648,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1568,
+        "sku":  "NAV8573",
+        "name":  "Nav Hunter 111 Mm 12 Funciones Roja",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,TRAILMASTER,111 Mm, 12 Funciones Roja.webp",
+        "confidence":  0.605,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1565,
+        "sku":  "NAV8463",
+        "name":  "Nav Trailmaster 111 Mm 12 Funciones Roja",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,TRAILMASTER,111 Mm, 12 Funciones Roja.webp",
+        "confidence":  0.605,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1563,
+        "sku":  "NAV8363",
+        "name":  "Nav Forester 111 Mm 12 Funciones Roja",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,TRAILMASTER,111 Mm, 12 Funciones Roja.webp",
+        "confidence":  0.605,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1560,
+        "sku":  "NAV800026",
+        "name":  "Nav Alox 93mm 1 Funcion Alox Est",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Nav, Alox 93MM 1 Funcion Alox Est 93 mm.webp",
+        "confidence":  0.76,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1550,
+        "sku":  "NAV622394",
+        "name":  "Nav Classic 58 Mm 7 Fun Camuflaje",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Nav, Classic Alox, 58MM 5 Fun Electric Lavend 58 mm.webp",
+        "confidence":  0.554,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1548,
+        "sku":  "NAV6221223G",
+        "name":  "Nav Classic Alox 58mm 5 Fun Electric Lavend",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Nav, Classic Alox, 58MM 5 Fun Electric Lavend 58 mm.webp",
+        "confidence":  0.719,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1543,
+        "sku":  "NAV41896E",
+        "name":  "Neck Cord Beige",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Neck Cord, Beige Unidad.jpg",
+        "confidence":  0.592,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1541,
+        "sku":  "NAV41896S",
+        "name":  "Neck Cord Purple",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Neck Cord, Purple.jpg",
+        "confidence":  0.592,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1534,
+        "sku":  "NAV1473372",
+        "name":  "Nav Fisherman 91 Mm 18 Funciones Roja",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,SPARTAN,91MM, 12 Funciones Roja 91 mm.webp",
+        "confidence":  0.792,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1532,
+        "sku":  "NAV13713",
+        "name":  "Nav Huntsman 91 Mm 15 Funciones Roja",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,SPARTAN,91MM, 12 Funciones Roja 91 mm.webp",
+        "confidence":  0.792,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1530,
+        "sku":  "NAV137133",
+        "name":  "Nav Huntsman 91 Mm 15 Funciones Negra",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,SPARTAN,91MM, 12 Funciones Negra 91 mm.webp",
+        "confidence":  0.792,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1527,
+        "sku":  "NAV13703",
+        "name":  "Nav Climber 91mm 14 Funciones Roja",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,HUNTSMAN,91 Mm, 15 Funciones Roja.webp",
+        "confidence":  0.555,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1526,
+        "sku":  "NAV13613",
+        "name":  "Nav Camper 91 Mm 13 Funciones Roja",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox NAV,SPARTAN,91MM, 12 Funciones Roja 91 mm.webp",
+        "confidence":  0.792,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1376,
+        "sku":  "FOL263154",
+        "name":  "Mycoup X1kg",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Mycoup x 1 kg.webp",
+        "confidence":  0.7,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  1207,
+        "sku":  "ADH815250",
+        "name":  "Dash Hc 500CCX100",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Adherente Dash HC.webp",
+        "confidence":  0.85,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  335,
+        "sku":  "WAY158894",
+        "name":  "Termo Sifon 1.9L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Termo Sifon 1.9L Keep.webp",
+        "confidence":  0.884,
+        "decision":  "Aprobable",
+        "next_action":  "Lista para lote"
+    },
+    {
+        "id":  330,
+        "sku":  "WAY116773",
+        "name":  "Plato Giratorio Piedra Pizarra Pizza",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Plato Giratorio Piedra Pizarra Pizza Wayu.webp",
+        "confidence":  0.833,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  329,
+        "sku":  "WAY143008",
+        "name":  "Plancha Iron Cast 50.8-23.4CM",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Plancha Iron Cast 50.8-23.4CM Wayu Unidad.jpg",
+        "confidence":  0.968,
+        "decision":  "Aprobable",
+        "next_action":  "Lista para lote"
+    },
+    {
+        "id":  325,
+        "sku":  "NAV50209",
+        "name":  "Pelador De Papas Filo Doble Mango Madera",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Pelador De Papas, Filo Doble, Mango Madera Unidad.png",
+        "confidence":  0.592,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  324,
+        "sku":  "NAV611022",
+        "name":  "Gorro Golf rojo",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Gorro De Lana, Rojo.png",
+        "confidence":  0.592,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  322,
+        "sku":  "NAV611130",
+        "name":  "Gorro De Lana Rojo",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Gorro De Lana, Rojo.png",
+        "confidence":  0.592,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  321,
+        "sku":  "NAV611132",
+        "name":  "Gorro De Lana Gris",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Gorro De Lana, Gris.png",
+        "confidence":  0.592,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  305,
+        "sku":  "NAV67796L4D",
+        "name":  "Cuchillo VERD 2U DENT+LISO Verde 10 Cm",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Cuchillo VERD,2U,DENT+LISO Verde 10 Cm Unidad.webp",
+        "confidence":  0.818,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  302,
+        "sku":  "NAV67796L9D",
+        "name":  "Cuchillo VERD 2U DENT+LISO Naranja 10 Cm",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Cuchillo VERD,2U,DENT+LISO Naranja 10 Cm Unidad.jpg",
+        "confidence":  0.818,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  299,
+        "sku":  "WAY141498",
+        "name":  "Cuchillo Prm",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Cuchillo Prm Wayu Unidad.jpg",
+        "confidence":  0.667,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  294,
+        "sku":  "NAV5520316",
+        "name":  "Cuchillo Carnicero Hoja Recta Mango Fibrox",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Victorinox Cuchillo Carnicero, Hoja Recta, Mango Fibrox.webp",
+        "confidence":  0.592,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  284,
+        "sku":  "NAV433024",
+        "name":  "Aceite Para Multitool 10ml Blister 10 ml",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\Nutricion Vegetal- Foliares\\Herramienta Victorinox Aceite Para Multitool, 10ml, Blister 10 ml para uso prÃ¡ctico en terreno.jpg",
+        "confidence":  0.593,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  260,
+        "sku":  "HER1280302",
+        "name":  "Cortador x 5 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Basel 5 L.webp",
+        "confidence":  0.68,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  258,
+        "sku":  "HER1242092",
+        "name":  "Cortador 480% 20 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Bioaminol L 20 L.webp",
+        "confidence":  0.635,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  254,
+        "sku":  "HER1255619",
+        "name":  "Arco 2.4D x 20 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Bioaminol L 20 L.webp",
+        "confidence":  0.635,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  245,
+        "sku":  "INS343054",
+        "name":  "Cyperkill Litro",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\insecticida Cyperkill 100 ML.webp",
+        "confidence":  0.7,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  242,
+        "sku":  "INS393702",
+        "name":  "Aceite Winspray 20 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Bioaminol L 20 L.webp",
+        "confidence":  0.635,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  198,
+        "sku":  "FER121994",
+        "name":  "Ultrasol Fruta x 25 kg",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Fertilizante Ultrasol Calcium x 25 kg.webp",
+        "confidence":  0.68,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  192,
+        "sku":  "FER147099",
+        "name":  "Sulfato Potasio Crist Saco",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Fertilizante Sulfato Potasio.webp",
+        "confidence":  0.85,
+        "decision":  "Aprobable",
+        "next_action":  "Lista para lote"
+    },
+    {
+        "id":  170,
+        "sku":  "FER197584",
+        "name":  "Agri Produccion Frutillas 5 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Fertilizante Agri Produccion.webp",
+        "confidence":  0.73,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  169,
+        "sku":  "FER198524",
+        "name":  "Agri Produccion Frutilla 10 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Fertilizante Agri Produccion.webp",
+        "confidence":  0.73,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  163,
+        "sku":  "FOL233423",
+        "name":  "x Cite Litro",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar x Cite.webp",
+        "confidence":  0.775,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  141,
+        "sku":  "FOL240476",
+        "name":  "Terra Radicular x 20 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Terra Sorb Foliar x 20 L.webp",
+        "confidence":  0.817,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  136,
+        "sku":  "FOL221734",
+        "name":  "Stop Spi 5L Nt BidÃ³n",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Stop Spi.webp",
+        "confidence":  0.775,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  87,
+        "sku":  "FOL209306",
+        "name":  "Ibicalcio Neutrasal 1 x 15 L",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Zurich x 15 L.webp",
+        "confidence":  0.605,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    },
+    {
+        "id":  38,
+        "sku":  "FOL252827",
+        "name":  "Biofruit 600 g",
+        "current_image":  false,
+        "candidate":  "C:\\Trabajos\\agrofarias\\Fotos De Productos\\imagenes optimizadas\\Foliar Biofrut 600 g.webp",
+        "confidence":  0.68,
+        "decision":  "Revisar",
+        "next_action":  "Validar presentaciÃ³n"
+    }
+]

@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Reporte — VIN Product Image Collector</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; background: #f7f7f8; color: #1a1a1a; }
+  h1 { margin-bottom: .25rem; }
+  .subtitle { color: #666; margin-top: 0; }
+  .stats { display: flex; gap: 1rem; margin: 1.5rem 0; }
+  .stat { background: white; border-radius: 8px; padding: 1rem 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+  .stat .value { font-size: 1.8rem; font-weight: 700; }
+  .stat .label { color: #666; font-size: .85rem; }
+  table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; }
+  th, td { text-align: left; padding: .5rem .75rem; border-bottom: 1px solid #eee; font-size: .9rem; vertical-align: middle; }
+  th { background: #fafafa; position: sticky; top: 0; }
+  td.image-cell { text-align: center; }
+  a.thumb-link { display: inline-block; }
+  img.thumb {
+    width: 140px; height: 140px; object-fit: contain; border: 1px solid #eee;
+    border-radius: 8px; background: white; display: block; transition: transform .15s ease, box-shadow .15s ease;
+  }
+  a.thumb-link:hover img.thumb { transform: scale(1.08); box-shadow: 0 4px 14px rgba(0,0,0,.15); }
+  a.dl-btn {
+    display: inline-flex; align-items: center; gap: .3rem; margin-top: .5rem; padding: .3rem .7rem;
+    background: #111827; color: white; border-radius: 6px; font-size: .78rem; font-weight: 600;
+    text-decoration: none;
+  }
+  a.dl-btn:hover { background: #2563eb; }
+  .badge { padding: .15rem .5rem; border-radius: 999px; font-size: .75rem; font-weight: 600; }
+  .badge.encontrado { background: #dcfce7; color: #166534; }
+  .badge.no_encontrado { background: #fee2e2; color: #991b1b; }
+  .badge.requiere_revision { background: #fef9c3; color: #854d0e; }
+  .badge.pendiente { background: #e5e7eb; color: #374151; }
+</style>
+</head>
+<body>
+  <h1>VIN Product Image Collector</h1>
+  <p class="subtitle">Reporte generado el 2026-08-12 17:17</p>
+
+  <div class="stats">
+    <div class="stat"><div class="value">20</div><div class="label">Productos</div></div>
+    <div class="stat"><div class="value">14</div><div class="label">Encontrados</div></div>
+    <div class="stat"><div class="value">6</div><div class="label">Pendientes</div></div>
+    <div class="stat"><div class="value">70.0%</div><div class="label">Cobertura</div></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Imagen</th><th>SKU</th><th>Nombre</th><th>Marca</th><th>Categoría</th>
+        <th>Estado</th><th>Score</th><th>IA</th><th>Fuente</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV800026</td>
+        <td>VICTORINOX ALOX 93 MM 1 FUNCIÓN ESTUCHE</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV6221252G_VICTORINOX_CLASSIC_ALOX_58_MM_5_FUNCIONES_COTTON_CANDY.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV6221252G_VICTORINOX_CLASSIC_ALOX_58_MM_5_FUNCIONES_COTTON_CANDY.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV6221252G_VICTORINOX_CLASSIC_ALOX_58_MM_5_FUNCIONES_COTTON_CANDY.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV6221252G</td>
+        <td>VICTORINOX CLASSIC ALOX 58 MM 5 FUNCIONES COTTON CANDY</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>72.0</td>
+        <td>Sí (0.86)</td>
+        <td><a href="https://assets.katogroup.eu/i/katogroup/VT0-6221-252G_01_victorinox" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV6221223G_VICTORINOX_CLASSIC_ALOX_58_MM_5_FUNCIONES_ELECTRIC_LAVENDER.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV6221223G_VICTORINOX_CLASSIC_ALOX_58_MM_5_FUNCIONES_ELECTRIC_LAVENDER.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV6221223G_VICTORINOX_CLASSIC_ALOX_58_MM_5_FUNCIONES_ELECTRIC_LAVENDER.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV6221223G</td>
+        <td>VICTORINOX CLASSIC ALOX 58 MM 5 FUNCIONES ELECTRIC LAVENDER</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>69.0</td>
+        <td>Sí (0.86)</td>
+        <td><a href="https://mygoodknife.com/30395-large_default/herramienta-multiuso-victorinox-classic-sd-alox-electric-lavender-06221223g-.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV622394_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_CAMUFLAJE.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV622394_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_CAMUFLAJE.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV622394_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_CAMUFLAJE.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV622394</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES CAMUFLAJE</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>68.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://imageengine.victorinox.com/transform/80a87f8d-628f-4f7f-9f18-113293814d43/SAK_0_6223_942__S1-tif" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV6223T5G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_CUPCAKE_DREAM.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV6223T5G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_CUPCAKE_DREAM.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV6223T5G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_CUPCAKE_DREAM.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV6223T5G</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES CUPCAKE DREAM</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>70.3</td>
+        <td>Sí (0.83)</td>
+        <td><a href="https://assets.katogroup.eu/i/katogroup/VT0-6223-T5G_01_victorinox" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV62233G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_DARK_ILLUSION.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV62233G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_DARK_ILLUSION.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV62233G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_DARK_ILLUSION.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV62233G</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES DARK ILLUSION</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>71.8</td>
+        <td>Sí (0.83)</td>
+        <td><a href="https://cdn.greensoft.mn/uploads/site/918/photos/module_product/20251001140107_abf9b0a7587c1e71c80c9ef39055d927.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV6223840_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_EDELWEISS.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV6223840_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_EDELWEISS.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV6223840_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_EDELWEISS.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV6223840</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES EDELWEISS</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>76.5</td>
+        <td>Sí (1.0)</td>
+        <td><a href="http://mundonauticouruguay.com/wp-content/uploads/2022/07/06203-840-Classic.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV6223T82G</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES FIRE OPAL</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV622323G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_MOUNTAIN_LAKE.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV622323G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_MOUNTAIN_LAKE.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV622323G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_MOUNTAIN_LAKE.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV622323G</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES MOUNTAIN LAKE</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>70.3</td>
+        <td>Sí (0.83)</td>
+        <td><a href="https://assets.katogroup.eu/i/katogroup/VT0-6223-23G_01_victorinox" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV6223T61G</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES SKY HIGH</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV6223G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_STYLE.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV6223G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_STYLE.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV6223G_VICTORINOX_CLASSIC_SD_58_MM_7_FUNCIONES_STYLE.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV6223G</td>
+        <td>VICTORINOX CLASSIC SD 58 MM 7 FUNCIONES STYLE</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>68.5</td>
+        <td>Sí (0.75)</td>
+        <td><a href="https://imageengine.victorinox.com/transform/5d04c66e-2539-4c26-867c-0f025f006e06/SAK_0-6223-79-X3_S1" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV6223E221_VICTORINOX_CLASSIC_SD_58_MM_PARIS_STYLE.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV6223E221_VICTORINOX_CLASSIC_SD_58_MM_PARIS_STYLE.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV6223E221_VICTORINOX_CLASSIC_SD_58_MM_PARIS_STYLE.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV6223E221</td>
+        <td>VICTORINOX CLASSIC SD 58 MM PARIS STYLE</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>82.5</td>
+        <td>Sí (1.0)</td>
+        <td><a href="https://imageengine.victorinox.com/transform/95e631a2-3939-420a-9a95-efb30dbcdbd6/SAK_0-6223-E221_S1-jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV9415D20_VICTORINOX_EVOKE_ALOX_136_MM_5_FUNCIONES_ROJA.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV9415D20_VICTORINOX_EVOKE_ALOX_136_MM_5_FUNCIONES_ROJA.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV9415D20_VICTORINOX_EVOKE_ALOX_136_MM_5_FUNCIONES_ROJA.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV9415D20</td>
+        <td>VICTORINOX EVOKE ALOX 136 MM 5 FUNCIONES ROJA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>68.0</td>
+        <td>Sí (0.72)</td>
+        <td><a href="https://media.victorinox.com/transform/0d568dad-8358-47ab-a500-2475ec30d9f2/SAK_0-9415-D20_S1_RedDot-jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV9415D221</td>
+        <td>VICTORINOX EVOKE ALOX 136 MM 5 FUNCIONES ROJA AZUL</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV8363_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_ROJA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV8363_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_ROJA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV8363_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_ROJA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV8363</td>
+        <td>VICTORINOX FORESTER 111 MM 12 FUNCIONES ROJA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>63.0</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://cdn.vseinstrumenti.ru/images/goods/sport-i-turizm/turisticheskoe-snaryazhenie/842511/1000x1000/55772360.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV8573</td>
+        <td>VICTORINOX HUNTER 111 MM 12 FUNCIONES ROJA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV671133_VICTORINOX_JUEGO_CUCHILLOS_VERDURA_DENTADO_3_UNIDADES_MANGO_NYLON.png" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV671133_VICTORINOX_JUEGO_CUCHILLOS_VERDURA_DENTADO_3_UNIDADES_MANGO_NYLON.png" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV671133_VICTORINOX_JUEGO_CUCHILLOS_VERDURA_DENTADO_3_UNIDADES_MANGO_NYLON.png" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV671133</td>
+        <td>VICTORINOX JUEGO CUCHILLOS VERDURA DENTADO 3 UNIDADES MANGO NYLON</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>66.1</td>
+        <td>Sí (0.59)</td>
+        <td><a href="https://media.victorinox.com/transform/b93e9f18-13fe-4bed-8cf0-320ee341de4d/CUT_6-9096-3L1_G1-jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+        </td>
+        <td>NAV83533</td>
+        <td>VICTORINOX PICKNICKER 111 MM 11 FUNCIONES NEGRA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge no_encontrado">no_encontrado</span></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV8353_VICTORINOX_PICKNICKER_111_MM_11_FUNCIONES_ROJA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV8353_VICTORINOX_PICKNICKER_111_MM_11_FUNCIONES_ROJA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV8353_VICTORINOX_PICKNICKER_111_MM_11_FUNCIONES_ROJA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV8353</td>
+        <td>VICTORINOX PICKNICKER 111 MM 11 FUNCIONES ROJA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>63.0</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://5tavenida.cl/wp-content/uploads/2026/04/image-12-scaled.jpeg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+      <tr>
+        <td class="image-cell">
+          
+          <a class="thumb-link" href="images/NAV8463_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_ROJA.jpg" target="_blank" rel="noopener">
+            <img class="thumb" src="images/NAV8463_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_ROJA.jpg" loading="lazy">
+          </a>
+          <br>
+          <a class="dl-btn" href="images/NAV8463_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_ROJA.jpg" download>⬇ Descargar</a>
+          
+        </td>
+        <td>NAV8463</td>
+        <td>VICTORINOX TRAILMASTER 111 MM 12 FUNCIONES ROJA</td>
+        <td>Victorinox</td>
+        <td>Victorinox</td>
+        <td><span class="badge encontrado">encontrado</span></td>
+        <td>63.0</td>
+        <td>Sí (0.67)</td>
+        <td><a href="https://amaceros.com/wp-content/uploads/2025/09/D_747683-MLA84850894675_052025-F-800x863.jpg" target="_blank" rel="noopener">enlace</a></td>
+      </tr>
+      
+    </tbody>
+  </table>
+</body>
+</html>

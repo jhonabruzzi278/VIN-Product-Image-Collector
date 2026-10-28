@@ -1,0 +1,42 @@
+2026-08-12 17:13:39.887 | INFO     | vin_collector.importer:import_products:146 - Importados 20 productos desde agrofarias_victorinox_lote_02.csv
+2026-08-12 17:13:39.887 | INFO     | vin_collector.pipeline:run_pipeline:101 - [1/20] Procesando: Victorinox Evoke Alox 136 mm 5 funciones roja azul
+2026-08-12 17:13:40.460 | INFO     | vin_collector.search_engine:search_product:152 - 'Victorinox "0.9415.D221"' -> 10 resultados
+2026-08-12 17:13:40.734 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 55.9: https://media.victorinox.com/transform/d002040f-2aea-4966-862f-8e2281c55f17/SAK_1-3713-B3_personalize?io=transform:crop,height:1000,width:1300,path:square&focuspoint=0.6,0.55
+2026-08-12 17:13:41.128 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 57.3: https://assets.katogroup.eu/i/katogroup/VT0-8231-L25_07_victorinox
+2026-08-12 17:13:41.995 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/810s8XlF-aS.jpg
+2026-08-12 17:13:43.003 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://m.media-amazon.com/images/I/81C0U+7UlcL.jpg
+2026-08-12 17:13:43.212 | DEBUG    | vin_collector.downloader:download_best_image:76 - Descarga fallida para https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg: Client error '403 Forbidden' for url 'https://www.bhphotovideo.com/images/images2500x2500/victorinox_53503_swisschamp_pocket_knife_91mm_1149551.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-12 17:13:45.917 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://grandtourofswitzerland.jp/cms/wp-content/uploads/2019/02/VX_CV_Evolution_Pocket_Tools_2.jpg
+2026-08-12 17:13:46.542 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://www.knifestore.nl/wp-content/uploads/2024/01/5V0.6221.L24_4_2000x2000.jpg
+2026-08-12 17:13:47.088 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://assets.katogroup.eu/i/katogroup/VT1-3714-E12_01_victorinox
+2026-08-12 17:13:47.309 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 52.9: https://i.pinimg.com/originals/2f/e2/cf/2fe2cf60c09d5c36ae6366f2a5d92d59.jpg
+2026-08-12 17:13:47.318 | INFO     | vin_collector.pipeline:run_pipeline:101 - [2/20] Procesando: Victorinox Evoke Alox 136 mm 5 funciones roja
+2026-08-12 17:13:47.768 | INFO     | vin_collector.search_engine:search_product:152 - 'Victorinox "0.9415.D20"' -> 10 resultados
+2026-08-12 17:13:51.456 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV9415D20_VICTORINOX_EVOKE_ALOX_136_MM_5_FUNCIONES_ROJA_AZUL.png (score=66.1, fuente=www.victorinox.com)
+2026-08-12 17:13:53.799 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV9415D20_VICTORINOX_EVOKE_ALOX_136_MM_5_FUNCIONES_ROJA_AZUL.png
+2026-08-12 17:13:53.816 | INFO     | vin_collector.pipeline:run_pipeline:101 - [3/20] Procesando: Victorinox Hunter 111 mm 12 funciones roja
+2026-08-12 17:13:54.166 | INFO     | vin_collector.search_engine:search_product:152 - '"NAV8573" Victorinox VICTORINOX HUNTER 111 MM 12 FUNCIONES ROJA' -> 10 resultados
+2026-08-12 17:13:55.563 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://productosintegra.com/wp-content/uploads/2022/04/barrera-infrarroja-exterior-sensor-15-mts-tipo-a-pila-3.jpg
+2026-08-12 17:13:55.871 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 42.5: https://productosintegra.com/wp-content/uploads/2022/04/barrera-infrarroja-exterior-sensor-15-mts-tipo-a-pila-4.jpg
+2026-08-12 17:13:56.809 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 32.3: https://ae01.alicdn.com/kf/S0568d806c24d47f6ac774776972c21950/Barrera-de-haz-Invisible-Sensor-infrarrojo-de-pulso-Digital-de-detecci-n-activa-alarma-IR-impermeable.jpg_.webp
+2026-08-12 17:13:58.153 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.0: https://http2.mlstatic.com/D_NQ_NP_706597-MLA73688316377_122023-O.webp
+2026-08-12 17:13:58.425 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 37.5: https://productosintegra.com/wp-content/uploads/2020/11/BAR15-TEMP-B-750x750.jpg
+2026-08-12 17:14:00.334 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 40.5: https://imgv2-2-f.scribdassets.com/img/document/808719903/original/f00d6d78ec/1?v=1
+2026-08-12 17:14:02.016 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 30.5: https://www.bitmakers.com/wp-content/uploads/2015/02/ib-a61.jpg
+2026-08-12 17:14:02.268 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 39.0: https://www.bitmakers.com/wp-content/uploads/2017/01/ib-sensor-de-barrera-laser.png
+2026-08-12 17:14:02.571 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 32.5: https://http2.mlstatic.com/D_NQ_NP_686004-MLA76861840102_062024-O.webp
+2026-08-12 17:14:02.578 | INFO     | vin_collector.pipeline:run_pipeline:101 - [4/20] Procesando: Victorinox Trailmaster 111 mm 12 funciones roja
+2026-08-12 17:14:03.227 | INFO     | vin_collector.search_engine:search_product:152 - '"NAV8463" Victorinox VICTORINOX TRAILMASTER 111 MM 12 FUNCIONES ROJA' -> 10 resultados
+2026-08-12 17:14:04.530 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV8463_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_ROJA.jpg (score=75.8, fuente=www.amazon.com.mx)
+2026-08-12 17:14:05.533 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV8463_VICTORINOX_TRAILMASTER_111_MM_12_FUNCIONES_ROJA.jpg
+2026-08-12 17:14:05.546 | INFO     | vin_collector.pipeline:run_pipeline:101 - [5/20] Procesando: Victorinox Forester 111 mm 12 funciones roja
+2026-08-12 17:14:06.039 | INFO     | vin_collector.search_engine:search_product:152 - '"NAV8363" Victorinox VICTORINOX FORESTER 111 MM 12 FUNCIONES ROJA' -> 10 resultados
+2026-08-12 17:14:06.170 | DEBUG    | vin_collector.downloader:download_best_image:90 - Descarta candidato con score 58.2: https://i.ytimg.com/vi_webp/RB765jByJL4/maxresdefault.webp
+2026-08-12 17:14:07.693 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV8363_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_ROJA.jpg (score=63.0, fuente=www.vseinstrumenti.ru)
+2026-08-12 17:14:08.148 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV8363_VICTORINOX_FORESTER_111_MM_12_FUNCIONES_ROJA.jpg
+2026-08-12 17:14:08.178 | INFO     | vin_collector.pipeline:run_pipeline:101 - [6/20] Procesando: Victorinox Picknicker 111 mm 11 funciones negra
+2026-08-12 17:14:09.094 | INFO     | vin_collector.search_engine:search_product:152 - 'Victorinox "0.8353.3"' -> 10 resultados
+2026-08-12 17:14:11.565 | SUCCESS  | vin_collector.downloader:download_best_image:102 - Imagen guardada: NAV83533_VICTORINOX_PICKNICKER_111_MM_11_FUNCIONES_NEGRA.png (score=66.2, fuente=www.victorinox.com)
+2026-08-12 17:14:12.990 | INFO     | vin_collector.optimizer:optimize_image:47 - 5 variantes generadas para NAV83533_VICTORINOX_PICKNICKER_111_MM_11_FUNCIONES_NEGRA.png
+2026-08-12 17:14:13.001 | INFO     | vin_collector.pipeline:run_pipeline:101 - [7/20] Procesando: Victorinox Picknicker 111 mm 11 funciones roja
